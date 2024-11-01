@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.31)  31 OCT 2024 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.31)  1 NOV 2024 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,18 +1291,6 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read6
 ) (Configuracion.tex
 
-Configuracion.tex:35: Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \bibliographystyle{apacite}
-                                
-Use the package option 'style' instead.
-I'm ignoring this command.
-
-
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 96.
 
@@ -1437,9 +1425,8 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 106.
 Package biblatex Info: Reference segment=0 on input line 106.
 <Documentos/logo_uniandes.png, id=6, 803.0pt x 240.9pt>
@@ -1447,6 +1434,7 @@ File: Documentos/logo_uniandes.png Graphic file (type png)
 <use Documentos/logo_uniandes.png>
 Package pdftex.def Info: Documentos/logo_uniandes.png  used on input line 110.
 (pdftex.def)             Requested size: 144.53375pt x 43.36012pt.
+
 Runaway argument?
 {desarrollo e implementación de un controlador de vuelo y estación \ETC.
 d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex:117: Paragraph ended before \text@command was complete.
@@ -2261,54 +2249,29 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(Sections/Enclousure.tex [22 <./Imagenes/Metodologia/model3d.png>]
+[22 <./Imagenes/Metodologia/model3d.png>] [23 <./Imagenes/Metodologia/pcb_ensamblada.png>] (Sections/Enclousure.tex
 
-LaTeX Warning: Reference `fig:carcasa' on page 23 undefined on input line 5.
+LaTeX Warning: Reference `fig:carcasa' on page 24 undefined on input line 5.
 
 
-LaTeX Warning: Reference `fig:carcasasVersion' on page 23 undefined on input line 5.
+LaTeX Warning: Reference `fig:carcasasVersion' on page 24 undefined on input line 5.
 
-<Imagenes/Metodologia/carcasa.png, id=182, 1454.43375pt x 513.92pt>
+<Imagenes/Metodologia/carcasa.png, id=188, 1454.43375pt x 513.92pt>
 File: Imagenes/Metodologia/carcasa.png Graphic file (type png)
 <use Imagenes/Metodologia/carcasa.png>
 Package pdftex.def Info: Imagenes/Metodologia/carcasa.png  used on input line 9.
 (pdftex.def)             Requested size: 454.95958pt x 160.75642pt.
 
-Sections/Enclousure.tex:14: LaTeX Error: There's no line here to end.
+LaTeX Warning: Reference `fig:ensamble' on page 24 undefined on input line 17.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \\ \\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Sections/Enclousure.tex:15: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \subsection
-                {Fabricación Enclosure electrónico}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Reference `fig:ensamble' on page 23 undefined on input line 16.
-
-[23 <./Imagenes/Metodologia/pcb_ensamblada.png> <./Imagenes/Metodologia/carcasa.png>]
-<Imagenes/Metodologia/producto final.png, id=194, 1445.4pt x 627.84563pt>
+<Imagenes/Metodologia/producto final.png, id=189, 1445.4pt x 627.84563pt>
 File: Imagenes/Metodologia/producto final.png Graphic file (type png)
 <use Imagenes/Metodologia/producto final.png>
-Package pdftex.def Info: Imagenes/Metodologia/producto final.png  used on input line 21.
+Package pdftex.def Info: Imagenes/Metodologia/producto final.png  used on input line 22.
 (pdftex.def)             Requested size: 341.43306pt x 148.31015pt.
-) [24 <./Imagenes/Metodologia/producto final.png>] (Sections/Firmware.tex
+[24
+
+ <./Imagenes/Metodologia/carcasa.png>]) [25 <./Imagenes/Metodologia/producto final.png>] (Sections/Firmware.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -2390,12 +2353,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-<Imagenes/Metodologia/I2C_scan.png, id=202, 293.59688pt x 138.5175pt>
+<Imagenes/Metodologia/I2C_scan.png, id=206, 293.59688pt x 138.5175pt>
 File: Imagenes/Metodologia/I2C_scan.png Graphic file (type png)
 <use Imagenes/Metodologia/I2C_scan.png>
 Package pdftex.def Info: Imagenes/Metodologia/I2C_scan.png  used on input line 93.
 (pdftex.def)             Requested size: 284.52756pt x 134.23921pt.
-[25
+[26
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
@@ -2496,10 +2459,10 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation `IMU' on page 26 undefined on input line 121.
+LaTeX Warning: Citation `IMU' on page 27 undefined on input line 121.
 
 
-LaTeX Warning: Citation `BNO' on page 26 undefined on input line 121.
+LaTeX Warning: Citation `BNO' on page 27 undefined on input line 121.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 121--122
@@ -2512,16 +2475,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
  []
 
 
-LaTeX Warning: Reference `tab:bno055_specs' on page 26 undefined on input line 127.
+LaTeX Warning: Reference `tab:bno055_specs' on page 27 undefined on input line 127.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[26 <./Imagenes/Metodologia/I2C_scan.png>]
+[27 <./Imagenes/Metodologia/I2C_scan.png>]
 
-LaTeX Warning: Reference `tab:mpu6050_specs' on page 27 undefined on input line 129.
+LaTeX Warning: Reference `tab:mpu6050_specs' on page 28 undefined on input line 129.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
@@ -2621,9 +2584,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:movimientos_inerciales' on page 27 undefined on input line 175.
+LaTeX Warning: Reference `fig:movimientos_inerciales' on page 28 undefined on input line 175.
 
-<Imagenes/Metodologia/pcb_yaw_pitch_roll.png, id=219, 545.78906pt x 424.58624pt>
+<Imagenes/Metodologia/pcb_yaw_pitch_roll.png, id=223, 545.78906pt x 424.58624pt>
 File: Imagenes/Metodologia/pcb_yaw_pitch_roll.png Graphic file (type png)
 <use Imagenes/Metodologia/pcb_yaw_pitch_roll.png>
 Package pdftex.def Info: Imagenes/Metodologia/pcb_yaw_pitch_roll.png  used on input line 179.
@@ -2654,7 +2617,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[27]
+[28]
 
 Sections/Firmware.tex:185: LaTeX Error: There's no line here to end.
 
@@ -2794,7 +2757,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[28 <./Imagenes/Metodologia/pcb_yaw_pitch_roll.png>]
+[29 <./Imagenes/Metodologia/pcb_yaw_pitch_roll.png>]
 
 Sections/Firmware.tex:214: LaTeX Error: There's no line here to end.
 
@@ -2912,12 +2875,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
  []
 
 
-LaTeX Warning: Reference `fig:pitch' on page 29 undefined on input line 244.
+LaTeX Warning: Reference `fig:pitch' on page 30 undefined on input line 244.
 
 
-LaTeX Warning: Reference `fig:roll' on page 29 undefined on input line 244.
+LaTeX Warning: Reference `fig:roll' on page 30 undefined on input line 244.
 
-<Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png, id=240, 628.749pt x 377.2494pt>
+<Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png, id=244, 628.749pt x 377.2494pt>
 File: Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png Graphic file (type png)
 <use Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png>
 Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png  used on input line 248.
@@ -2932,18 +2895,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--251
 
  []
 
-[29]
-<Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png, id=245, 744.8628pt x 372.9132pt>
+[30]
+<Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png, id=250, 744.8628pt x 372.9132pt>
 File: Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png Graphic file (type png)
 <use Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>
 Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png  used on input line 255.
 (pdftex.def)             Requested size: 363.96904pt x 182.22263pt.
-<Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png, id=246, 899.61093pt x 413.29407pt>
+<Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png, id=251, 899.61093pt x 413.29407pt>
 File: Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png Graphic file (type png)
 <use Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>
 Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png  used on input line 262.
 (pdftex.def)             Requested size: 363.96904pt x 167.2129pt.
- [30 <./Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png> <./Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>]
+ [31 <./Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png> <./Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>]
 
 Sections/Firmware.tex:267: LaTeX Error: There's no line here to end.
 
@@ -3099,7 +3062,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--333
 
  []
 
-[31 <./Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>]
+[32 <./Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>]
 
 Sections/Firmware.tex:338: LaTeX Error: There's no line here to end.
 
@@ -3259,7 +3222,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-[32]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 382--384
 
  []
@@ -3379,7 +3342,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation `GPS' on page 33 undefined on input line 408.
+LaTeX Warning: Citation `GPS' on page 34 undefined on input line 408.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 408--409
@@ -3443,15 +3406,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--421
  []
 
 
-LaTeX Warning: Reference `fig:gpsGnss' on page 33 undefined on input line 422.
+LaTeX Warning: Reference `fig:gpsGnss' on page 34 undefined on input line 422.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
-[33]
-<Imagenes/Firmware/GPS.png, id=296, 443.40656pt x 239.39438pt>
+[34]
+<Imagenes/Firmware/GPS.png, id=300, 443.40656pt x 239.39438pt>
 File: Imagenes/Firmware/GPS.png Graphic file (type png)
 <use Imagenes/Firmware/GPS.png>
 Package pdftex.def Info: Imagenes/Firmware/GPS.png  used on input line 426.
@@ -3509,7 +3472,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Imagenes/Metodologia/SD.png, id=297, 597.23125pt x 437.635pt>
+<Imagenes/Metodologia/SD.png, id=301, 597.23125pt x 437.635pt>
 File: Imagenes/Metodologia/SD.png Graphic file (type png)
 <use Imagenes/Metodologia/SD.png>
 Package pdftex.def Info: Imagenes/Metodologia/SD.png  used on input line 444.
@@ -3540,7 +3503,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34 <./Imagenes/Firmware/GPS.png> <./Imagenes/Metodologia/SD.png (PNG copy)>]
+[35 <./Imagenes/Firmware/GPS.png> <./Imagenes/Metodologia/SD.png (PNG copy)>]
 
 Sections/Firmware.tex:455: LaTeX Error: There's no line here to end.
 
@@ -3619,33 +3582,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--476
  []
 
 
-LaTeX Warning: Citation `flysky' on page 35 undefined on input line 478.
+LaTeX Warning: Citation `flysky' on page 36 undefined on input line 478.
 
 
-LaTeX Warning: Citation `19' on page 35 undefined on input line 484.
+LaTeX Warning: Citation `19' on page 36 undefined on input line 484.
 
 
-LaTeX Warning: Citation `19' on page 35 undefined on input line 485.
+LaTeX Warning: Citation `19' on page 36 undefined on input line 485.
 
 
-LaTeX Warning: Citation `flysky' on page 35 undefined on input line 486.
+LaTeX Warning: Citation `flysky' on page 36 undefined on input line 486.
 
 
-LaTeX Warning: Citation `flysky' on page 35 undefined on input line 487.
+LaTeX Warning: Citation `flysky' on page 36 undefined on input line 487.
 
 
-LaTeX Warning: Reference `fig:radio_arqui' on page 35 undefined on input line 490.
+LaTeX Warning: Reference `fig:radio_arqui' on page 36 undefined on input line 490.
 
-<Imagenes/Metodologia/Radio Control.drawio.png, id=308, 1004.75375pt x 468.75125pt>
+<Imagenes/Metodologia/Radio Control.drawio.png, id=312, 1004.75375pt x 468.75125pt>
 File: Imagenes/Metodologia/Radio Control.drawio.png Graphic file (type png)
 <use Imagenes/Metodologia/Radio Control.drawio.png>
 Package pdftex.def Info: Imagenes/Metodologia/Radio Control.drawio.png  used on input line 495.
 (pdftex.def)             Requested size: 433.62pt x 202.2958pt.
-[35] [36 <./Imagenes/Metodologia/Radio Control.drawio.png>]
+[36] [37 <./Imagenes/Metodologia/Radio Control.drawio.png>]
 
-LaTeX Warning: Reference `fig:decodificador_transmisor' on page 37 undefined on input line 546.
+LaTeX Warning: Reference `fig:decodificador_transmisor' on page 38 undefined on input line 546.
 
-<Imagenes/Metodologia/Diagrama Receptor.png, id=327, 1121.18875pt x 456.70625pt>
+<Imagenes/Metodologia/Diagrama Receptor.png, id=331, 1121.18875pt x 456.70625pt>
 File: Imagenes/Metodologia/Diagrama Receptor.png Graphic file (type png)
 <use Imagenes/Metodologia/Diagrama Receptor.png>
 Package pdftex.def Info: Imagenes/Metodologia/Diagrama Receptor.png  used on input line 551.
@@ -3717,9 +3680,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 575--576
 
  []
 
-[37 <./Imagenes/Metodologia/Diagrama Receptor.png>]
+[38 <./Imagenes/Metodologia/Diagrama Receptor.png>]
 
-LaTeX Warning: Reference `fig:estacion en tierra' on page 38 undefined on input line 577.
+LaTeX Warning: Reference `fig:estacion en tierra' on page 39 undefined on input line 577.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 577--578
@@ -3757,7 +3720,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Imagenes/Metodologia/estacion en tierra.png, id=340, 1445.4pt x 813.0375pt>
+<Imagenes/Metodologia/estacion en tierra.png, id=344, 1445.4pt x 813.0375pt>
 File: Imagenes/Metodologia/estacion en tierra.png Graphic file (type png)
 <use Imagenes/Metodologia/estacion en tierra.png>
 Package pdftex.def Info: Imagenes/Metodologia/estacion en tierra.png  used on input line 589.
@@ -3825,7 +3788,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:diag-codigo ' on page 38 undefined on input line 599.
+LaTeX Warning: Reference `fig:diag-codigo ' on page 39 undefined on input line 599.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 599--600
@@ -3863,7 +3826,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[38 <./Imagenes/Metodologia/estacion en tierra.png>]
+[39 <./Imagenes/Metodologia/estacion en tierra.png>]
 
 Sections/Firmware.tex:609: LaTeX Error: There's no line here to end.
 
@@ -3968,7 +3931,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Imagenes/Interfaz/diagrama general de codigo.png, id=349, 893.3375pt x 784.9325pt>
+<Imagenes/Interfaz/diagrama general de codigo.png, id=353, 893.3375pt x 784.9325pt>
 File: Imagenes/Interfaz/diagrama general de codigo.png Graphic file (type png)
 <use Imagenes/Interfaz/diagrama general de codigo.png>
 Package pdftex.def Info: Imagenes/Interfaz/diagrama general de codigo.png  used on input line 644.
@@ -3999,7 +3962,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[39]
+[40]
 
 Sections/Firmware.tex:652: LaTeX Error: There's no line here to end.
 
@@ -4046,7 +4009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
-[40 <./Imagenes/Interfaz/diagrama general de codigo.png>]
+[41 <./Imagenes/Interfaz/diagrama general de codigo.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 664.
 
 
@@ -4230,9 +4193,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:mov-Superficies ' on page 41 undefined on input line 710.
+LaTeX Warning: Reference `fig:mov-Superficies ' on page 42 undefined on input line 710.
 
-<Imagenes/Firmware/Superficies de Control.png, id=363, 1325.95375pt x 743.77875pt>
+<Imagenes/Firmware/Superficies de Control.png, id=367, 1325.95375pt x 743.77875pt>
 File: Imagenes/Firmware/Superficies de Control.png Graphic file (type png)
 <use Imagenes/Firmware/Superficies de Control.png>
 Package pdftex.def Info: Imagenes/Firmware/Superficies de Control.png  used on input line 714.
@@ -4273,7 +4236,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[41]
+[42]
 
 Sections/Firmware.tex:719: LaTeX Error: There's no line here to end.
 
@@ -4327,9 +4290,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:pid1 ' on page 42 undefined on input line 722.
+LaTeX Warning: Reference `fig:pid1 ' on page 43 undefined on input line 722.
 
-<Imagenes/Firmware/PID basico.png, id=381, 1175.39125pt x 382.42876pt>
+<Imagenes/Firmware/PID basico.png, id=386, 1175.39125pt x 382.42876pt>
 File: Imagenes/Firmware/PID basico.png Graphic file (type png)
 <use Imagenes/Firmware/PID basico.png>
 Package pdftex.def Info: Imagenes/Firmware/PID basico.png  used on input line 727.
@@ -4396,7 +4359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 734--736
 
  []
 
-[42 <./Imagenes/Firmware/Superficies de Control.png> <./Imagenes/Firmware/PID basico.png>]
+[43 <./Imagenes/Firmware/Superficies de Control.png> <./Imagenes/Firmware/PID basico.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 736--737
 
  []
@@ -4411,7 +4374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 738--740
 
  []
 
-<Imagenes/Firmware/Pantalla oled.png, id=393, 295.1025pt x 195.73125pt>
+<Imagenes/Firmware/Pantalla oled.png, id=397, 295.1025pt x 195.73125pt>
 File: Imagenes/Firmware/Pantalla oled.png Graphic file (type png)
 <use Imagenes/Firmware/Pantalla oled.png>
 Package pdftex.def Info: Imagenes/Firmware/Pantalla oled.png  used on input line 750.
@@ -4442,58 +4405,58 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43]) [44 <./Imagenes/Firmware/Pantalla oled.png>] (Sections/Interfaz.tex
+[44]) [45 <./Imagenes/Firmware/Pantalla oled.png>] (Sections/Interfaz.tex
 
-LaTeX Warning: Reference `fig:mapa Interfaz ' on page 45 undefined on input line 7.
+LaTeX Warning: Reference `fig:mapa Interfaz ' on page 46 undefined on input line 7.
 
-<Imagenes/Interfaz/mapa_interfaz.png, id=407, 1232.35406pt x 779.91376pt>
+<Imagenes/Interfaz/mapa_interfaz.png, id=411, 1232.35406pt x 779.91376pt>
 File: Imagenes/Interfaz/mapa_interfaz.png Graphic file (type png)
 <use Imagenes/Interfaz/mapa_interfaz.png>
 Package pdftex.def Info: Imagenes/Interfaz/mapa_interfaz.png  used on input line 11.
 (pdftex.def)             Requested size: 433.62pt x 274.41386pt.
 
-LaTeX Warning: Reference `fig:metricas interfaz ' on page 45 undefined on input line 18.
+LaTeX Warning: Reference `fig:metricas interfaz ' on page 46 undefined on input line 18.
 
-<Imagenes/Interfaz/metricas.png, id=408, 1189.44376pt x 778.40813pt>
+<Imagenes/Interfaz/metricas.png, id=412, 1189.44376pt x 778.40813pt>
 File: Imagenes/Interfaz/metricas.png Graphic file (type png)
 <use Imagenes/Interfaz/metricas.png>
 Package pdftex.def Info: Imagenes/Interfaz/metricas.png  used on input line 29.
 (pdftex.def)             Requested size: 433.62pt x 283.76622pt.
-[45
+[46
 
  <./Imagenes/Interfaz/mapa_interfaz.png>]
 
-LaTeX Warning: Reference `fig:modelo 3d inerfaz ' on page 46 undefined on input line 36.
+LaTeX Warning: Reference `fig:modelo 3d inerfaz ' on page 47 undefined on input line 36.
 
-<Imagenes/Interfaz/modelo3d.png, id=418, 1242.89343pt x 793.46437pt>
+<Imagenes/Interfaz/modelo3d.png, id=422, 1242.89343pt x 793.46437pt>
 File: Imagenes/Interfaz/modelo3d.png Graphic file (type png)
 <use Imagenes/Interfaz/modelo3d.png>
 Package pdftex.def Info: Imagenes/Interfaz/modelo3d.png  used on input line 39.
 (pdftex.def)             Requested size: 361.34999pt x 230.67992pt.
-[46 <./Imagenes/Interfaz/metricas.png>]
-<Imagenes/Interfaz/graficas.png, id=426, 1243.64626pt x 769.37437pt>
+[47 <./Imagenes/Interfaz/metricas.png>]
+<Imagenes/Interfaz/graficas.png, id=430, 1243.64626pt x 769.37437pt>
 File: Imagenes/Interfaz/graficas.png Graphic file (type png)
 <use Imagenes/Interfaz/graficas.png>
 Package pdftex.def Info: Imagenes/Interfaz/graficas.png  used on input line 50.
 (pdftex.def)             Requested size: 433.62pt x 268.25197pt.
-) [47 <./Imagenes/Interfaz/modelo3d.png> <./Imagenes/Interfaz/graficas.png>] (Sections/Costos.tex
+) [48 <./Imagenes/Interfaz/modelo3d.png> <./Imagenes/Interfaz/graficas.png>] (Sections/Costos.tex
 
-LaTeX Warning: Reference `fig:costesDesarrolloControlador' on page 48 undefined on input line 3.
+LaTeX Warning: Reference `fig:costesDesarrolloControlador' on page 49 undefined on input line 3.
 
-<Imagenes/Costos/presupuesto.png, id=436, 681.29532pt x 861.2175pt>
+<Imagenes/Costos/presupuesto.png, id=441, 681.29532pt x 861.2175pt>
 File: Imagenes/Costos/presupuesto.png Graphic file (type png)
 <use Imagenes/Costos/presupuesto.png>
 Package pdftex.def Info: Imagenes/Costos/presupuesto.png  used on input line 7.
 (pdftex.def)             Requested size: 369.88582pt x 467.57361pt.
-) [48
+) [49
 
- <./Imagenes/Costos/presupuesto.png>] (Sections/pruebas_funcionamiento.tex [49
+ <./Imagenes/Costos/presupuesto.png>] (Sections/pruebas_funcionamiento.tex [50
 
 ]
 
-LaTeX Warning: Reference `fig:pruebasPWM' on page 50 undefined on input line 57.
+LaTeX Warning: Reference `fig:pruebasPWM' on page 51 undefined on input line 57.
 
-<Imagenes/Pruebas/pwm canales.png, id=460, 1615.03375pt x 392.46625pt>
+<Imagenes/Pruebas/pwm canales.png, id=464, 1615.03375pt x 392.46625pt>
 File: Imagenes/Pruebas/pwm canales.png Graphic file (type png)
 <use Imagenes/Pruebas/pwm canales.png>
 Package pdftex.def Info: Imagenes/Pruebas/pwm canales.png  used on input line 62.
@@ -4504,66 +4467,66 @@ Overfull \hbox (50.93042pt too wide) in paragraph at lines 62--63
  []
 
 
-LaTeX Warning: Reference `fig:pruebasPWM' on page 50 undefined on input line 69.
+LaTeX Warning: Reference `fig:pruebasPWM' on page 51 undefined on input line 69.
 
-[50 <./Imagenes/Pruebas/pwm canales.png>]
-<Imagenes/Pruebas/montajeControladores.png, id=469, 1445.4pt x 813.0375pt>
+[51 <./Imagenes/Pruebas/pwm canales.png>]
+<Imagenes/Pruebas/montajeControladores.png, id=473, 1445.4pt x 813.0375pt>
 File: Imagenes/Pruebas/montajeControladores.png Graphic file (type png)
 <use Imagenes/Pruebas/montajeControladores.png>
 Package pdftex.def Info: Imagenes/Pruebas/montajeControladores.png  used on input line 93.
 (pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
- [51 <./Imagenes/Pruebas/montajeControladores.png (PNG copy)>] [52]
+ [52 <./Imagenes/Pruebas/montajeControladores.png (PNG copy)>] [53]
 
-LaTeX Warning: Reference `fig:comparacionRoll' on page 53 undefined on input line 196.
+LaTeX Warning: Reference `fig:comparacionRoll' on page 54 undefined on input line 196.
 
-<Imagenes/Pruebas/roll_1_compare.png, id=484, 685.251pt x 464.499pt>
+<Imagenes/Pruebas/roll_1_compare.png, id=488, 685.251pt x 464.499pt>
 File: Imagenes/Pruebas/roll_1_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/roll_1_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/roll_1_compare.png  used on input line 199.
 (pdftex.def)             Requested size: 397.48499pt x 269.44504pt.
-<Imagenes/Pruebas/roll_2_compare.png, id=485, 685.251pt x 464.499pt>
+<Imagenes/Pruebas/roll_2_compare.png, id=489, 685.251pt x 464.499pt>
 File: Imagenes/Pruebas/roll_2_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/roll_2_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/roll_2_compare.png  used on input line 206.
 (pdftex.def)             Requested size: 397.48499pt x 269.44504pt.
-[53 <./Imagenes/Pruebas/roll_1_compare.png>]
+[54 <./Imagenes/Pruebas/roll_1_compare.png>]
 
-LaTeX Warning: Reference `fig:comparacionPitch1' on page 54 undefined on input line 213.
+LaTeX Warning: Reference `fig:comparacionPitch1' on page 55 undefined on input line 213.
 
-<Imagenes/Pruebas/pitch_1_compare.png, id=493, 685.47pt x 464.499pt>
+<Imagenes/Pruebas/pitch_1_compare.png, id=498, 685.47pt x 464.499pt>
 File: Imagenes/Pruebas/pitch_1_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/pitch_1_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/pitch_1_compare.png  used on input line 218.
 (pdftex.def)             Requested size: 397.48499pt x 269.35999pt.
-[54 <./Imagenes/Pruebas/roll_2_compare.png>]
-<Imagenes/Pruebas/pitch_2_compare.png, id=502, 685.47pt x 464.28pt>
+[55 <./Imagenes/Pruebas/roll_2_compare.png>]
+<Imagenes/Pruebas/pitch_2_compare.png, id=506, 685.47pt x 464.28pt>
 File: Imagenes/Pruebas/pitch_2_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/pitch_2_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/pitch_2_compare.png  used on input line 225.
 (pdftex.def)             Requested size: 397.48499pt x 269.23299pt.
- [55 <./Imagenes/Pruebas/pitch_1_compare.png> <./Imagenes/Pruebas/pitch_2_compare.png>]
-<Imagenes/Pruebas/altura.jpg, id=512, 528.47438pt x 328.97906pt>
+ [56 <./Imagenes/Pruebas/pitch_1_compare.png> <./Imagenes/Pruebas/pitch_2_compare.png>]
+<Imagenes/Pruebas/altura.jpg, id=516, 528.47438pt x 328.97906pt>
 File: Imagenes/Pruebas/altura.jpg Graphic file (type jpg)
 <use Imagenes/Pruebas/altura.jpg>
 Package pdftex.def Info: Imagenes/Pruebas/altura.jpg  used on input line 249.
 (pdftex.def)             Requested size: 363.96904pt x 226.57413pt.
- [56 <./Imagenes/Pruebas/altura.jpg>]
-<Imagenes/Pruebas/gps.png, id=525, 343.2825pt x 261.22594pt>
+ [57 <./Imagenes/Pruebas/altura.jpg>]
+<Imagenes/Pruebas/gps.png, id=529, 343.2825pt x 261.22594pt>
 File: Imagenes/Pruebas/gps.png Graphic file (type png)
 <use Imagenes/Pruebas/gps.png>
 Package pdftex.def Info: Imagenes/Pruebas/gps.png  used on input line 277.
 (pdftex.def)             Requested size: 363.96904pt x 276.96591pt.
-) [57 <./Imagenes/Pruebas/gps.png>] (Sections/vuelo.tex) (Sections/prueba_vuelo.tex
+) [58 <./Imagenes/Pruebas/gps.png>] (Sections/vuelo.tex) (Sections/prueba_vuelo.tex
 
-LaTeX Warning: Reference `fig:protege' on page 58 undefined on input line 6.
+LaTeX Warning: Reference `fig:protege' on page 59 undefined on input line 6.
 
-<Imagenes/Pruebas/UAV protegé.png, id=532, 1445.4pt x 813.0375pt>
+<Imagenes/Pruebas/UAV protegé.png, id=536, 1445.4pt x 813.0375pt>
 File: Imagenes/Pruebas/UAV protegé.png Graphic file (type png)
 <use Imagenes/Pruebas/UAV protegé.png>
 Package pdftex.def Info: Imagenes/Pruebas/UAV protegé.png  used on input line 17.
 (pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
 
-LaTeX Warning: Reference `fig:diagrama_prueba_vuelo' on page 58 undefined on input line 25.
+LaTeX Warning: Reference `fig:diagrama_prueba_vuelo' on page 59 undefined on input line 25.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
@@ -4575,7 +4538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[58
+[59
 
 
  <./Imagenes/Pruebas/UAV protegé.png>]
@@ -4598,7 +4561,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<Imagenes/Pruebas/Esquematico.png, id=541, 1445.4pt x 813.0375pt>
+<Imagenes/Pruebas/Esquematico.png, id=545, 1445.4pt x 813.0375pt>
 File: Imagenes/Pruebas/Esquematico.png Graphic file (type png)
 <use Imagenes/Pruebas/Esquematico.png>
 Package pdftex.def Info: Imagenes/Pruebas/Esquematico.png  used on input line 43.
@@ -4608,53 +4571,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 
  []
 
-[59 <./Imagenes/Pruebas/Esquematico.png>]
+[60 <./Imagenes/Pruebas/Esquematico.png>]
 
-LaTeX Warning: Reference `fig:matriz_prueba_vuelo' on page 60 undefined on input line 51.
+LaTeX Warning: Reference `fig:matriz_prueba_vuelo' on page 61 undefined on input line 51.
 
-<Imagenes/Pruebas/matriz_prueba_vuelo_local.png, id=548, 412.54124pt x 472.76625pt>
+<Imagenes/Pruebas/matriz_prueba_vuelo_local.png, id=553, 412.54124pt x 472.76625pt>
 File: Imagenes/Pruebas/matriz_prueba_vuelo_local.png Graphic file (type png)
 <use Imagenes/Pruebas/matriz_prueba_vuelo_local.png>
 Package pdftex.def Info: Imagenes/Pruebas/matriz_prueba_vuelo_local.png  used on input line 55.
 (pdftex.def)             Requested size: 454.95958pt x 521.38625pt.
-[60
+[61
 
  <./Imagenes/Pruebas/matriz_prueba_vuelo_local.png>]
 
-LaTeX Warning: Reference `fig:resumen_prueba_vuelo' on page 61 undefined on input line 62.
+LaTeX Warning: Reference `fig:resumen_prueba_vuelo' on page 62 undefined on input line 62.
 
-<Imagenes/Pruebas/resumen_prueba_vuelo_local.png, id=557, 289.83281pt x 222.07968pt>
+<Imagenes/Pruebas/resumen_prueba_vuelo_local.png, id=561, 289.83281pt x 222.07968pt>
 File: Imagenes/Pruebas/resumen_prueba_vuelo_local.png Graphic file (type png)
 <use Imagenes/Pruebas/resumen_prueba_vuelo_local.png>
 Package pdftex.def Info: Imagenes/Pruebas/resumen_prueba_vuelo_local.png  used on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 218.02629pt.
-) [61 <./Imagenes/Pruebas/resumen_prueba_vuelo_local.png>] (Sections/resultados.tex
+) [62 <./Imagenes/Pruebas/resumen_prueba_vuelo_local.png>] (Sections/resultados.tex
 
-LaTeX Warning: Reference `fig:GPS_pruebaVuelo' on page 62 undefined on input line 4.
+LaTeX Warning: Reference `fig:GPS_pruebaVuelo' on page 63 undefined on input line 4.
 
-<Imagenes/Vuelo/gps_Prueba.png, id=564, 565.36218pt x 415.5525pt>
+<Imagenes/Vuelo/gps_Prueba.png, id=568, 565.36218pt x 415.5525pt>
 File: Imagenes/Vuelo/gps_Prueba.png Graphic file (type png)
 <use Imagenes/Vuelo/gps_Prueba.png>
 Package pdftex.def Info: Imagenes/Vuelo/gps_Prueba.png  used on input line 7.
 (pdftex.def)             Requested size: 341.43306pt x 250.96301pt.
 
-LaTeX Warning: Reference `fig:GPS_altitud' on page 62 undefined on input line 12.
+LaTeX Warning: Reference `fig:GPS_altitud' on page 63 undefined on input line 12.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<Imagenes/Vuelo/latitud y longitud acenso.png, id=565, 541.3023pt x 439.4016pt>
+<Imagenes/Vuelo/latitud y longitud acenso.png, id=569, 541.3023pt x 439.4016pt>
 File: Imagenes/Vuelo/latitud y longitud acenso.png Graphic file (type png)
 <use Imagenes/Vuelo/latitud y longitud acenso.png>
 Package pdftex.def Info: Imagenes/Vuelo/latitud y longitud acenso.png  used on input line 20.
 (pdftex.def)             Requested size: 454.95958pt x 369.32277pt.
-[62
+[63
 
  <./Imagenes/Vuelo/gps_Prueba.png>]
 
-LaTeX Warning: Reference `fig:datos obtenidos bmp280' on page 63 undefined on input line 27.
+LaTeX Warning: Reference `fig:datos obtenidos bmp280' on page 64 undefined on input line 27.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
@@ -4671,20 +4634,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<Imagenes/Vuelo/BMP280_sensor.png, id=574, 722.7pt x 1084.05pt>
+<Imagenes/Vuelo/BMP280_sensor.png, id=578, 722.7pt x 1084.05pt>
 File: Imagenes/Vuelo/BMP280_sensor.png Graphic file (type png)
 <use Imagenes/Vuelo/BMP280_sensor.png>
 Package pdftex.def Info: Imagenes/Vuelo/BMP280_sensor.png  used on input line 39.
 (pdftex.def)             Requested size: 454.95958pt x 682.44235pt.
-[63 <./Imagenes/Vuelo/latitud y longitud acenso.png>]
+[64 <./Imagenes/Vuelo/latitud y longitud acenso.png>]
 Overfull \vbox (68.40782pt too high) has occurred while \output is active []
 
- [64 <./Imagenes/Vuelo/BMP280_sensor.png>]
+ [65 <./Imagenes/Vuelo/BMP280_sensor.png>]
 
-LaTeX Warning: Reference `fig:datosYawPitch, roll' on page 65 undefined on input line 51.
+LaTeX Warning: Reference `fig:datosYawPitch, roll' on page 66 undefined on input line 51.
 
 
-LaTeX Warning: Reference `fig:datos obtenidos BNO055' on page 65 undefined on input line 51.
+LaTeX Warning: Reference `fig:datos obtenidos BNO055' on page 66 undefined on input line 51.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
@@ -4706,22 +4669,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png, id=588, 722.7pt x 505.89pt>
+<Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png, id=592, 722.7pt x 505.89pt>
 File: Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png Graphic file (type png)
 <use Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>
 Package pdftex.def Info: Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png  used on input line 66.
 (pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
-<Imagenes/Vuelo/BNO055_orientacion.png, id=589, 722.7pt x 1084.05pt>
+<Imagenes/Vuelo/BNO055_orientacion.png, id=593, 722.7pt x 1084.05pt>
 File: Imagenes/Vuelo/BNO055_orientacion.png Graphic file (type png)
 <use Imagenes/Vuelo/BNO055_orientacion.png>
 Package pdftex.def Info: Imagenes/Vuelo/BNO055_orientacion.png  used on input line 74.
 (pdftex.def)             Requested size: 426.79134pt x 640.196pt.
-[65 <./Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>]
+[66 <./Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>]
 Overfull \vbox (26.16147pt too high) has occurred while \output is active []
 
- [66 <./Imagenes/Vuelo/BNO055_orientacion.png>]
+ [67 <./Imagenes/Vuelo/BNO055_orientacion.png>]
 
-LaTeX Warning: Reference `fig:comparacion transmision y recepcion' on page 67 undefined on input line 82.
+LaTeX Warning: Reference `fig:comparacion transmision y recepcion' on page 68 undefined on input line 82.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
@@ -4743,29 +4706,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<Imagenes/Vuelo/comparison_subplots.png, id=604, 722.7pt x 1084.05pt>
+<Imagenes/Vuelo/comparison_subplots.png, id=608, 722.7pt x 1084.05pt>
 File: Imagenes/Vuelo/comparison_subplots.png Graphic file (type png)
 <use Imagenes/Vuelo/comparison_subplots.png>
 Package pdftex.def Info: Imagenes/Vuelo/comparison_subplots.png  used on input line 96.
 (pdftex.def)             Requested size: 454.95958pt x 682.44235pt.
-[67]
+[68]
 Overfull \vbox (68.40782pt too high) has occurred while \output is active []
 
- [68 <./Imagenes/Vuelo/comparison_subplots.png>]
+ [69 <./Imagenes/Vuelo/comparison_subplots.png>]
 
-LaTeX Warning: Reference `fig:Datos guardados Interfaz' on page 69 undefined on input line 104.
+LaTeX Warning: Reference `fig:Datos guardados Interfaz' on page 70 undefined on input line 104.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<Imagenes/Vuelo/subplots_interfaz.png, id=616, 578.16pt x 650.43pt>
+<Imagenes/Vuelo/subplots_interfaz.png, id=620, 578.16pt x 650.43pt>
 File: Imagenes/Vuelo/subplots_interfaz.png Graphic file (type png)
 <use Imagenes/Vuelo/subplots_interfaz.png>
 Package pdftex.def Info: Imagenes/Vuelo/subplots_interfaz.png  used on input line 116.
 (pdftex.def)             Requested size: 454.95958pt x 511.82927pt.
-) [69] [70 <./Imagenes/Vuelo/subplots_interfaz.png>] (Sections/conclusiones.tex
+) [70] [71 <./Imagenes/Vuelo/subplots_interfaz.png>] (Sections/conclusiones.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -4795,47 +4758,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-) [71
+) [72
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 []\T1/ptm/m/n/8 BricoGeek, "Sen-sor iner-cial Ab-so-lu-to 9 DOF BNO055 Ada-fruit 4646,"Bri-co-Geek.com. Dis-po-ni-ble en:
  []
 
 
-Overfull \hbox (7.61966pt too wide) in paragraph at lines 231--232
+Overfull \hbox (7.61966pt too wide) in paragraph at lines 232--233
 []\T1/ptm/m/n/8 Vistronica, "M�-du-lo MPU6050 pa-ra Ar-duino,"Vistronica SAS, [On-li-ne]. Dis-po-ni-ble en: https://www.vistronica.com/sensores/imu/modulo-
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 240--241
+Underfull \hbox (badness 6063) in paragraph at lines 241--242
 []\T1/ptm/m/n/8 Dejan Ne-del-kovs-ki, .[]rduino Wi-re-less Com-mu-ni-ca-tion ^^U NRF24L01 Tu-to-rial,"HowToMechatronics, [On-li-ne]. Avai-la-ble:
  []
 
 (Sections/anexos.tex
-<Imagenes/Anexos/esquematico_controlador_v1.png, id=638, 696.6828pt x 492.8814pt>
+<Imagenes/Anexos/esquematico_controlador_v1.png, id=643, 696.6828pt x 492.8814pt>
 File: Imagenes/Anexos/esquematico_controlador_v1.png Graphic file (type png)
 <use Imagenes/Anexos/esquematico_controlador_v1.png>
 Package pdftex.def Info: Imagenes/Anexos/esquematico_controlador_v1.png  used on input line 6.
 (pdftex.def)             Requested size: 454.95958pt x 321.88078pt.
- [72
+ [73
 pdfTeX warning (ext4): destination with the same identifier (name{cite.GPS}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.10 
      ]
-<Imagenes/Anexos/layout_pcb.png, id=672, 1044.15094pt x 395.97937pt>
+<Imagenes/Anexos/layout_pcb.png, id=676, 1044.15094pt x 395.97937pt>
 File: Imagenes/Anexos/layout_pcb.png Graphic file (type png)
 <use Imagenes/Anexos/layout_pcb.png>
 Package pdftex.def Info: Imagenes/Anexos/layout_pcb.png  used on input line 13.
 (pdftex.def)             Requested size: 454.95958pt x 172.53966pt.
-<Imagenes/Anexos/pcb_primera_iteracion.png, id=673, 991.45406pt x 414.04688pt>
+<Imagenes/Anexos/pcb_primera_iteracion.png, id=677, 991.45406pt x 414.04688pt>
 File: Imagenes/Anexos/pcb_primera_iteracion.png Graphic file (type png)
 <use Imagenes/Anexos/pcb_primera_iteracion.png>
 Package pdftex.def Info: Imagenes/Anexos/pcb_primera_iteracion.png  used on input line 20.
 (pdftex.def)             Requested size: 454.95958pt x 189.99634pt.
- [73 <./Imagenes/Anexos/esquematico_controlador_v1.png> <./Imagenes/Anexos/layout_pcb.png>]
-<Imagenes/Anexos/carcasa_version.png, id=682, 1436.36626pt x 1406.25375pt>
+ [74 <./Imagenes/Anexos/esquematico_controlador_v1.png> <./Imagenes/Anexos/layout_pcb.png>]
+<Imagenes/Anexos/carcasa_version.png, id=686, 1436.36626pt x 1406.25375pt>
 
 Sections/anexos.tex:27: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -4865,7 +4828,7 @@ File: Imagenes/Anexos/carcasa_version.png Graphic file (type png)
 <use Imagenes/Anexos/carcasa_version.png>
 Package pdftex.def Info: Imagenes/Anexos/carcasa_version.png  used on input line 27.
 (pdftex.def)             Requested size: 452.95958pt x 443.4658pt.
-[74 <./Imagenes/Anexos/pcb_primera_iteracion.png>]) [75 <./Imagenes/Anexos/carcasa_version.png>] (main.aux
+[75 <./Imagenes/Anexos/pcb_primera_iteracion.png>]) [76 <./Imagenes/Anexos/carcasa_version.png>] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -4891,17 +4854,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43783 strings out of 474486
- 835006 string characters out of 5742774
+ 43787 strings out of 474486
+ 835130 string characters out of 5742774
  2008542 words of memory out of 5000000
- 64961 multiletter control sequences out of 15000+600000
+ 64962 multiletter control sequences out of 15000+600000
  698051 words of font info for 190 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  99i,17n,117p,1551b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (76 pages, 20869230 bytes).
+Output written on main.pdf (77 pages, 20869910 bytes).
 PDF statistics:
- 1117 PDF objects out of 1200 (max. 8388607)
- 322 named destinations out of 1000 (max. 500000)
+ 1121 PDF objects out of 1200 (max. 8388607)
+ 323 named destinations out of 1000 (max. 500000)
  1108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

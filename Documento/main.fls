@@ -513,6 +513,11 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\engl
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 OUTPUT main.bcf
+INPUT main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT .\Documentos\logo_uniandes.png
 INPUT .\Documentos\logo_uniandes.png
 INPUT .\Documentos\logo_uniandes.png

@@ -33,87 +33,87 @@
 \contentsline {subsubsection}{\numberline {10.2.2}Diseño del Layout del PCB final}{20}{subsubsection.10.2.2}%
 \contentsline {subsubsection}{\numberline {10.2.3}Fabricación del PCB}{22}{subsubsection.10.2.3}%
 \contentsline {subsubsection}{\numberline {10.2.4} Montaje del PCB}{22}{subsubsection.10.2.4}%
-\contentsline {section}{\numberline {11}Desarrollo Enclosure electrónico}{23}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Diseño Enclosure electrónico}{23}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Fabricación Enclosure electrónico}{23}{subsection.11.2}%
-\contentsline {section}{\numberline {12}Desarrollo de Firmware}{25}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Entorno de Programación}{25}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Verificación de Conectividad Sensores y Actuadores }{25}{subsection.12.2}%
-\contentsline {subsubsection}{\numberline {12.2.1}Escaneo de direcciones I2C}{25}{subsubsection.12.2.1}%
-\contentsline {subsection}{\numberline {12.3}Sensorica y adquisisción de datos}{26}{subsection.12.3}%
-\contentsline {subsubsection}{\numberline {12.3.1} Unidades de Medición Inerciales}{26}{subsubsection.12.3.1}%
-\contentsline {paragraph}{\numberline {12.3.1a}\textbf {\textbf {BNO055}}}{27}{paragraph.12.3.1.1}%
-\contentsline {paragraph}{\numberline {12.3.1b}\relax \fontsize {12}{14pt}\selectfont \textbf { Marcos de Referencia para la Medición de Ángulos en el Controlador de Vuelo}}{27}{paragraph.12.3.1.2}%
-\contentsline {paragraph}{\numberline {12.3.1c}\relax \fontsize {12}{14pt}\selectfont \textbf {Filtrado y recopilación de datos de movimientos inerciales}}{28}{paragraph.12.3.1.3}%
-\contentsline {subparagraph}{\textbf {\relax \fontsize {12}{14pt}\selectfont Fase de Predicción}}{28}{paragraph.12.3.1.3}%
-\contentsline {subparagraph}{\textbf {\relax \fontsize {12}{14pt}\selectfont Fase de Actualización}}{29}{paragraph.12.3.1.3}%
-\contentsline {paragraph}{\numberline {12.3.1d} \relax \fontsize {12}{14pt}\selectfont \textbf {Protocolo de Inicialización y Recepción de Datos del BNO055}}{31}{paragraph.12.3.1.4}%
-\contentsline {paragraph}{\numberline {12.3.1e}\relax \fontsize {12}{14pt}\selectfont Recepción de Datos del \textbf {BNO055}}{31}{paragraph.12.3.1.5}%
-\contentsline {paragraph}{\numberline {12.3.1f}\relax \fontsize {12}{14pt}\selectfont \textbf {Cálculo del Heading}}{31}{paragraph.12.3.1.6}%
-\contentsline {paragraph}{\numberline {12.3.1g}\relax \fontsize {12}{14pt}\selectfont Suavizado del Heading con EMA}{32}{paragraph.12.3.1.7}%
-\contentsline {subsubsection}{\numberline {12.3.2}Barómetro, Altímetro y Termómetro}{32}{subsubsection.12.3.2}%
-\contentsline {paragraph}{\numberline {12.3.2a}\relax \fontsize {12}{14pt}\selectfont \textbf {Inicialización del BMP280}}{32}{paragraph.12.3.2.1}%
-\contentsline {paragraph}{\numberline {12.3.2b}\relax \fontsize {12}{14pt}\selectfont \textbf {Aplicación del EMA (Exponential Moving Average)}}{33}{paragraph.12.3.2.2}%
-\contentsline {paragraph}{\numberline {12.3.2c}\relax \fontsize {12}{14pt}\selectfont \textbf {Proceso de Lectura de Datos}}{33}{paragraph.12.3.2.3}%
-\contentsline {subsubsection}{\numberline {12.3.3}Sistema de Posicionamiento Global (GPS)}{33}{subsubsection.12.3.3}%
-\contentsline {paragraph}{\numberline {12.3.3a}\relax \fontsize {12}{14pt}\selectfont \textbf {Proceso de Inicialización del GPS}}{33}{paragraph.12.3.3.1}%
-\contentsline {subsection}{\numberline {12.4}Recopilación y Almacenamiento de Datos}{34}{subsection.12.4}%
-\contentsline {subsubsection}{\numberline {12.4.1}SD TF}{34}{subsubsection.12.4.1}%
-\contentsline {subsubsection}{\numberline {12.4.2}Conexión y Configuración}{35}{subsubsection.12.4.2}%
-\contentsline {subsection}{\numberline {12.5}Telecomunicaciones}{35}{subsection.12.5}%
-\contentsline {subsubsection}{\numberline {12.5.1}Módulo de radiofrecuencia Fly-Sky FS-IA6B}{35}{subsubsection.12.5.1}%
-\contentsline {paragraph}{\numberline {12.5.1a}\textbf {Proceso de Decodificación}}{36}{paragraph.12.5.1.1}%
-\contentsline {paragraph}{\numberline {12.5.1b}\textbf {Medición del Pulso}}{36}{paragraph.12.5.1.2}%
-\contentsline {paragraph}{\numberline {12.5.1c}\textbf {Mapeo de la Señal}}{36}{paragraph.12.5.1.3}%
-\contentsline {paragraph}{\numberline {12.5.1d}\textbf {Condiciones de Valor por Defecto}}{36}{paragraph.12.5.1.4}%
-\contentsline {paragraph}{\numberline {12.5.1e}\textbf {Lectura de Interruptores}}{37}{paragraph.12.5.1.5}%
-\contentsline {subsection}{\numberline {12.6}Telemetría}{37}{subsection.12.6}%
-\contentsline {subsubsection}{\numberline {12.6.1}Módulo nRF24L01}{37}{subsubsection.12.6.1}%
-\contentsline {subsubsection}{\numberline {12.6.2}Estación en Tierra }{37}{subsubsection.12.6.2}%
-\contentsline {subsubsection}{\numberline {12.6.3}Arquitectura General del Firmware Controlador de Vuelo y la Estación de Control en Tierra}{38}{subsubsection.12.6.3}%
-\contentsline {subsection}{\numberline {12.7}Controlador de Vuelo}{38}{subsection.12.7}%
-\contentsline {subsection}{\numberline {12.8}Estación de Control en Tierra}{39}{subsection.12.8}%
-\contentsline {subsection}{\numberline {12.9}Actuadores}{40}{subsection.12.9}%
-\contentsline {subsubsection}{\numberline {12.9.1}Funcionamiento}{41}{subsubsection.12.9.1}%
-\contentsline {subsubsection}{\numberline {12.9.2}Movimiento Superficies de Control}{41}{subsubsection.12.9.2}%
-\contentsline {subsection}{\numberline {12.10}Control}{42}{subsection.12.10}%
-\contentsline {subsubsection}{\numberline {12.10.1}Modos de Operación}{42}{subsubsection.12.10.1}%
-\contentsline {subsection}{\numberline {12.11}Indicadores Adicionales}{43}{subsection.12.11}%
-\contentsline {subsubsection}{\numberline {12.11.1}Dispositivo de visualización}{43}{subsubsection.12.11.1}%
-\contentsline {subsubsection}{\numberline {12.11.2}Buzzer}{44}{subsubsection.12.11.2}%
-\contentsline {section}{\numberline {13}Interfaz}{45}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Mapa de Posición en Tiempo Real}{45}{subsection.13.1}%
-\contentsline {subsection}{\numberline {13.2}Indicadores de Vuelo:}{45}{subsection.13.2}%
-\contentsline {subsection}{\numberline {13.3}Modelo 3D del UAV:}{46}{subsection.13.3}%
-\contentsline {subsubsection}{\numberline {13.3.1}Gráficas en Tiempo Real:}{47}{subsubsection.13.3.1}%
-\contentsline {section}{\numberline {14}Costos del Sistema}{48}{section.14}%
-\contentsline {section}{\numberline {15}Pruebas de Funcionamiento}{49}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Introducción}{49}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Prueba de Almacenamiento de Datos}{49}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Verificación de la lectura y escritura del valor de los servos con osciloscopio}{50}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}Comparación de Controladores}{50}{subsection.15.4}%
-\contentsline {subsubsection}{\numberline {15.4.1}Descripción del SpeedyBee V3 F405}{51}{subsubsection.15.4.1}%
-\contentsline {subsubsection}{\numberline {15.4.2}Resultados de la Prueba}{52}{subsubsection.15.4.2}%
-\contentsline {subsubsection}{\numberline {15.4.3}Análisis de las Tablas}{53}{subsubsection.15.4.3}%
-\contentsline {subsubsection}{\numberline {15.4.4}Comparación de Roll}{53}{subsubsection.15.4.4}%
-\contentsline {subsubsection}{\numberline {15.4.5}Comparación de Pitch}{54}{subsubsection.15.4.5}%
-\contentsline {subsection}{\numberline {15.5}Pruebas de Variación de Altura con el Barómetro BMP280}{56}{subsection.15.5}%
-\contentsline {subsubsection}{\numberline {15.5.1}Procedimiento de la Prueba}{56}{subsubsection.15.5.1}%
-\contentsline {subsubsection}{\numberline {15.5.2}Resultados}{56}{subsubsection.15.5.2}%
-\contentsline {subsubsection}{\numberline {15.5.3}Análisis de las Alturas del Edificio}{56}{subsubsection.15.5.3}%
-\contentsline {subsection}{\numberline {15.6}Pruebas de GPS}{57}{subsection.15.6}%
-\contentsline {section}{\numberline {16}Prueba de vuelo}{58}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Metodología de la Prueba}{58}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Matriz de Rendimiento de la Prueba de vuelo}{60}{subsection.16.2}%
-\contentsline {section}{\numberline {17}Resultados Prueba de Vuelo}{62}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Análisis de Resultados GPS Controlador de Vuelo}{62}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Datos Recibidos del Barómetro BMP280 Controlador de Vuelo}{63}{subsection.17.2}%
-\contentsline {subsection}{\numberline {17.3}Análisis de Resultados de los Ángulos de Movimiento del UAV Controlador de Vuelo}{65}{subsection.17.3}%
-\contentsline {subsection}{\numberline {17.4}Transmisión y Recepción de Datos}{67}{subsection.17.4}%
-\contentsline {subsection}{\numberline {17.5}Recepción datos de la Interfaz}{69}{subsection.17.5}%
-\contentsline {subsubsection}{\numberline {17.5.1}Problemas Identificados}{69}{subsubsection.17.5.1}%
-\contentsline {subsubsection}{\numberline {17.5.2}Solución Propuesta}{69}{subsubsection.17.5.2}%
-\contentsline {section}{\numberline {18}Conclusiones}{71}{section.18}%
-\contentsline {section}{\numberline {19}Trabajos Futuros}{71}{section.19}%
-\contentsline {section}{Referencias}{72}{section.19}%
-\contentsline {section}{\numberline {20}Anexos}{73}{section.20}%
+\contentsline {section}{\numberline {11}Desarrollo Enclosure electrónico}{24}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Diseño Enclosure electrónico}{24}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Fabricación Enclosure electrónico}{24}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Desarrollo de Firmware}{26}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Entorno de Programación}{26}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Verificación de Conectividad Sensores y Actuadores }{26}{subsection.12.2}%
+\contentsline {subsubsection}{\numberline {12.2.1}Escaneo de direcciones I2C}{26}{subsubsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.3}Sensorica y adquisisción de datos}{27}{subsection.12.3}%
+\contentsline {subsubsection}{\numberline {12.3.1} Unidades de Medición Inerciales}{27}{subsubsection.12.3.1}%
+\contentsline {paragraph}{\numberline {12.3.1a}\textbf {\textbf {BNO055}}}{28}{paragraph.12.3.1.1}%
+\contentsline {paragraph}{\numberline {12.3.1b}\relax \fontsize {12}{14pt}\selectfont \textbf { Marcos de Referencia para la Medición de Ángulos en el Controlador de Vuelo}}{28}{paragraph.12.3.1.2}%
+\contentsline {paragraph}{\numberline {12.3.1c}\relax \fontsize {12}{14pt}\selectfont \textbf {Filtrado y recopilación de datos de movimientos inerciales}}{29}{paragraph.12.3.1.3}%
+\contentsline {subparagraph}{\textbf {\relax \fontsize {12}{14pt}\selectfont Fase de Predicción}}{29}{paragraph.12.3.1.3}%
+\contentsline {subparagraph}{\textbf {\relax \fontsize {12}{14pt}\selectfont Fase de Actualización}}{30}{paragraph.12.3.1.3}%
+\contentsline {paragraph}{\numberline {12.3.1d} \relax \fontsize {12}{14pt}\selectfont \textbf {Protocolo de Inicialización y Recepción de Datos del BNO055}}{32}{paragraph.12.3.1.4}%
+\contentsline {paragraph}{\numberline {12.3.1e}\relax \fontsize {12}{14pt}\selectfont Recepción de Datos del \textbf {BNO055}}{32}{paragraph.12.3.1.5}%
+\contentsline {paragraph}{\numberline {12.3.1f}\relax \fontsize {12}{14pt}\selectfont \textbf {Cálculo del Heading}}{32}{paragraph.12.3.1.6}%
+\contentsline {paragraph}{\numberline {12.3.1g}\relax \fontsize {12}{14pt}\selectfont Suavizado del Heading con EMA}{33}{paragraph.12.3.1.7}%
+\contentsline {subsubsection}{\numberline {12.3.2}Barómetro, Altímetro y Termómetro}{33}{subsubsection.12.3.2}%
+\contentsline {paragraph}{\numberline {12.3.2a}\relax \fontsize {12}{14pt}\selectfont \textbf {Inicialización del BMP280}}{33}{paragraph.12.3.2.1}%
+\contentsline {paragraph}{\numberline {12.3.2b}\relax \fontsize {12}{14pt}\selectfont \textbf {Aplicación del EMA (Exponential Moving Average)}}{34}{paragraph.12.3.2.2}%
+\contentsline {paragraph}{\numberline {12.3.2c}\relax \fontsize {12}{14pt}\selectfont \textbf {Proceso de Lectura de Datos}}{34}{paragraph.12.3.2.3}%
+\contentsline {subsubsection}{\numberline {12.3.3}Sistema de Posicionamiento Global (GPS)}{34}{subsubsection.12.3.3}%
+\contentsline {paragraph}{\numberline {12.3.3a}\relax \fontsize {12}{14pt}\selectfont \textbf {Proceso de Inicialización del GPS}}{34}{paragraph.12.3.3.1}%
+\contentsline {subsection}{\numberline {12.4}Recopilación y Almacenamiento de Datos}{35}{subsection.12.4}%
+\contentsline {subsubsection}{\numberline {12.4.1}SD TF}{35}{subsubsection.12.4.1}%
+\contentsline {subsubsection}{\numberline {12.4.2}Conexión y Configuración}{36}{subsubsection.12.4.2}%
+\contentsline {subsection}{\numberline {12.5}Telecomunicaciones}{36}{subsection.12.5}%
+\contentsline {subsubsection}{\numberline {12.5.1}Módulo de radiofrecuencia Fly-Sky FS-IA6B}{36}{subsubsection.12.5.1}%
+\contentsline {paragraph}{\numberline {12.5.1a}\textbf {Proceso de Decodificación}}{37}{paragraph.12.5.1.1}%
+\contentsline {paragraph}{\numberline {12.5.1b}\textbf {Medición del Pulso}}{37}{paragraph.12.5.1.2}%
+\contentsline {paragraph}{\numberline {12.5.1c}\textbf {Mapeo de la Señal}}{37}{paragraph.12.5.1.3}%
+\contentsline {paragraph}{\numberline {12.5.1d}\textbf {Condiciones de Valor por Defecto}}{37}{paragraph.12.5.1.4}%
+\contentsline {paragraph}{\numberline {12.5.1e}\textbf {Lectura de Interruptores}}{38}{paragraph.12.5.1.5}%
+\contentsline {subsection}{\numberline {12.6}Telemetría}{38}{subsection.12.6}%
+\contentsline {subsubsection}{\numberline {12.6.1}Módulo nRF24L01}{38}{subsubsection.12.6.1}%
+\contentsline {subsubsection}{\numberline {12.6.2}Estación en Tierra }{38}{subsubsection.12.6.2}%
+\contentsline {subsubsection}{\numberline {12.6.3}Arquitectura General del Firmware Controlador de Vuelo y la Estación de Control en Tierra}{39}{subsubsection.12.6.3}%
+\contentsline {subsection}{\numberline {12.7}Controlador de Vuelo}{39}{subsection.12.7}%
+\contentsline {subsection}{\numberline {12.8}Estación de Control en Tierra}{40}{subsection.12.8}%
+\contentsline {subsection}{\numberline {12.9}Actuadores}{41}{subsection.12.9}%
+\contentsline {subsubsection}{\numberline {12.9.1}Funcionamiento}{42}{subsubsection.12.9.1}%
+\contentsline {subsubsection}{\numberline {12.9.2}Movimiento Superficies de Control}{42}{subsubsection.12.9.2}%
+\contentsline {subsection}{\numberline {12.10}Control}{43}{subsection.12.10}%
+\contentsline {subsubsection}{\numberline {12.10.1}Modos de Operación}{43}{subsubsection.12.10.1}%
+\contentsline {subsection}{\numberline {12.11}Indicadores Adicionales}{44}{subsection.12.11}%
+\contentsline {subsubsection}{\numberline {12.11.1}Dispositivo de visualización}{44}{subsubsection.12.11.1}%
+\contentsline {subsubsection}{\numberline {12.11.2}Buzzer}{45}{subsubsection.12.11.2}%
+\contentsline {section}{\numberline {13}Interfaz}{46}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Mapa de Posición en Tiempo Real}{46}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Indicadores de Vuelo:}{46}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Modelo 3D del UAV:}{47}{subsection.13.3}%
+\contentsline {subsubsection}{\numberline {13.3.1}Gráficas en Tiempo Real:}{48}{subsubsection.13.3.1}%
+\contentsline {section}{\numberline {14}Costos del Sistema}{49}{section.14}%
+\contentsline {section}{\numberline {15}Pruebas de Funcionamiento}{50}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Introducción}{50}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Prueba de Almacenamiento de Datos}{50}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Verificación de la lectura y escritura del valor de los servos con osciloscopio}{51}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Comparación de Controladores}{51}{subsection.15.4}%
+\contentsline {subsubsection}{\numberline {15.4.1}Descripción del SpeedyBee V3 F405}{52}{subsubsection.15.4.1}%
+\contentsline {subsubsection}{\numberline {15.4.2}Resultados de la Prueba}{53}{subsubsection.15.4.2}%
+\contentsline {subsubsection}{\numberline {15.4.3}Análisis de las Tablas}{54}{subsubsection.15.4.3}%
+\contentsline {subsubsection}{\numberline {15.4.4}Comparación de Roll}{54}{subsubsection.15.4.4}%
+\contentsline {subsubsection}{\numberline {15.4.5}Comparación de Pitch}{55}{subsubsection.15.4.5}%
+\contentsline {subsection}{\numberline {15.5}Pruebas de Variación de Altura con el Barómetro BMP280}{57}{subsection.15.5}%
+\contentsline {subsubsection}{\numberline {15.5.1}Procedimiento de la Prueba}{57}{subsubsection.15.5.1}%
+\contentsline {subsubsection}{\numberline {15.5.2}Resultados}{57}{subsubsection.15.5.2}%
+\contentsline {subsubsection}{\numberline {15.5.3}Análisis de las Alturas del Edificio}{57}{subsubsection.15.5.3}%
+\contentsline {subsection}{\numberline {15.6}Pruebas de GPS}{58}{subsection.15.6}%
+\contentsline {section}{\numberline {16}Prueba de vuelo}{59}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Metodología de la Prueba}{59}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Matriz de Rendimiento de la Prueba de vuelo}{61}{subsection.16.2}%
+\contentsline {section}{\numberline {17}Resultados Prueba de Vuelo}{63}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Análisis de Resultados GPS Controlador de Vuelo}{63}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Datos Recibidos del Barómetro BMP280 Controlador de Vuelo}{64}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Análisis de Resultados de los Ángulos de Movimiento del UAV Controlador de Vuelo}{66}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Transmisión y Recepción de Datos}{68}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Recepción datos de la Interfaz}{70}{subsection.17.5}%
+\contentsline {subsubsection}{\numberline {17.5.1}Problemas Identificados}{70}{subsubsection.17.5.1}%
+\contentsline {subsubsection}{\numberline {17.5.2}Solución Propuesta}{70}{subsubsection.17.5.2}%
+\contentsline {section}{\numberline {18}Conclusiones}{72}{section.18}%
+\contentsline {section}{\numberline {19}Trabajos Futuros}{72}{section.19}%
+\contentsline {section}{Referencias}{73}{section.19}%
+\contentsline {section}{\numberline {20}Anexos}{74}{section.20}%

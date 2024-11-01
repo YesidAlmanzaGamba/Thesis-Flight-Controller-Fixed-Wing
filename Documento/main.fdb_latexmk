@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1730416716.85389 -1
-  "main.bcf" 1730416714 107256 c8a347bbbffa23f6c5855e74f5368900 "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1730489226.48909 -1
+  "main.bcf" 1730489224 107256 c8a347bbbffa23f6c5855e74f5368900 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1730416690.13974 "d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex" "main.pdf" "main" 1730416716.85618 2
+["pdflatex"] 1730489196.57526 "d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex" "main.pdf" "main" 1730489226.49108 2
   "C:/Users/U S E R/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730416649 82672 6390f0727fb6e7f787f3243ddd9d5794 ""
   "C:/Users/U S E R/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect10.tfm" 1730416656 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "C:/Users/U S E R/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect5.tfm" 1730416660 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -301,7 +301,7 @@
   "C:/Users/U S E R/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/U S E R/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/U S E R/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Configuracion.tex" 1730411848 2564 6c2edea0e2dcbfb7d681d3231145d1d0 ""
+  "Configuracion.tex" 1730488604 2565 ea6a5c82da7aacd0f35cb9b6fd4464f8 ""
   "Documentos/logo_uniandes.png" 1730411854 25720 46de18e80234f701c746b105c2102660 ""
   "Imagenes/Anexos/carcasa_version.png" 1730411852 1296307 7c72be303a1d028aace1c407a748c0d3 ""
   "Imagenes/Anexos/esquematico_controlador_v1.png" 1730411852 339429 cc07190ac510782d57584bab4411c35b ""
@@ -364,7 +364,7 @@
   "Sections/Abstract.tex" 1730414937 2820 1fb602ece855bc348e31a09f6e2b8d22 ""
   "Sections/Agradecimientos.tex" 1730411849 1951 e8f10c2a0b1f11474a9fa397ccf4aa49 ""
   "Sections/Costos.tex" 1730411849 938 da6d147e3f3d9bbca6484de8d4b43b91 ""
-  "Sections/Enclousure.tex" 1730411849 1836 08da5208922850858b2bd85c94eb3f4c ""
+  "Sections/Enclousure.tex" 1730489162 1846 b1e8536150abe72b4ad5d3b3a61ab930 ""
   "Sections/Estado_del_Arte.tex" 1730411849 2760 afb2fde17a3b5a2e29b6795fb14595d2 ""
   "Sections/Firmware.tex" 1730411849 54168 55135585b1c024483d545672e37544e0 ""
   "Sections/Hardware.tex" 1730411849 12261 47be578e8f9ca3e4241c45849896f06c ""
@@ -380,13 +380,13 @@
   "Sections/pruebas_funcionamiento.tex" 1730411849 33558 9dc498b87f13583c89697f37c6c5cd4c ""
   "Sections/resultados.tex" 1730411849 10063 7989d109802289084bcfe36b1cdc8d80 ""
   "Sections/vuelo.tex" 1730411849 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex" 1730411848 10747 9cb87d6a84dfed73c8d207f131a45d55 ""
-  "main.aux" 1730416714 71518 d269b696fb6eda25743180bfad4abe4e "pdflatex"
-  "main.bbl" 0 -1 0 "biber main"
-  "main.lof" 1730416714 7393 33bb32b50a55f2c753842f243d77b307 "pdflatex"
-  "main.lot" 1730416714 494 61a4f407ec77578677afda2ee4c4a76a "pdflatex"
-  "main.tex" 1730411848 10747 9cb87d6a84dfed73c8d207f131a45d55 ""
-  "main.toc" 1730416714 12093 a9bde54121f65a2f8f8851bb7e0c9cd6 "pdflatex"
+  "d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex" 1730488771 10758 5e04003db98cc78b91f1fa76f3276fa0 ""
+  "main.aux" 1730489223 71518 0253c53669b25fcd11028582bf684aff "pdflatex"
+  "main.bbl" 1730488629 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
+  "main.lof" 1730489224 7393 97cc3a0239f781336afa537abeff45f8 "pdflatex"
+  "main.lot" 1730489224 494 50c790521fdaca19f862f83978c7ab8f "pdflatex"
+  "main.tex" 1730488771 10758 5e04003db98cc78b91f1fa76f3276fa0 ""
+  "main.toc" 1730489224 12093 9ffde9b1be03cb5cfd60833c16c1de5e "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
