@@ -1,0 +1,134 @@
+%Comandos%
+
+%********%
+
+%Comandos de MEL: \teo, \lem, \dem, \hip, \hipp \rl, \rli, \dl, \eq, \o, \n, \i, \t, \f, \a, \o, \qd
+
+% Para incluir el símbolo del máximo común denominador (mcd):
+\newcommand{\mcd}{\text{mcd}}
+
+% Para incluir el símbolo del mínimo común múltiplo (mcm):
+\newcommand{\mcm}{\text{mcm}}
+
+% Para incluir información del teorema. E.g., \teo{p\i q} será Teo: p => q.
+\newcommand{\teo}[1]{\underline{\textbf{Teo}}:\hp\hp$\dsp\bm{{#1}} $\vspace{0.2cm}\\}
+
+% Para crear un lema. Parámetro 1: el número o nombre del lema. Parámetro 2: la información del lema como tal. E.g., \lem{1}{p} será Lema 1: p
+\newcommand{\lem}[2]{\underline{Lema {#1}}:\hp\hp$\dsp\bm{{#2}} $\vspace{0.2cm}\\}
+
+% Representa el símbolo de subconjunto.
+\newcommand{\subs}{\subseteq}
+
+% Representa el símbolo de subconjunto propio.
+\newcommand{\psubs}{\subset}
+
+% Representa el símbolo de un conjunto vacío.
+\newcommand{\es}{\varnothing}
+
+% Para incluir el tipo de demostración. Puede dejarse vacío. Parámetro 1: el tipo de demostración. E.g., \dem{por hipótesis} será Dem: por hipótesis.
+\newcommand{\dem}[1]{\underline{Dem}:\hp{#1}\vspace{0.2cm}\\}
+
+% Para incluir los casos. Parámetro 1: los casos. E.g., \casos{c_1, c_2} será: Casos: c_1, c_2.
+\newcommand{\casos}[1]{\underline{Casos}:\hp$\dsp {#1} $\vspace{0.2cm} \\}
+
+% Para incluir un caso. Parámetro 1: el caso. E.g., \caso{p} será: Caso: p.
+\newcommand{\caso}[1]{\underline{Caso}:\hp $\dsp {#1}$\vspace{0.2cm}\\}
+
+% Para incluir las hipótesis. Parámetro 1: las hipótesis. \hip{a,b,c} será Hip: a, b, c.
+\newcommand{\hip}[1]{\underline{Hip}:\hp\hp$\dsp {#1} $\vspace{0.2cm} \\}
+
+% Para incluir los razonamientos por equivalencia. Parámetro 1: el razonamiento. E.g., \rl{De Morgan} será = < De Morgan >.
+\newcommand{\rl}[1]{\small$= \hspace{0.5cm}\langle\textrm{#1}\rangle$\normalsize\\}
+
+% Para incluir los razonamientos por equivalencia sin ningún argumento escrito. \rll será sólo =.
+\newcommand{\rll}{\small$= \hspace{0.5cm}$\normalsize\\}
+
+% Para incluir los razonamientos por algún símbolo. Parámetro 1: el símbolo. Parámetro 2: el razonamiento. E.g., \rl{De Morgan} será = < De Morgan >.
+\newcommand{\rlp}[2]{\small${#1} \hspace{0.5cm}\langle\textrm{#2}\rangle$\normalsize\\}
+
+% Para incluir los razonamientos por algún símbolo sin ningún argumento escrito. \rllp{<} será sólo <.
+\newcommand{\rllp}[1]{\small${#1} \hspace{0.5cm}$\normalsize\\}
+
+% Para incluir los razonamientos por implicación. Parámetro 1: el razonamiento. E.g., \rl{Transitividad} será => < Transitividad >.
+\newcommand{\rli}[1]{\small$\Rightarrow \hspace{0.5cm}\langle\textrm{#1}\rangle$\normalsize\\}
+
+% Para incluir los razonamientos por implicación sin ningún argumento escrito. \rlii será sólo =>.
+\newcommand{\rlii}{\small$\Rightarrow \hspace{0.5cm}$\normalsize\\}
+
+% Para incluir los procesos en modo matemáticas. Parámetro 1: el proceso. E.g., \dl{p\i a} será: p => a.
+\newcommand{\dl}[1]{\vspace{0.2cm}\small$\dsp {#1} $\normalsize\\ \vspace{0.2cm}}
+
+% El símbolo de equivalencia.
+\newcommand*{\eq}{\equiv}
+
+% El símbolo de negación.
+\newcommand*{\n}{\neg\hspace{0.05cm}}
+
+% El símbolo de implicación.
+\renewcommand*{\i}{\Rightarrow}
+
+% Para tener 'true' en letra tipo typewriter.
+\renewcommand{\t}{\texttt{true}}
+% Para tener 'false' en letra tipo typewriter.
+\newcommand*{\f}{\texttt{false}}
+
+% El símbolo de 'y' (and).
+\renewcommand*{\a}{\footnotesize\land \small}
+
+% El símbolo de 'o' (or).
+\renewcommand*{\o}{\footnotesize\lor \small}
+
+% Agrega un cuadrado blanco para indicar la terminación de una demostración.
+\newcommand{\qd}{\hspace{0.3cm}\qed\hspace*{11cm}\textcolor{white}{ }}
+
+% Lógica de predicados: 'para todo' con condición (3 parámetros) y sin condición (2 parámetros).
+\newcommand{\fa}[3]{(\forall\hp {#1} \hp |\hp {#2} \hp : \hp {#3})}
+\newcommand{\fat}[2]{(\forall\hp {#1} \hp |: {#2})}
+% Lógica predicados: 'existe' con condición (3 parámetros) y sin condición (2 parámetros).
+\newcommand{\ea}[3]{(\exists\hp {#1} \hp |\hp {#2} \hp : \hp {#3})}
+\newcommand{\eat}[2]{(\exists\hp {#1} \hp |: {#2})}
+
+% Lógica predicados: cuantificador de algún operador (4 parámetros) y sin condición (3 parámetros).
+\newcommand{\cua}[4]{({#1}\hp {#2}\hp |\hp {#3}\hp : \hp {#4})}
+\newcommand{\cuat}[3]{({#1}\hp {#2}\hp |:\hp {#3})}
+
+% Inducción: representa el predicado de inducción.
+\newcommand{\PI}[1]{\underline{PI}: $\dsp {#1}$\vspace{0.2cm}\\}
+
+% Inducción: representa el caso base.
+\newcommand{\CB}[1]{\underline{Caso base}: ${#1}$ \vspace{0.2cm}\\}
+
+% Inducción: representa el caso inductivo.
+\newcommand{\CI}[1]{\underline{Caso inductivo}: ${#1}$ \vspace{0.2cm}\\}
+
+% Inducción: representa la hipótesis de inducción.
+\newcommand{\HI}[1]{\underline{HI}: ${#1}$ \vspace{0.2cm}\\}
+
+%********************
+% Comandos no de MEL:
+%********************
+
+%Color azul:
+\newcommand*{\DO}{\textcolor{DarkOrange}}
+
+%Color azul:
+\newcommand*{\DB}{\textcolor{DarkBlue}}
+
+%Color verde:
+\newcommand{\DG}{\textcolor{DarkGreen}}
+
+%Espacio de 0.1cm:
+\newcommand{\hp}{\hspace{0.1cm}}
+
+% Para mejorar las ecuaciones.
+\newcommand{\dsp}{\displaystyle}
+
+%Para números reales \R:
+\newcommand{\R}{\mathbb{R}}
+%Para números naturales \N:
+\newcommand{\N}{\mathbb{N}}
+%Para números enteros \Z:
+\newcommand{\Z}{\mathbb{Z}}
+
+% Para incluir el símbolo de multiplicación:
+\renewcommand*{\d}{\cdot}

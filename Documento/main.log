@@ -1,0 +1,4907 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.31)  31 OCT 2024 18:18
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex"
+(d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
+\@IEEEtrantmpcountA=\count187
+\@IEEEtrantmpcountB=\count188
+\@IEEEtrantmpcountC=\count189
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+** ATTENTION: Single column mode is not typically used with IEEE publications.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen143
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip48
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@IEEEsubequation=\count194
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count195
+\c@table=\count196
+\@IEEEeqnnumcols=\count197
+\@IEEEeqncolcnt=\count198
+\@IEEEsubeqnnumrollback=\count199
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
+\@IEEEquantizemultiple=\count266
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
+\c@IEEEbiography=\count267
+\@IEEEtranrubishbin=\box52
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks19
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box53
+\extrarowheight=\dimen173
+\NC@list=\toks20
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box54
+)
+\everycr=\toks21
+\minrowclearance=\skip53
+\rownum=\count271
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen174
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen175
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen176
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count277
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip16
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks23
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks24
+\eqnshift@=\dimen177
+\alignsep@=\dimen178
+\tagshift@=\dimen179
+\tagwidth@=\dimen180
+\totwidth@=\dimen181
+\lineht@=\dimen182
+\@envbody=\toks25
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks32
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count284
+\U@D=\dimen183
+\l@unhyphenated=\language79
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks35
+\es@quotdepth=\count286
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks36
+\float@box=\box57
+\@float@everytoks=\toks37
+\@floatcapt=\box58
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
+)
+\XKV@depth=\count288
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen184
+\Gin@req@width=\dimen185
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box59
+)
+\tc@llx=\dimen186
+\tc@lly=\dimen187
+\tc@urx=\dimen188
+\tc@ury=\dimen189
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen190
+\adjbox@Height=\dimen191
+\adjbox@Depth=\dimen192
+\adjbox@Totalheight=\dimen193
+\adjbox@pwidth=\dimen194
+\adjbox@pheight=\dimen195
+\adjbox@pdepth=\dimen196
+\adjbox@ptotalheight=\dimen197
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count289
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box60
+\sift@deathcycles=\count290
+\@vwid@loff=\dimen198
+\@vwid@roff=\dimen199
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen256
+\captionmargin=\dimen257
+\caption@leftmargin=\dimen258
+\caption@rightmargin=\dimen259
+\caption@width=\dimen260
+\caption@indent=\dimen261
+\caption@parindent=\dimen262
+\caption@hangindent=\dimen263
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count291
+\c@continuedfloat=\count292
+Package caption Info: float package is loaded.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count293
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count294
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box61
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen264
+\WF@size=\dimen265
+\c@WF@wrappedlines=\count296
+\WF@box=\box62
+\WF@everypar=\toks40
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count297
+\calc@Bcount=\count298
+\calc@Adimen=\dimen266
+\calc@Bdimen=\dimen267
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count299
+\calc@Cskip=\skip62
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count300
+\l_MT_multwidth_dim=\dimen268
+\origjot=\skip63
+\l_MT_shortvdotswithinadjustabove_dim=\dimen269
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen270
+\l_MT_above_intertext_sep=\dimen271
+\l_MT_below_intertext_sep=\dimen272
+\l_MT_above_shortintertext_sep=\dimen273
+\l_MT_below_shortintertext_sep=\dimen274
+\xmathstrut@box=\box63
+\xmathstrut@dim=\dimen275
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/esvect\esvect.sty
+Package: esvect 
+\symesvector=\mathgroup9
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count301
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count302
+)
+\@linkdim=\dimen276
+\Hy@linkcounter=\count303
+\Hy@pagecounter=\count304
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count305
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count306
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen277
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count307
+\Field@Width=\dimen278
+\Fld@charsize=\dimen279
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring ON on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count308
+\c@Item=\count309
+\c@Hfootnote=\count310
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count311
+\c@bookmark@seq@number=\count312
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip64
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count313
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks41
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/chemfig\chemfig.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen280
+\pgfutil@tempdimb=\dimen281
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box64
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
+))
+\pgf@x=\dimen282
+\pgf@y=\dimen283
+\pgf@xa=\dimen284
+\pgf@ya=\dimen285
+\pgf@xb=\dimen286
+\pgf@yb=\dimen287
+\pgf@xc=\dimen288
+\pgf@yc=\dimen289
+\pgf@xd=\dimen290
+\pgf@yd=\dimen291
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count314
+\c@pgf@countb=\count315
+\c@pgf@countc=\count316
+\c@pgf@countd=\count317
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count318
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count319
+\pgfsyssoftpath@bigbuffer@items=\count320
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen292
+\pgfmath@count=\count321
+\pgfmath@box=\box65
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count322
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen293
+\pgf@picmaxx=\dimen294
+\pgf@picminy=\dimen295
+\pgf@picmaxy=\dimen296
+\pgf@pathminx=\dimen297
+\pgf@pathmaxx=\dimen298
+\pgf@pathminy=\dimen299
+\pgf@pathmaxy=\dimen300
+\pgf@xx=\dimen301
+\pgf@xy=\dimen302
+\pgf@yx=\dimen303
+\pgf@yy=\dimen304
+\pgf@zx=\dimen305
+\pgf@zy=\dimen306
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen307
+\pgf@path@lasty=\dimen308
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen309
+\pgf@shorten@start@additional=\dimen310
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count323
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen311
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen312
+\pgf@pt@y=\dimen313
+\pgf@pt@temp=\dimen314
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen315
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen316
+\pgf@sys@shading@range@num=\count324
+\pgf@shadingcount=\count325
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box69
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box70
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen317
+\pgf@nodesepend=\dimen318
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen319
+\pgffor@skip=\dimen320
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count326
+\pgfplotmarksize=\dimen321
+)
+\tikz@lastx=\dimen322
+\tikz@lasty=\dimen323
+\tikz@lastxsaved=\dimen324
+\tikz@lastysaved=\dimen325
+\tikz@lastmovetox=\dimen326
+\tikz@lastmovetoy=\dimen327
+\tikzleveldistance=\dimen328
+\tikzsiblingdistance=\dimen329
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count327
+\tikznumberofchildren=\count328
+\tikznumberofcurrentchild=\count329
+\tikz@fig@count=\count330
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count331
+\pgfmatrixcurrentcolumn=\count332
+\pgf@matrix@numberofcolumns=\count333
+)
+\tikz@expandcount=\count334
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/chemfig\chemfig.tex (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/simplekv\simplekv.tex
+Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen330
+\pgfarrowlength=\dimen331
+\pgfarrowwidth=\dimen332
+\pgfarrowlinewidth=\dimen333
+)
+\CF_cnt_atomgroup=\count335
+\CF_cnt_group=\count336
+\CF_cnt_atom=\count337
+\CF_cnt_cycle=\count338
+\CF_cnt_cyclebonds=\count339
+\CF_cnt_compound=\count340
+\CF_dim=\dimen334
+\CF_turnangle=\dimen335
+\CF_arrowsize=\dimen336
+\CF_zero=\dimen337
+\CF_box=\box75
+\CF_boxstuff=\box76
+\CF_testbox=\box77
+\CF_chargebox=\box78
+\CF_substtoks=\toks54
+)
+Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen338
+\enit@toks=\toks55
+\enit@inbox=\box79
+\enit@count@id=\count341
+\enitdp@description=\count342
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box80
+\beforetitleunit=\skip66
+\aftertitleunit=\skip67
+\ttl@plus=\dimen339
+\ttl@minus=\dimen340
+\ttl@toksa=\toks56
+\titlewidth=\dimen341
+\titlewidthlast=\dimen342
+\titlewidthfirst=\dimen343
+
+
+Package titlesec Warning: Non standard sectioning command \subparagraph
+(titlesec)                detected. Using default spacing and no format.
+
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip68
+\thanksmargin=\skip69
+\droptitle=\skip70
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count343
+\FV@InFile=\read4
+\FV@TabBox=\box81
+\c@FancyVerbLine=\count344
+\FV@StepNumber=\count345
+\FV@OutFile=\write4
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count346
+\l__lipsum_a_int=\count347
+\l__lipsum_b_int=\count348
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip80
+\@affilsep=\skip81
+\c@Maxaffil=\count349
+\c@authors=\count350
+\c@affil=\count351
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip82
+\multirow@cntb=\count352
+\multirow@dima=\skip83
+\bigstrutjot=\dimen344
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen345
+\c@nlinenum=\count353
+\TeXr@lab=\toks57
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count354
+\mult@box=\box82
+\multicol@leftmargin=\dimen346
+\c@unbalance=\count355
+\c@collectmore=\count356
+\doublecol@number=\count357
+\multicoltolerance=\count358
+\multicolpretolerance=\count359
+\full@width=\dimen347
+\page@free=\dimen348
+\premulticols=\dimen349
+\postmulticols=\dimen350
+\multicolsep=\skip84
+\multicolbaselineskip=\skip85
+\partial@page=\box83
+\last@line=\box84
+\mc@boxedresult=\box85
+\maxbalancingoverflow=\dimen351
+\mult@rightbox=\box86
+\mult@grightbox=\box87
+\mult@firstbox=\box88
+\mult@gfirstbox=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\c@minrows=\count360
+\c@columnbadness=\count361
+\c@finalcolumnbadness=\count362
+\last@try=\dimen352
+\multicolovershoot=\dimen353
+\multicolundershoot=\dimen354
+\mult@nat@firstbox=\box126
+\colbreak@box=\box127
+\mc@col@check@num=\count363
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\resizegather.sty
+Package: resizegather 2016/05/16 v1.3 Resize overly large equations (HO)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count364
+\sf@farskip=\skip86
+\sf@captopadj=\dimen355
+\sf@capskip=\skip87
+\sf@nearskip=\skip88
+\sf@top=\skip89
+\sf@bottom=\skip90
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count365
+\lst@gtempboxa=\box128
+\lst@token=\toks58
+\lst@length=\count366
+\lst@currlwidth=\dimen356
+\lst@column=\count367
+\lst@pos=\count368
+\lst@lostspace=\dimen357
+\lst@width=\dimen358
+\lst@newlines=\count369
+\lst@lineno=\count370
+\lst@maxwidth=\dimen359
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count371
+\lst@skipnumbers=\count372
+\lst@framebox=\box129
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count373
+\c@Blindtext=\count374
+\c@blind@countparstart=\count375
+\blind@countxx=\count376
+\blindtext@numBlindtext=\count377
+\blind@countyy=\count378
+\c@blindlist=\count379
+\c@blindlistlevel=\count380
+\c@blindlist@level=\count381
+\blind@listitem=\count382
+\c@blind@listcount=\count383
+\c@blind@levelcount=\count384
+\blind@mathformula=\count385
+\blind@Mathformula=\count386
+\c@blind@randomcount=\count387
+\c@blind@randommax=\count388
+\c@blind@pangramcount=\count389
+\c@blind@pangrammax=\count390
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count391
+\c@@ppsavesec=\count392
+\c@@ppsaveapp=\count393
+
+
+C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty:241: LaTeX Error: Command \appendices already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241   \@ppsaveapp\@pprestoresec}
+                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count394
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count395
+\c@listtotal=\count396
+\c@listcount=\count397
+\c@liststart=\count398
+\c@liststop=\count399
+\c@citecount=\count400
+\c@citetotal=\count401
+\c@multicitecount=\count402
+\c@multicitetotal=\count403
+\c@instcount=\count404
+\c@maxnames=\count405
+\c@minnames=\count406
+\c@maxitems=\count407
+\c@minitems=\count408
+\c@citecounter=\count409
+\c@maxcitecounter=\count410
+\c@savedcitecounter=\count411
+\c@uniquelist=\count412
+\c@uniquename=\count413
+\c@refsection=\count414
+\c@refsegment=\count415
+\c@maxextratitle=\count416
+\c@maxextratitleyear=\count417
+\c@maxextraname=\count418
+\c@maxextradate=\count419
+\c@maxextraalpha=\count420
+\c@abbrvpenalty=\count421
+\c@highnamepenalty=\count422
+\c@lownamepenalty=\count423
+\c@maxparens=\count424
+\c@parenlevel=\count425
+\blx@tempcnta=\count426
+\blx@tempcntb=\count427
+\blx@tempcntc=\count428
+\c@blx@maxsection=\count429
+\blx@maxsegment@0=\count430
+\blx@notetype=\count431
+\blx@parenlevel@text=\count432
+\blx@parenlevel@foot=\count433
+\blx@sectionciteorder@0=\count434
+\blx@sectionciteorderinternal@0=\count435
+\blx@entrysetcounter=\count436
+\blx@biblioinstance=\count437
+\labelnumberwidth=\skip91
+\labelalphawidth=\skip92
+\biblabelsep=\skip93
+\bibitemsep=\skip94
+\bibnamesep=\skip95
+\bibinitsep=\skip96
+\bibparsep=\skip97
+\bibhang=\skip98
+\blx@bcfin=\read5
+\blx@bcfout=\write5
+\blx@langwohyphens=\language80
+\c@mincomprange=\count438
+\c@maxcomprange=\count439
+\c@mincompwidth=\count440
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count441
+\c@savedafterword=\count442
+\c@annotator=\count443
+\c@savedannotator=\count444
+\c@author=\count445
+\c@savedauthor=\count446
+\c@bookauthor=\count447
+\c@savedbookauthor=\count448
+\c@commentator=\count449
+\c@savedcommentator=\count450
+\c@editor=\count451
+\c@savededitor=\count452
+\c@editora=\count453
+\c@savededitora=\count454
+\c@editorb=\count455
+\c@savededitorb=\count456
+\c@editorc=\count457
+\c@savededitorc=\count458
+\c@foreword=\count459
+\c@savedforeword=\count460
+\c@holder=\count461
+\c@savedholder=\count462
+\c@introduction=\count463
+\c@savedintroduction=\count464
+\c@namea=\count465
+\c@savednamea=\count466
+\c@nameb=\count467
+\c@savednameb=\count468
+\c@namec=\count469
+\c@savednamec=\count470
+\c@translator=\count471
+\c@savedtranslator=\count472
+\c@shortauthor=\count473
+\c@savedshortauthor=\count474
+\c@shorteditor=\count475
+\c@savedshorteditor=\count476
+\c@labelname=\count477
+\c@savedlabelname=\count478
+\c@institution=\count479
+\c@savedinstitution=\count480
+\c@lista=\count481
+\c@savedlista=\count482
+\c@listb=\count483
+\c@savedlistb=\count484
+\c@listc=\count485
+\c@savedlistc=\count486
+\c@listd=\count487
+\c@savedlistd=\count488
+\c@liste=\count489
+\c@savedliste=\count490
+\c@listf=\count491
+\c@savedlistf=\count492
+\c@location=\count493
+\c@savedlocation=\count494
+\c@organization=\count495
+\c@savedorganization=\count496
+\c@origlocation=\count497
+\c@savedoriglocation=\count498
+\c@origpublisher=\count499
+\c@savedorigpublisher=\count500
+\c@publisher=\count501
+\c@savedpublisher=\count502
+\c@language=\count503
+\c@savedlanguage=\count504
+\c@origlanguage=\count505
+\c@savedoriglanguage=\count506
+\c@pageref=\count507
+\c@savedpageref=\count508
+\shorthandwidth=\skip99
+\shortjournalwidth=\skip100
+\shortserieswidth=\skip101
+\shorttitlewidth=\skip102
+\shortauthorwidth=\skip103
+\shorteditorwidth=\skip104
+\locallabelnumberwidth=\skip105
+\locallabelalphawidth=\skip106
+\localshorthandwidth=\skip107
+\localshortjournalwidth=\skip108
+\localshortserieswidth=\skip109
+\localshorttitlewidth=\skip110
+\localshortauthorwidth=\skip111
+\localshorteditorwidth=\skip112
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count509
+\c@textcitetotal=\count510
+\c@textcitemaxnames=\count511
+\c@biburlbigbreakpenalty=\count512
+\c@biburlbreakpenalty=\count513
+\c@biburlnumpenalty=\count514
+\c@biburlucpenalty=\count515
+\c@biburllcpenalty=\count516
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count517
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count518
+\c@bbx:relatedtotal=\count519
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
+Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen360
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box130
+\pgf@layerboxsaved@background=\box131
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
+File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfcalendarcurrentjulian=\count520
+\pgf@cal@easter@Y=\count521
+\pgf@cal@easter@G=\count522
+\pgf@cal@easter@C=\count523
+\pgf@cal@easter@X=\count524
+\pgf@cal@easter@Z=\count525
+\pgf@cal@easter@D=\count526
+\pgf@cal@easter@E=\count527
+\pgf@cal@easter@N=\count528
+\pgf@cal@easter@M=\count529
+\pgf@cal@easter@julianday=\count530
+))
+\gtt@currentline=\count531
+\gtt@lasttitleline=\count532
+\gtt@currgrid=\count533
+\gtt@chartwidth=\count534
+\gtt@lasttitleslot=\count535
+\gtt@elementid=\count536
+\gtt@today@slot=\count537
+\gtt@startjulian=\count538
+\gtt@endjulian=\count539
+\gtt@chartid=\count540
+\gtt@vrule@slot=\count541
+\gtt@calendar@slots=\count542
+\gtt@calendar@weeknumber=\count543
+\gtt@calendar@startofweek=\count544
+\gtt@left@slot=\count545
+\gtt@right@slot=\count546
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+
+C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty:296: Package sectsty Error: The sectsty package doesn't work with
+(sectsty)                this document class.
+
+See the sectsty package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296     scrartcl, scrbook, and scrreprt.}
+                                           
+The sectsty package only works with the following classes: 
+the standard LaTeX document classes
+article, report, and book; and
+the KOMA-Script classes
+scrartcl, scrbook, and scrreprt.
+
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks59
+\verbatim@line=\toks60
+\verbatim@in@stream=\read6
+) (Configuracion.tex
+
+Configuracion.tex:35: Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \bibliographystyle{apacite}
+                                
+Use the package option 'style' instead.
+I'm ignoring this command.
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 96.
+
+)
+
+d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex:106: Package biblatex Error: Incompatible package 'cite'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \begin{document}
+                      
+The 'cite' package and biblatex are incompatible.
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count547
+\@quotereset=\count548
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+-- Lines per column: 52 (approximate, difference = 11.63457pt).
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(79.66771pt, 454.95958pt, 79.66771pt)
+* v-part:(T,H,B)=(79.66771pt, 635.63457pt, 79.66771pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=454.95958pt
+* \textheight=635.63457pt
+* \oddsidemargin=7.39772pt
+* \evensidemargin=7.39772pt
+* \topmargin=-25.94427pt
+* \headheight=12.0pt
+* \headsep=21.342pt
+* \topskip=12.0pt
+* \footskip=45.5244pt
+* \marginparwidth=20.0pt
+* \marginparsep=10.0pt
+* \columnsep=28.45274pt
+* \skip\footins=10.79993pt plus 4.79993pt minus 2.39996pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count549
+\scratchdimen=\dimen361
+\scratchbox=\box132
+\nofMPsegments=\count550
+\nofMParguments=\count551
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count552
+\MPscratchDim=\dimen362
+\MPnumerator=\count553
+\makeMPintoPDFobject=\count554
+\everyMPtoPDFconversion=\toks62
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 106.
+
+d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex:106: Undefined control sequence.
+<argument> \sf@counterlist 
+                           
+l.106 \begin{document}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@lstlisting=\count555
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
+File: spanish.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 106.
+Package biblatex Info: Reference segment=0 on input line 106.
+<Documentos/logo_uniandes.png, id=6, 803.0pt x 240.9pt>
+File: Documentos/logo_uniandes.png Graphic file (type png)
+<use Documentos/logo_uniandes.png>
+Package pdftex.def Info: Documentos/logo_uniandes.png  used on input line 110.
+(pdftex.def)             Requested size: 144.53375pt x 43.36012pt.
+Runaway argument?
+{desarrollo e implementación de un controlador de vuelo y estación \ETC.
+d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex:117: Paragraph ended before \text@command was complete.
+<to be read again> 
+                   \par 
+l.117 }
+        \par}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex:117: Extra }, or forgotten \endgroup.
+l.117 } \par}
+             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[0{C:/Users/U S E R/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Documentos/logo_uniandes.png>]
+No file main.toc.
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+[1
+
+
+]
+No file main.lof.
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+[2
+
+]
+No file main.lot.
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+[3
+
+] (Sections/Abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) [4
+
+] (Sections/Agradecimientos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+) [5
+
+] (Sections/Introducción.tex
+
+LaTeX Warning: Citation `justin' on page 6 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+LaTeX Warning: Citation `UAS-FAC' on page 6 undefined on input line 9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+LaTeX Warning: Citation `UAgriculture' on page 6 undefined on input line 11.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 14.
+ (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
+File: uesvect.fd 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+) [6
+
+] (Sections/Estado_del_Arte.tex
+
+LaTeX Warning: Citation `paper' on page 7 undefined on input line 4.
+
+
+LaTeX Warning: Citation `rtos' on page 7 undefined on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+LaTeX Warning: Citation `rtos' on page 7 undefined on input line 6.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+LaTeX Warning: Citation `rtos' on page 7 undefined on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+LaTeX Warning: Citation `rtos' on page 7 undefined on input line 10.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 10--151
+
+ []
+
+[7
+
+] (Sections/Planteamiento_problema.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) [8
+
+] (Sections/Objetivos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+) [9
+
+] (Sections/Marco Teórico.tex
+
+LaTeX Warning: Reference `fig:UAS' on page 10 undefined on input line 3.
+
+
+LaTeX Warning: Citation `UAS-FAC' on page 10 undefined on input line 3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+LaTeX Warning: Citation `UAS-FAC' on page 10 undefined on input line 7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+<Imagenes/Marco Teorico/UAS.png, id=66, 597.60106pt x 845.26315pt>
+File: Imagenes/Marco Teorico/UAS.png Graphic file (type png)
+<use Imagenes/Marco Teorico/UAS.png>
+Package pdftex.def Info: Imagenes/Marco Teorico/UAS.png  used on input line 11.
+(pdftex.def)             Requested size: 284.52911pt x 341.42686pt.
+
+LaTeX Warning: Citation `UAS-FAC' on page 10 undefined on input line 17.
+
+[10
+
+ <./Imagenes/Marco Teorico/UAS.png (PNG copy)>]
+
+LaTeX Warning: Citation `UAV1' on page 11 undefined on input line 22.
+
+
+LaTeX Warning: Citation `alafija' on page 11 undefined on input line 28.
+
+
+LaTeX Warning: Citation `UAV2' on page 11 undefined on input line 28.
+
+
+LaTeX Warning: Citation `alafija' on page 11 undefined on input line 28.
+
+<Imagenes/Marco Teorico/raf_reaper_fly.jpg, id=73, 471.7625pt x 276.03125pt>
+File: Imagenes/Marco Teorico/raf_reaper_fly.jpg Graphic file (type jpg)
+<use Imagenes/Marco Teorico/raf_reaper_fly.jpg>
+Package pdftex.def Info: Imagenes/Marco Teorico/raf_reaper_fly.jpg  used on input line 32.
+(pdftex.def)             Requested size: 227.62398pt x 142.26929pt.
+
+LaTeX Warning: Citation `reaper' on page 11 undefined on input line 33.
+
+
+LaTeX Warning: Citation `reaper' on page 11 undefined on input line 33.
+
+
+LaTeX Warning: Citation `UAS-FAC' on page 11 undefined on input line 40.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+[11 <./Imagenes/Marco Teorico/raf_reaper_fly.jpg>]
+
+LaTeX Warning: Citation `6' on page 12 undefined on input line 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+LaTeX Warning: Citation `6' on page 12 undefined on input line 54.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+<Imagenes/Marco Teorico/flight controller.jpg, id=84, 774.64406pt x 784.43062pt>
+File: Imagenes/Marco Teorico/flight controller.jpg Graphic file (type jpg)
+<use Imagenes/Marco Teorico/flight controller.jpg>
+Package pdftex.def Info: Imagenes/Marco Teorico/flight controller.jpg  used on input line 64.
+(pdftex.def)             Requested size: 227.61969pt x 142.2567pt.
+
+LaTeX Warning: Citation `controladores' on page 12 undefined on input line 65.
+
+
+LaTeX Warning: Citation `controladores' on page 12 undefined on input line 65.
+
+
+LaTeX Warning: Citation `UAV2' on page 12 undefined on input line 92.
+
+[12 <./Imagenes/Marco Teorico/flight controller.jpg>]
+
+LaTeX Warning: Citation `UAV2' on page 13 undefined on input line 95.
+
+
+LaTeX Warning: Citation `UAV2' on page 13 undefined on input line 97.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+LaTeX Warning: Citation `UAV2' on page 13 undefined on input line 99.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+LaTeX Warning: Citation `UAV2' on page 13 undefined on input line 101.
+
+<Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png, id=93, 690.32906pt x 459.21562pt>
+File: Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png Graphic file (type png)
+<use Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png>
+Package pdftex.def Info: Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png  used on input line 105.
+(pdftex.def)             Requested size: 284.53252pt x 170.71992pt.
+
+LaTeX Warning: Citation `MCU' on page 13 undefined on input line 113.
+
+
+LaTeX Warning: Citation `IMU' on page 13 undefined on input line 117.
+
+[13 <./Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png>]
+<Imagenes/Marco Teorico/s_control.png, id=105, 666.49pt x 325.215pt>
+File: Imagenes/Marco Teorico/s_control.png Graphic file (type png)
+<use Imagenes/Marco Teorico/s_control.png>
+Package pdftex.def Info: Imagenes/Marco Teorico/s_control.png  used on input line 124.
+(pdftex.def)             Requested size: 284.5308pt x 170.72058pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+
+ []
+
+
+LaTeX Warning: Citation `GPS' on page 14 undefined on input line 132.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+[14 <./Imagenes/Marco Teorico/s_control.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+LaTeX Warning: Citation `circular_aerea' on page 15 undefined on input line 152.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+) [15] (Sections/Metodología.tex
+
+LaTeX Warning: Reference `fig:diagrama metodo' on page 16 undefined on input line 3.
+
+<Imagenes/Metodologia/metodologia.png, id=119, 1082.0425pt x 1204.5pt>
+File: Imagenes/Metodologia/metodologia.png Graphic file (type png)
+<use Imagenes/Metodologia/metodologia.png>
+Package pdftex.def Info: Imagenes/Metodologia/metodologia.png  used on input line 7.
+(pdftex.def)             Requested size: 398.33858pt x 443.41577pt.
+[16
+
+ <./Imagenes/Metodologia/metodologia.png>]
+
+LaTeX Warning: Reference `fig:bloques' on page 17 undefined on input line 14.
+
+<Imagenes/funcional/Diagrama funcional.png, id=127, 979.66pt x 615.29875pt>
+File: Imagenes/funcional/Diagrama funcional.png Graphic file (type png)
+<use Imagenes/funcional/Diagrama funcional.png>
+Package pdftex.def Info: Imagenes/funcional/Diagrama funcional.png  used on input line 17.
+(pdftex.def)             Requested size: 454.95958pt x 285.7448pt.
+) [17
+
+ <./Imagenes/funcional/Diagrama funcional.png>] (Sections/Hardware.tex
+
+Sections/Hardware.tex:5: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 D
+     urante la fase inicial del proyecto, se realizó una revisión bibliogr...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:arqui_controlador' on page 18 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+LaTeX Warning: Reference `fig:arqui_controlador' on page 18 undefined on input line 18.
+
+<Imagenes/Metodologia/arquitectura_controlador.png, id=135, 925.5378pt x 259.6902pt>
+File: Imagenes/Metodologia/arquitectura_controlador.png Graphic file (type png)
+<use Imagenes/Metodologia/arquitectura_controlador.png>
+Package pdftex.def Info: Imagenes/Metodologia/arquitectura_controlador.png  used on input line 26.
+(pdftex.def)             Requested size: 454.95958pt x 127.65347pt.
+
+LaTeX Warning: Reference `fig:arqui_Blanxa' on page 18 undefined on input line 31.
+
+[18
+
+ <./Imagenes/Metodologia/arquitectura_controlador.png>]
+<Imagenes/Metodologia/arquitecturaModulos.png, id=145, 3983.13094pt x 1707.37875pt>
+File: Imagenes/Metodologia/arquitecturaModulos.png Graphic file (type png)
+<use Imagenes/Metodologia/arquitecturaModulos.png>
+Package pdftex.def Info: Imagenes/Metodologia/arquitecturaModulos.png  used on input line 35.
+(pdftex.def)             Requested size: 454.95958pt x 195.00272pt.
+
+
+LaTeX Warning: Reference `fig:sch-1.0' on page 19 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:pcb-1.0' on page 19 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:pcb-ensambled-1.0' on page 19 undefined on input line 41.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Sections/Hardware.tex:48: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...tion{ Diseño del Esquemático Final}\\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:49: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+LaTeX Warning: Reference `fig:sch2.0' on page 19 undefined on input line 55.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+[19 <./Imagenes/Metodologia/arquitecturaModulos.png (PNG copy)>]
+<Imagenes/Metodologia/SCH2.0.png, id=154, 867.99281pt x 585.68813pt>
+File: Imagenes/Metodologia/SCH2.0.png Graphic file (type png)
+<use Imagenes/Metodologia/SCH2.0.png>
+Package pdftex.def Info: Imagenes/Metodologia/SCH2.0.png  used on input line 61.
+(pdftex.def)             Requested size: 454.95958pt x 306.9904pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--64
+
+ []
+
+
+Sections/Hardware.tex:66: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...on{Diseño del Layout del PCB final} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:67: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:pcb_2.0' on page 20 undefined on input line 68.
+
+<Imagenes/Metodologia/PCB20.png, id=155, 1704.3675pt x 650.43pt>
+File: Imagenes/Metodologia/PCB20.png Graphic file (type png)
+<use Imagenes/Metodologia/PCB20.png>
+Package pdftex.def Info: Imagenes/Metodologia/PCB20.png  used on input line 71.
+(pdftex.def)             Requested size: 454.95958pt x 173.62357pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--74
+
+ []
+
+[20 <./Imagenes/Metodologia/SCH2.0.png>]
+
+Sections/Hardware.tex:77: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 P
+      ara el diseño del layout de la PCB se tuvo en consideración la norma...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:ipc2221' on page 21 undefined on input line 77.
+
+
+LaTeX Warning: Citation `IPC' on page 21 undefined on input line 77.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+<Imagenes/Metodologia/ipc2221.png, id=163, 1285.80376pt x 459.7175pt>
+File: Imagenes/Metodologia/ipc2221.png Graphic file (type png)
+<use Imagenes/Metodologia/ipc2221.png>
+Package pdftex.def Info: Imagenes/Metodologia/ipc2221.png  used on input line 81.
+(pdftex.def)             Requested size: 454.95958pt x 162.66422pt.
+
+LaTeX Warning: Citation `IPC' on page 21 undefined on input line 82.
+
+
+LaTeX Warning: Citation `IPC' on page 21 undefined on input line 82.
+
+
+Sections/Hardware.tex:87: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 U
+      na vez finalizado el apartado de diseño del layout se procedió a bus...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Imagenes/Metodologia/model3d.png, id=164, 721.19438pt x 374.14781pt>
+File: Imagenes/Metodologia/model3d.png Graphic file (type png)
+<use Imagenes/Metodologia/model3d.png>
+Package pdftex.def Info: Imagenes/Metodologia/model3d.png  used on input line 90.
+(pdftex.def)             Requested size: 454.95958pt x 236.02835pt.
+[21 <./Imagenes/Metodologia/PCB20.png> <./Imagenes/Metodologia/ipc2221.png>]
+
+Sections/Hardware.tex:95: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \\ \\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:96: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \subsubsection
+                   {Fabricación del PCB}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:97: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \\ \\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:98: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 E
+      l \textbf{Printed Circuit Board (PCB)} fue fabricado en el laboratorio...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:101: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 P
+       ara asegurar la calidad y fiabilidad, la fabricación siguió el est�...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+Sections/Hardware.tex:105: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:106: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:109: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Hardware.tex:110: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:ensamblada' on page 22 undefined on input line 111.
+
+<Imagenes/Metodologia/pcb_ensamblada.png, id=173, 1445.4pt x 482.55281pt>
+File: Imagenes/Metodologia/pcb_ensamblada.png Graphic file (type png)
+<use Imagenes/Metodologia/pcb_ensamblada.png>
+Package pdftex.def Info: Imagenes/Metodologia/pcb_ensamblada.png  used on input line 115.
+(pdftex.def)             Requested size: 454.95958pt x 151.88712pt.
+
+Sections/Hardware.tex:119: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \vspace{5 px}\\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+
+d:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/Documento/main.tex:160: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \input{Sections/Hardware}
+                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(Sections/Enclousure.tex [22 <./Imagenes/Metodologia/model3d.png>]
+
+LaTeX Warning: Reference `fig:carcasa' on page 23 undefined on input line 5.
+
+
+LaTeX Warning: Reference `fig:carcasasVersion' on page 23 undefined on input line 5.
+
+<Imagenes/Metodologia/carcasa.png, id=182, 1454.43375pt x 513.92pt>
+File: Imagenes/Metodologia/carcasa.png Graphic file (type png)
+<use Imagenes/Metodologia/carcasa.png>
+Package pdftex.def Info: Imagenes/Metodologia/carcasa.png  used on input line 9.
+(pdftex.def)             Requested size: 454.95958pt x 160.75642pt.
+
+Sections/Enclousure.tex:14: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \\ \\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Enclousure.tex:15: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \subsection
+                {Fabricación Enclosure electrónico}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:ensamble' on page 23 undefined on input line 16.
+
+[23 <./Imagenes/Metodologia/pcb_ensamblada.png> <./Imagenes/Metodologia/carcasa.png>]
+<Imagenes/Metodologia/producto final.png, id=194, 1445.4pt x 627.84563pt>
+File: Imagenes/Metodologia/producto final.png Graphic file (type png)
+<use Imagenes/Metodologia/producto final.png>
+Package pdftex.def Info: Imagenes/Metodologia/producto final.png  used on input line 21.
+(pdftex.def)             Requested size: 341.43306pt x 148.31015pt.
+) [24 <./Imagenes/Metodologia/producto final.png>] (Sections/Firmware.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Sections/Firmware.tex:86: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \\ \\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:87: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 \subsubsection
+                   {Escaneo de direcciones I2C} \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:87: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...bsection{Escaneo de direcciones I2C} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:88: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+<Imagenes/Metodologia/I2C_scan.png, id=202, 293.59688pt x 138.5175pt>
+File: Imagenes/Metodologia/I2C_scan.png Graphic file (type png)
+<use Imagenes/Metodologia/I2C_scan.png>
+Package pdftex.def Info: Imagenes/Metodologia/I2C_scan.png  used on input line 93.
+(pdftex.def)             Requested size: 284.52756pt x 134.23921pt.
+[25
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Sections/Firmware.tex:107: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \end{itemize}\\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:108: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:113: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...Sensorica y adquisisción de datos} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:114: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Sections/Firmware.tex:118: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...{ Unidades de Medición Inerciales} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:119: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `IMU' on page 26 undefined on input line 121.
+
+
+LaTeX Warning: Citation `BNO' on page 26 undefined on input line 121.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+LaTeX Warning: Reference `tab:bno055_specs' on page 26 undefined on input line 127.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+[26 <./Imagenes/Metodologia/I2C_scan.png>]
+
+LaTeX Warning: Reference `tab:mpu6050_specs' on page 27 undefined on input line 129.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Sections/Firmware.tex:134: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...aragraph{\textbf{\textbf{BNO055}}}  \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:135: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 143.
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+Sections/Firmware.tex:172: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:173: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \paragraph
+                {\large \textbf{ Marcos de Referencia para la Medición de �...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:173: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...ngulos en el Controlador de Vuelo}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:174: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:movimientos_inerciales' on page 27 undefined on input line 175.
+
+<Imagenes/Metodologia/pcb_yaw_pitch_roll.png, id=219, 545.78906pt x 424.58624pt>
+File: Imagenes/Metodologia/pcb_yaw_pitch_roll.png Graphic file (type png)
+<use Imagenes/Metodologia/pcb_yaw_pitch_roll.png>
+Package pdftex.def Info: Imagenes/Metodologia/pcb_yaw_pitch_roll.png  used on input line 179.
+(pdftex.def)             Requested size: 363.96904pt x 283.14317pt.
+
+Sections/Firmware.tex:183: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:184: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \paragraph
+                {\large \textbf{Filtrado y recopilación de datos de movimie...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[27]
+
+Sections/Firmware.tex:185: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:186: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+
+Sections/Firmware.tex:191: Package titlesec Error: No format for this command.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...raph{\textbf{\large Fase de Predicción}}
+                                                   \\ \\
+If you (re)set the class of a sectioning command, you may
+you may need to (re)define its format with \titleformat
+
+Sections/Firmware.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.191 ...raph{\textbf{\large Fase de Predicción}}
+                                                   \\ \\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Sections/Firmware.tex:191: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.191 ...raph{\textbf{\large Fase de Predicción}}
+                                                   \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Sections/Firmware.tex:191: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.191 ...raph{\textbf{\large Fase de Predicción}}
+                                                   \\ \\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Sections/Firmware.tex:191: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.191 ...raph{\textbf{\large Fase de Predicción}}
+                                                   \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Sections/Firmware.tex:191: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...textbf{\large Fase de Predicción}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:192: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Sections/Firmware.tex:205: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \begin
+            {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[28 <./Imagenes/Metodologia/pcb_yaw_pitch_roll.png>]
+
+Sections/Firmware.tex:214: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:215: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 E
+       n esta fase de predicción, se actualizará el ángulo de Roll basado...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:217: Package titlesec Error: No format for this command.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 ...h{\textbf{\large Fase de Actualización}}
+                                                  
+If you (re)set the class of a sectioning command, you may
+you may need to (re)define its format with \titleformat
+
+Sections/Firmware.tex:217: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.217 ...h{\textbf{\large Fase de Actualización}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Sections/Firmware.tex:217: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.217 ...h{\textbf{\large Fase de Actualización}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Sections/Firmware.tex:217: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.217 ...h{\textbf{\large Fase de Actualización}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Sections/Firmware.tex:217: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.217 ...h{\textbf{\large Fase de Actualización}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Sections/Firmware.tex:239: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:240: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 E
+       n esta fase de actualización, se calcula la discrepancia entre la es...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+LaTeX Warning: Reference `fig:pitch' on page 29 undefined on input line 244.
+
+
+LaTeX Warning: Reference `fig:roll' on page 29 undefined on input line 244.
+
+<Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png, id=240, 628.749pt x 377.2494pt>
+File: Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png Graphic file (type png)
+<use Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png>
+Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png  used on input line 248.
+(pdftex.def)             Requested size: 363.96904pt x 218.39034pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--251
+
+ []
+
+[29]
+<Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png, id=245, 744.8628pt x 372.9132pt>
+File: Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png Graphic file (type png)
+<use Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>
+Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png  used on input line 255.
+(pdftex.def)             Requested size: 363.96904pt x 182.22263pt.
+<Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png, id=246, 899.61093pt x 413.29407pt>
+File: Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png Graphic file (type png)
+<use Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>
+Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png  used on input line 262.
+(pdftex.def)             Requested size: 363.96904pt x 167.2129pt.
+ [30 <./Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png> <./Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>]
+
+Sections/Firmware.tex:267: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:268: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 \paragraph
+                { \large \textbf{Protocolo de Inicialización y Recepción d...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:270: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:271: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 \begin
+            {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:292: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:293: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \paragraph
+                {\large Recepción de Datos del \textbf{BNO055}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:294: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:295: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295 \begin
+            {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:320: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.320 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:321: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 E
+       l heading (rumbo) se calcula utilizando los componentes X e Y del cam...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
+
+ []
+
+[31 <./Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>]
+
+Sections/Firmware.tex:338: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:339: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 P
+       ara reducir la oscilación en los valores de heading, se aplica un fi...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
+
+ []
+
+
+Sections/Firmware.tex:372: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:373: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.373 U
+       n barómetro es un instrumento capaz de medir la presión atmosféric...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+
+Sections/Firmware.tex:374: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 ...\textbf{Inicialización del BMP280}}\\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:375: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.375 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
+
+ []
+
+
+Sections/Firmware.tex:378: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.378 ...l EMA (Exponential Moving Average)}}\\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:379: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--390
+
+ []
+
+
+Sections/Firmware.tex:394: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.394 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:395: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 \paragraph
+                {\large  \textbf{Proceso de Lectura de Datos}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:396: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.396 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:397: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 \begin
+            {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:401: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.401 \end{enumerate}\\ \\
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:402: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:405: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 ...ema de Posicionamiento Global (GPS)}\\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:406: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.406 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `GPS' on page 33 undefined on input line 408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 412.
+(C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+Sections/Firmware.tex:418: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:419: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+LaTeX Warning: Reference `fig:gpsGnss' on page 33 undefined on input line 422.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+[33]
+<Imagenes/Firmware/GPS.png, id=296, 443.40656pt x 239.39438pt>
+File: Imagenes/Firmware/GPS.png Graphic file (type png)
+<use Imagenes/Firmware/GPS.png>
+Package pdftex.def Info: Imagenes/Firmware/GPS.png  used on input line 426.
+(pdftex.def)             Requested size: 284.52756pt x 153.62463pt.
+
+
+Sections/Firmware.tex:435: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:436: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 \subsection
+                 {Recopilación y Almacenamiento de Datos}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:437: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.437 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:438: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.438 E
+       n el ámbito de las aeronaves, la recopilación y el almacenamiento d...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Imagenes/Metodologia/SD.png, id=297, 597.23125pt x 437.635pt>
+File: Imagenes/Metodologia/SD.png Graphic file (type png)
+<use Imagenes/Metodologia/SD.png>
+Package pdftex.def Info: Imagenes/Metodologia/SD.png  used on input line 444.
+(pdftex.def)             Requested size: 144.54pt x 105.916pt.
+
+Sections/Firmware.tex:454: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.454 \end{itemize} \\ \\
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:455: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455 \subsubsection
+                    {Conexión y Configuración} \\\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[34 <./Imagenes/Firmware/GPS.png> <./Imagenes/Metodologia/SD.png (PNG copy)>]
+
+Sections/Firmware.tex:455: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455 ...bsection{Conexión y Configuración} \\\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:456: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Sections/Firmware.tex:464: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 \end{itemize} \\ \\
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:465: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.465 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+
+LaTeX Warning: Citation `flysky' on page 35 undefined on input line 478.
+
+
+LaTeX Warning: Citation `19' on page 35 undefined on input line 484.
+
+
+LaTeX Warning: Citation `19' on page 35 undefined on input line 485.
+
+
+LaTeX Warning: Citation `flysky' on page 35 undefined on input line 486.
+
+
+LaTeX Warning: Citation `flysky' on page 35 undefined on input line 487.
+
+
+LaTeX Warning: Reference `fig:radio_arqui' on page 35 undefined on input line 490.
+
+<Imagenes/Metodologia/Radio Control.drawio.png, id=308, 1004.75375pt x 468.75125pt>
+File: Imagenes/Metodologia/Radio Control.drawio.png Graphic file (type png)
+<use Imagenes/Metodologia/Radio Control.drawio.png>
+Package pdftex.def Info: Imagenes/Metodologia/Radio Control.drawio.png  used on input line 495.
+(pdftex.def)             Requested size: 433.62pt x 202.2958pt.
+[35] [36 <./Imagenes/Metodologia/Radio Control.drawio.png>]
+
+LaTeX Warning: Reference `fig:decodificador_transmisor' on page 37 undefined on input line 546.
+
+<Imagenes/Metodologia/Diagrama Receptor.png, id=327, 1121.18875pt x 456.70625pt>
+File: Imagenes/Metodologia/Diagrama Receptor.png Graphic file (type png)
+<use Imagenes/Metodologia/Diagrama Receptor.png>
+Package pdftex.def Info: Imagenes/Metodologia/Diagrama Receptor.png  used on input line 551.
+(pdftex.def)             Requested size: 433.62pt x 176.63037pt.
+
+Sections/Firmware.tex:564: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.564 \subsubsection{Módulo nRF24L01}\\ \\
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:565: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.565 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+
+Sections/Firmware.tex:570: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.570 \subsubsection{Estación en Tierra }\\ \\
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:571: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.571 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+[37 <./Imagenes/Metodologia/Diagrama Receptor.png>]
+
+LaTeX Warning: Reference `fig:estacion en tierra' on page 38 undefined on input line 577.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+
+Sections/Firmware.tex:584: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.584 \end{itemize} \\ \\
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:585: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.585 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Imagenes/Metodologia/estacion en tierra.png, id=340, 1445.4pt x 813.0375pt>
+File: Imagenes/Metodologia/estacion en tierra.png Graphic file (type png)
+<use Imagenes/Metodologia/estacion en tierra.png>
+Package pdftex.def Info: Imagenes/Metodologia/estacion en tierra.png  used on input line 589.
+(pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--592
+
+ []
+
+
+Sections/Firmware.tex:592: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.592 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:593: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.593 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:596: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.596 ...la Estación de Control en Tierra} \\  \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:597: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.597 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:diag-codigo ' on page 38 undefined on input line 599.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+
+ []
+
+
+Sections/Firmware.tex:601: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.601 \subsection{Controlador de Vuelo}\\  \\
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:602: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.602 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[38 <./Imagenes/Metodologia/estacion en tierra.png>]
+
+Sections/Firmware.tex:609: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.609     \\ \\
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:610: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.610     \item
+                \textbf{Bucle Principal (Mientras Está Encendido)}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:617: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.617     \\ \\
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:618: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.618     \item
+                \textbf{Tarea: Escritura y Movimiento de Actuadores}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:624: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.624 \\  \\
+            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:625: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 \subsection
+                 {Estación de Control en Tierra}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:633: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633     \\  \\
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:634: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634     \item
+                \textbf{Bucle Principal (Mientras Está Encendido)}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Imagenes/Interfaz/diagrama general de codigo.png, id=349, 893.3375pt x 784.9325pt>
+File: Imagenes/Interfaz/diagrama general de codigo.png Graphic file (type png)
+<use Imagenes/Interfaz/diagrama general de codigo.png>
+Package pdftex.def Info: Imagenes/Interfaz/diagrama general de codigo.png  used on input line 644.
+(pdftex.def)             Requested size: 454.95958pt x 399.75932pt.
+
+Sections/Firmware.tex:647: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.647 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:648: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.648 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[39]
+
+Sections/Firmware.tex:652: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.652 \subsection{Actuadores} \\ \\
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:653: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.653 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
+
+ []
+
+[40 <./Imagenes/Interfaz/diagrama general de codigo.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 664.
+
+
+Sections/Firmware.tex:670: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.670     // Función 
+                      que convierte un ángulo entre 0 y 180 a un ancho de p...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Sections/Firmware.tex:670: LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.670     // Función 
+                      que convierte un ángulo entre 0 y 180 a un ancho de p...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Sections/Firmware.tex:670: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.670     // Función que convierte un ángulo 
+                                               entre 0 y 180 a un ancho de p...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Sections/Firmware.tex:670: LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.670     // Función que convierte un ángulo 
+                                               entre 0 y 180 a un ancho de p...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
+
+ []
+
+Sections/Firmware.tex:681: Illegal parameter number in definition of \reserved@b.
+<to be read again> 
+                   }
+l.681 \item \texttt{#define MIN\_PULSE\_WIDTH 600}
+                                                  : Define el ancho de pulso...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Sections/Firmware.tex:681: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.681 \item \texttt{#define MIN\_PULSE\_WIDTH 600}
+                                                  : Define el ancho de pulso...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Sections/Firmware.tex:682: Illegal parameter number in definition of \reserved@b.
+<to be read again> 
+                   }
+l.682 ...m \texttt{#define MAX\_PULSE\_WIDTH 2600}
+                                                  : Define el ancho de pulso...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Sections/Firmware.tex:682: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.682 ...m \texttt{#define MAX\_PULSE\_WIDTH 2600}
+                                                  : Define el ancho de pulso...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+
+ []
+
+
+Sections/Firmware.tex:702: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.702 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:703: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.703 E
+       ste proceso asegura que los ángulos mapeados desde la señal del rad...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
+
+ []
+
+
+Sections/Firmware.tex:708: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.708 ...{Movimiento Superficies de Control} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:709: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.709 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:mov-Superficies ' on page 41 undefined on input line 710.
+
+<Imagenes/Firmware/Superficies de Control.png, id=363, 1325.95375pt x 743.77875pt>
+File: Imagenes/Firmware/Superficies de Control.png Graphic file (type png)
+<use Imagenes/Firmware/Superficies de Control.png>
+Package pdftex.def Info: Imagenes/Firmware/Superficies de Control.png  used on input line 714.
+(pdftex.def)             Requested size: 454.95958pt x 255.19666pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--717
+
+ []
+
+
+Sections/Firmware.tex:717: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.717 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:718: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.718 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[41]
+
+Sections/Firmware.tex:719: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:720: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.720 \subsection
+                 {Control} \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:720: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.720 \subsection{Control} \\ \\
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:721: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:pid1 ' on page 42 undefined on input line 722.
+
+<Imagenes/Firmware/PID basico.png, id=381, 1175.39125pt x 382.42876pt>
+File: Imagenes/Firmware/PID basico.png Graphic file (type png)
+<use Imagenes/Firmware/PID basico.png>
+Package pdftex.def Info: Imagenes/Firmware/PID basico.png  used on input line 727.
+(pdftex.def)             Requested size: 454.95958pt x 148.02621pt.
+
+Sections/Firmware.tex:730: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.730 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:731: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.731 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:732: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.732 \subsubsection{Modos de Operación} \\ \\
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:733: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.733 \begin
+            {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
+
+ []
+
+[42 <./Imagenes/Firmware/Superficies de Control.png> <./Imagenes/Firmware/PID basico.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--740
+
+ []
+
+<Imagenes/Firmware/Pantalla oled.png, id=393, 295.1025pt x 195.73125pt>
+File: Imagenes/Firmware/Pantalla oled.png Graphic file (type png)
+<use Imagenes/Firmware/Pantalla oled.png>
+Package pdftex.def Info: Imagenes/Firmware/Pantalla oled.png  used on input line 750.
+(pdftex.def)             Requested size: 454.95958pt x 301.76453pt.
+
+Sections/Firmware.tex:753: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.753 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Sections/Firmware.tex:754: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.754 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[43]) [44 <./Imagenes/Firmware/Pantalla oled.png>] (Sections/Interfaz.tex
+
+LaTeX Warning: Reference `fig:mapa Interfaz ' on page 45 undefined on input line 7.
+
+<Imagenes/Interfaz/mapa_interfaz.png, id=407, 1232.35406pt x 779.91376pt>
+File: Imagenes/Interfaz/mapa_interfaz.png Graphic file (type png)
+<use Imagenes/Interfaz/mapa_interfaz.png>
+Package pdftex.def Info: Imagenes/Interfaz/mapa_interfaz.png  used on input line 11.
+(pdftex.def)             Requested size: 433.62pt x 274.41386pt.
+
+LaTeX Warning: Reference `fig:metricas interfaz ' on page 45 undefined on input line 18.
+
+<Imagenes/Interfaz/metricas.png, id=408, 1189.44376pt x 778.40813pt>
+File: Imagenes/Interfaz/metricas.png Graphic file (type png)
+<use Imagenes/Interfaz/metricas.png>
+Package pdftex.def Info: Imagenes/Interfaz/metricas.png  used on input line 29.
+(pdftex.def)             Requested size: 433.62pt x 283.76622pt.
+[45
+
+ <./Imagenes/Interfaz/mapa_interfaz.png>]
+
+LaTeX Warning: Reference `fig:modelo 3d inerfaz ' on page 46 undefined on input line 36.
+
+<Imagenes/Interfaz/modelo3d.png, id=418, 1242.89343pt x 793.46437pt>
+File: Imagenes/Interfaz/modelo3d.png Graphic file (type png)
+<use Imagenes/Interfaz/modelo3d.png>
+Package pdftex.def Info: Imagenes/Interfaz/modelo3d.png  used on input line 39.
+(pdftex.def)             Requested size: 361.34999pt x 230.67992pt.
+[46 <./Imagenes/Interfaz/metricas.png>]
+<Imagenes/Interfaz/graficas.png, id=426, 1243.64626pt x 769.37437pt>
+File: Imagenes/Interfaz/graficas.png Graphic file (type png)
+<use Imagenes/Interfaz/graficas.png>
+Package pdftex.def Info: Imagenes/Interfaz/graficas.png  used on input line 50.
+(pdftex.def)             Requested size: 433.62pt x 268.25197pt.
+) [47 <./Imagenes/Interfaz/modelo3d.png> <./Imagenes/Interfaz/graficas.png>] (Sections/Costos.tex
+
+LaTeX Warning: Reference `fig:costesDesarrolloControlador' on page 48 undefined on input line 3.
+
+<Imagenes/Costos/presupuesto.png, id=436, 681.29532pt x 861.2175pt>
+File: Imagenes/Costos/presupuesto.png Graphic file (type png)
+<use Imagenes/Costos/presupuesto.png>
+Package pdftex.def Info: Imagenes/Costos/presupuesto.png  used on input line 7.
+(pdftex.def)             Requested size: 369.88582pt x 467.57361pt.
+) [48
+
+ <./Imagenes/Costos/presupuesto.png>] (Sections/pruebas_funcionamiento.tex [49
+
+]
+
+LaTeX Warning: Reference `fig:pruebasPWM' on page 50 undefined on input line 57.
+
+<Imagenes/Pruebas/pwm canales.png, id=460, 1615.03375pt x 392.46625pt>
+File: Imagenes/Pruebas/pwm canales.png Graphic file (type png)
+<use Imagenes/Pruebas/pwm canales.png>
+Package pdftex.def Info: Imagenes/Pruebas/pwm canales.png  used on input line 62.
+(pdftex.def)             Requested size: 505.89pt x 122.93285pt.
+
+Overfull \hbox (50.93042pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:pruebasPWM' on page 50 undefined on input line 69.
+
+[50 <./Imagenes/Pruebas/pwm canales.png>]
+<Imagenes/Pruebas/montajeControladores.png, id=469, 1445.4pt x 813.0375pt>
+File: Imagenes/Pruebas/montajeControladores.png Graphic file (type png)
+<use Imagenes/Pruebas/montajeControladores.png>
+Package pdftex.def Info: Imagenes/Pruebas/montajeControladores.png  used on input line 93.
+(pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
+ [51 <./Imagenes/Pruebas/montajeControladores.png (PNG copy)>] [52]
+
+LaTeX Warning: Reference `fig:comparacionRoll' on page 53 undefined on input line 196.
+
+<Imagenes/Pruebas/roll_1_compare.png, id=484, 685.251pt x 464.499pt>
+File: Imagenes/Pruebas/roll_1_compare.png Graphic file (type png)
+<use Imagenes/Pruebas/roll_1_compare.png>
+Package pdftex.def Info: Imagenes/Pruebas/roll_1_compare.png  used on input line 199.
+(pdftex.def)             Requested size: 397.48499pt x 269.44504pt.
+<Imagenes/Pruebas/roll_2_compare.png, id=485, 685.251pt x 464.499pt>
+File: Imagenes/Pruebas/roll_2_compare.png Graphic file (type png)
+<use Imagenes/Pruebas/roll_2_compare.png>
+Package pdftex.def Info: Imagenes/Pruebas/roll_2_compare.png  used on input line 206.
+(pdftex.def)             Requested size: 397.48499pt x 269.44504pt.
+[53 <./Imagenes/Pruebas/roll_1_compare.png>]
+
+LaTeX Warning: Reference `fig:comparacionPitch1' on page 54 undefined on input line 213.
+
+<Imagenes/Pruebas/pitch_1_compare.png, id=493, 685.47pt x 464.499pt>
+File: Imagenes/Pruebas/pitch_1_compare.png Graphic file (type png)
+<use Imagenes/Pruebas/pitch_1_compare.png>
+Package pdftex.def Info: Imagenes/Pruebas/pitch_1_compare.png  used on input line 218.
+(pdftex.def)             Requested size: 397.48499pt x 269.35999pt.
+[54 <./Imagenes/Pruebas/roll_2_compare.png>]
+<Imagenes/Pruebas/pitch_2_compare.png, id=502, 685.47pt x 464.28pt>
+File: Imagenes/Pruebas/pitch_2_compare.png Graphic file (type png)
+<use Imagenes/Pruebas/pitch_2_compare.png>
+Package pdftex.def Info: Imagenes/Pruebas/pitch_2_compare.png  used on input line 225.
+(pdftex.def)             Requested size: 397.48499pt x 269.23299pt.
+ [55 <./Imagenes/Pruebas/pitch_1_compare.png> <./Imagenes/Pruebas/pitch_2_compare.png>]
+<Imagenes/Pruebas/altura.jpg, id=512, 528.47438pt x 328.97906pt>
+File: Imagenes/Pruebas/altura.jpg Graphic file (type jpg)
+<use Imagenes/Pruebas/altura.jpg>
+Package pdftex.def Info: Imagenes/Pruebas/altura.jpg  used on input line 249.
+(pdftex.def)             Requested size: 363.96904pt x 226.57413pt.
+ [56 <./Imagenes/Pruebas/altura.jpg>]
+<Imagenes/Pruebas/gps.png, id=525, 343.2825pt x 261.22594pt>
+File: Imagenes/Pruebas/gps.png Graphic file (type png)
+<use Imagenes/Pruebas/gps.png>
+Package pdftex.def Info: Imagenes/Pruebas/gps.png  used on input line 277.
+(pdftex.def)             Requested size: 363.96904pt x 276.96591pt.
+) [57 <./Imagenes/Pruebas/gps.png>] (Sections/vuelo.tex) (Sections/prueba_vuelo.tex
+
+LaTeX Warning: Reference `fig:protege' on page 58 undefined on input line 6.
+
+<Imagenes/Pruebas/UAV protegé.png, id=532, 1445.4pt x 813.0375pt>
+File: Imagenes/Pruebas/UAV protegé.png Graphic file (type png)
+<use Imagenes/Pruebas/UAV protegé.png>
+Package pdftex.def Info: Imagenes/Pruebas/UAV protegé.png  used on input line 17.
+(pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
+
+LaTeX Warning: Reference `fig:diagrama_prueba_vuelo' on page 58 undefined on input line 25.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[58
+
+
+ <./Imagenes/Pruebas/UAV protegé.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<Imagenes/Pruebas/Esquematico.png, id=541, 1445.4pt x 813.0375pt>
+File: Imagenes/Pruebas/Esquematico.png Graphic file (type png)
+<use Imagenes/Pruebas/Esquematico.png>
+Package pdftex.def Info: Imagenes/Pruebas/Esquematico.png  used on input line 43.
+(pdftex.def)             Requested size: 341.43306pt x 192.0563pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--46
+
+ []
+
+[59 <./Imagenes/Pruebas/Esquematico.png>]
+
+LaTeX Warning: Reference `fig:matriz_prueba_vuelo' on page 60 undefined on input line 51.
+
+<Imagenes/Pruebas/matriz_prueba_vuelo_local.png, id=548, 412.54124pt x 472.76625pt>
+File: Imagenes/Pruebas/matriz_prueba_vuelo_local.png Graphic file (type png)
+<use Imagenes/Pruebas/matriz_prueba_vuelo_local.png>
+Package pdftex.def Info: Imagenes/Pruebas/matriz_prueba_vuelo_local.png  used on input line 55.
+(pdftex.def)             Requested size: 454.95958pt x 521.38625pt.
+[60
+
+ <./Imagenes/Pruebas/matriz_prueba_vuelo_local.png>]
+
+LaTeX Warning: Reference `fig:resumen_prueba_vuelo' on page 61 undefined on input line 62.
+
+<Imagenes/Pruebas/resumen_prueba_vuelo_local.png, id=557, 289.83281pt x 222.07968pt>
+File: Imagenes/Pruebas/resumen_prueba_vuelo_local.png Graphic file (type png)
+<use Imagenes/Pruebas/resumen_prueba_vuelo_local.png>
+Package pdftex.def Info: Imagenes/Pruebas/resumen_prueba_vuelo_local.png  used on input line 66.
+(pdftex.def)             Requested size: 284.52756pt x 218.02629pt.
+) [61 <./Imagenes/Pruebas/resumen_prueba_vuelo_local.png>] (Sections/resultados.tex
+
+LaTeX Warning: Reference `fig:GPS_pruebaVuelo' on page 62 undefined on input line 4.
+
+<Imagenes/Vuelo/gps_Prueba.png, id=564, 565.36218pt x 415.5525pt>
+File: Imagenes/Vuelo/gps_Prueba.png Graphic file (type png)
+<use Imagenes/Vuelo/gps_Prueba.png>
+Package pdftex.def Info: Imagenes/Vuelo/gps_Prueba.png  used on input line 7.
+(pdftex.def)             Requested size: 341.43306pt x 250.96301pt.
+
+LaTeX Warning: Reference `fig:GPS_altitud' on page 62 undefined on input line 12.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+<Imagenes/Vuelo/latitud y longitud acenso.png, id=565, 541.3023pt x 439.4016pt>
+File: Imagenes/Vuelo/latitud y longitud acenso.png Graphic file (type png)
+<use Imagenes/Vuelo/latitud y longitud acenso.png>
+Package pdftex.def Info: Imagenes/Vuelo/latitud y longitud acenso.png  used on input line 20.
+(pdftex.def)             Requested size: 454.95958pt x 369.32277pt.
+[62
+
+ <./Imagenes/Vuelo/gps_Prueba.png>]
+
+LaTeX Warning: Reference `fig:datos obtenidos bmp280' on page 63 undefined on input line 27.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<Imagenes/Vuelo/BMP280_sensor.png, id=574, 722.7pt x 1084.05pt>
+File: Imagenes/Vuelo/BMP280_sensor.png Graphic file (type png)
+<use Imagenes/Vuelo/BMP280_sensor.png>
+Package pdftex.def Info: Imagenes/Vuelo/BMP280_sensor.png  used on input line 39.
+(pdftex.def)             Requested size: 454.95958pt x 682.44235pt.
+[63 <./Imagenes/Vuelo/latitud y longitud acenso.png>]
+Overfull \vbox (68.40782pt too high) has occurred while \output is active []
+
+ [64 <./Imagenes/Vuelo/BMP280_sensor.png>]
+
+LaTeX Warning: Reference `fig:datosYawPitch, roll' on page 65 undefined on input line 51.
+
+
+LaTeX Warning: Reference `fig:datos obtenidos BNO055' on page 65 undefined on input line 51.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+<Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png, id=588, 722.7pt x 505.89pt>
+File: Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png Graphic file (type png)
+<use Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>
+Package pdftex.def Info: Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png  used on input line 66.
+(pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
+<Imagenes/Vuelo/BNO055_orientacion.png, id=589, 722.7pt x 1084.05pt>
+File: Imagenes/Vuelo/BNO055_orientacion.png Graphic file (type png)
+<use Imagenes/Vuelo/BNO055_orientacion.png>
+Package pdftex.def Info: Imagenes/Vuelo/BNO055_orientacion.png  used on input line 74.
+(pdftex.def)             Requested size: 426.79134pt x 640.196pt.
+[65 <./Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>]
+Overfull \vbox (26.16147pt too high) has occurred while \output is active []
+
+ [66 <./Imagenes/Vuelo/BNO055_orientacion.png>]
+
+LaTeX Warning: Reference `fig:comparacion transmision y recepcion' on page 67 undefined on input line 82.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+<Imagenes/Vuelo/comparison_subplots.png, id=604, 722.7pt x 1084.05pt>
+File: Imagenes/Vuelo/comparison_subplots.png Graphic file (type png)
+<use Imagenes/Vuelo/comparison_subplots.png>
+Package pdftex.def Info: Imagenes/Vuelo/comparison_subplots.png  used on input line 96.
+(pdftex.def)             Requested size: 454.95958pt x 682.44235pt.
+[67]
+Overfull \vbox (68.40782pt too high) has occurred while \output is active []
+
+ [68 <./Imagenes/Vuelo/comparison_subplots.png>]
+
+LaTeX Warning: Reference `fig:Datos guardados Interfaz' on page 69 undefined on input line 104.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+<Imagenes/Vuelo/subplots_interfaz.png, id=616, 578.16pt x 650.43pt>
+File: Imagenes/Vuelo/subplots_interfaz.png Graphic file (type png)
+<use Imagenes/Vuelo/subplots_interfaz.png>
+Package pdftex.def Info: Imagenes/Vuelo/subplots_interfaz.png  used on input line 116.
+(pdftex.def)             Requested size: 454.95958pt x 511.82927pt.
+) [69] [70 <./Imagenes/Vuelo/subplots_interfaz.png>] (Sections/conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+) [71
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+[]\T1/ptm/m/n/8 BricoGeek, "Sen-sor iner-cial Ab-so-lu-to 9 DOF BNO055 Ada-fruit 4646,"Bri-co-Geek.com. Dis-po-ni-ble en:
+ []
+
+
+Overfull \hbox (7.61966pt too wide) in paragraph at lines 231--232
+[]\T1/ptm/m/n/8 Vistronica, "M�-du-lo MPU6050 pa-ra Ar-duino,"Vistronica SAS, [On-li-ne]. Dis-po-ni-ble en: https://www.vistronica.com/sensores/imu/modulo-
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 240--241
+[]\T1/ptm/m/n/8 Dejan Ne-del-kovs-ki, .[]rduino Wi-re-less Com-mu-ni-ca-tion ^^U NRF24L01 Tu-to-rial,"HowToMechatronics, [On-li-ne]. Avai-la-ble:
+ []
+
+(Sections/anexos.tex
+<Imagenes/Anexos/esquematico_controlador_v1.png, id=638, 696.6828pt x 492.8814pt>
+File: Imagenes/Anexos/esquematico_controlador_v1.png Graphic file (type png)
+<use Imagenes/Anexos/esquematico_controlador_v1.png>
+Package pdftex.def Info: Imagenes/Anexos/esquematico_controlador_v1.png  used on input line 6.
+(pdftex.def)             Requested size: 454.95958pt x 321.88078pt.
+ [72
+pdfTeX warning (ext4): destination with the same identifier (name{cite.GPS}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.10 
+     ]
+<Imagenes/Anexos/layout_pcb.png, id=672, 1044.15094pt x 395.97937pt>
+File: Imagenes/Anexos/layout_pcb.png Graphic file (type png)
+<use Imagenes/Anexos/layout_pcb.png>
+Package pdftex.def Info: Imagenes/Anexos/layout_pcb.png  used on input line 13.
+(pdftex.def)             Requested size: 454.95958pt x 172.53966pt.
+<Imagenes/Anexos/pcb_primera_iteracion.png, id=673, 991.45406pt x 414.04688pt>
+File: Imagenes/Anexos/pcb_primera_iteracion.png Graphic file (type png)
+<use Imagenes/Anexos/pcb_primera_iteracion.png>
+Package pdftex.def Info: Imagenes/Anexos/pcb_primera_iteracion.png  used on input line 20.
+(pdftex.def)             Requested size: 454.95958pt x 189.99634pt.
+ [73 <./Imagenes/Anexos/esquematico_controlador_v1.png> <./Imagenes/Anexos/layout_pcb.png>]
+<Imagenes/Anexos/carcasa_version.png, id=682, 1436.36626pt x 1406.25375pt>
+
+Sections/anexos.tex:27: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   )
+l.27 ...h-2)]{Imagenes/Anexos/carcasa_version.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Sections/anexos.tex:27: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   )
+l.27 ...h-2)]{Imagenes/Anexos/carcasa_version.png}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: Imagenes/Anexos/carcasa_version.png Graphic file (type png)
+<use Imagenes/Anexos/carcasa_version.png>
+Package pdftex.def Info: Imagenes/Anexos/carcasa_version.png  used on input line 27.
+(pdftex.def)             Requested size: 452.95958pt x 443.4658pt.
+[74 <./Imagenes/Anexos/pcb_primera_iteracion.png>]) [75 <./Imagenes/Anexos/carcasa_version.png>] (main.aux
+LaTeX Info: Redefining \sptext on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 43783 strings out of 474486
+ 835006 string characters out of 5742774
+ 2008542 words of memory out of 5000000
+ 64961 multiletter control sequences out of 15000+600000
+ 698051 words of font info for 190 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 99i,17n,117p,1551b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (76 pages, 20869230 bytes).
+PDF statistics:
+ 1117 PDF objects out of 1200 (max. 8388607)
+ 322 named destinations out of 1000 (max. 500000)
+ 1108 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,35 @@
+
+\section{Conclusiones}
+
+
+
+En este proyecto se logró hacer el diseño de un controlador de vuelo el cual cumple con todos los requisitos para ser implementado en la operación de un UAV de ala fija. Este diseño se logró implementar y operar en una aeronave real. Esto mediante la conexión exitosa de sensores y actuadores con el controlador de vuelo.\\
+
+Además, se hizo un diseño del firmware e interfaces de vuelo el cual incluye algoritmos de control y sistemas de comunicación con los sensores. Se lograron transmitir los datos de orientación, altura, presión atmosférica y temperatura a una estación en tierra donde se pudo visualizar y recuperar dicha información.\\
+
+Adicionalmente, se verificó el funcionamiento de los distintos sensores integrados en la aeronave contribuyendo esto al diseño de un sistema expansible y modular, lo cual facilita futuras mejoras y la integración de nuevos componentes. Fue posible diseñar e implementar un controlador de vuelo que opera efectivamente en condiciones reales de vuelo. Transmitiendo datos de GPS y telemetría en tiempo real se logró correctamente, permitiendo una supervisión constante y la capacidad de analizar estos parámetros en tiempo real mediante el uso de una interfaz.\\
+
+
+
+\section{Trabajos Futuros}
+
+Durante el desarrollo del proyecto se evidenciaron los siguientes problemas:
+\begin{itemize}
+    \item \textbf{Pérdida y Corrupción de Datos:} Durante las pruebas de vuelo, se observó una considerable pérdida y corrupción de datos, especialmente en las variables de altitud y presión. Esta situación se debe a errores en la codificación y decodificación de los datos, así como a limitaciones en la capacidad de transmisión del módulo nRF24L01, que puede manejar solo hasta 32 bits por paquete.
+    
+    \item \textbf{Cuello de Botella en la Transmisión de Datos:} La transmisión de datos generó un cuello de botella, afectando la integridad de la información recibida. Para mitigar este problema, se propone implementar un buffer en la interfaz de la comunicación serial. Este buffer ayudará a gestionar mejor el flujo de datos, asegurando una transmisión más eficiente.
+    
+    \item \textbf{Optimización de la Interfaz de Usuario:} Es esencial optimizar la interfaz de usuario para evitar retrasos y asegurar una visualización más fluida de los datos. Esto mejorará la capacidad de monitoreo en tiempo real y la fiabilidad de la información presentada.
+
+\end{itemize}
+
+
+Los tres objetivos principales de mejora que se pueden seguir para hacer del sistema de control de vuelo de mejor calidad, más confiable y fuerte incluyen:\\
+
+Primero, mejorar el hardware del proyecto al fusionar todos los módulos en una misma placa de circuito impreso, mejorando la eficiencia del dispositivo, reduciendo el ruido y mejorando la conectividad de un módulo a otro. La estabilidad del sistema eléctrico también mejorará con un segundo inversor y un regulador de potencia continuo. Además, un módulo adicional de protección contra el flujo de corriente inversa y un sistema de gestión de baterías (BMS) deben ser parte del sistema para proteger la batería del UAV, lo cual hará que el sistema en su conjunto sea aún más confiable y duradero.\\
+
+En segundo lugar, se debe seleccionar un módulo de comunicación que tenga más capacidad de transmisión de bits, con  una mayor frecuencia de transmisión. Esto mejorará el flujo de datos con menos posibilidades de perdidas. También, con el uso de un sistema de comunicación, como MAVLink, se permitiría detectar fallas en la transmisión de paquetes y tener una fiabilidad mejorada en términos de transmisión de datos.\\
+
+Finalmente, la interfaz de usuario debería ser mejorada y optimizada. La configuración de un buffer en la interfaz de comunicación serial hará que los datos entrantes se presenten correctamente de manera eficaz, mejorando la interfaz del usuario. 
+
+Estas innovaciones permitirán al controlador de vuelo ser más robusto y estable, mejorando la eficiencia, estabilidad y seguridad del sistema, así como la calidad de la interacción con el usuario.

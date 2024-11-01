@@ -1,0 +1,96 @@
+%Cambios de configuración%
+
+%************************
+
+%Configuración de MEL:
+
+%Para remover tildes en operadores:
+\unaccentedoperators
+
+%Para la creación de lemas.
+\newenvironment{lema}
+{\begin{enumerate}[label=]\item}
+{\end{enumerate}}
+
+%Para la creación de casos.
+\newenvironment{case}
+{\begin{enumerate}[label=]\item}
+{\end{enumerate}}
+
+%************************************
+% Comandos no de MEL (del documento):
+%************************************
+
+%Más espacio vertical en tablas:
+\renewcommand{\arraystretch}{1.5}
+
+%Cambio de icono en itemize:
+\renewcommand{\labelitemi}{$\diamond$}
+\renewcommand{\labelitemii}{$\circ$}
+
+%Ruta de las imágenes:
+\graphicspath{{Imagenes/}} 
+
+%Estilo de la bibliografía:
+\bibliographystyle{apacite}
+
+%Color naranja:
+\definecolor{DarkOrange}{RGB}{255,153,0}
+
+%Color verde:
+\definecolor{DarkGreen}{RGB}{51,120,0}
+
+%Color azul:
+\definecolor{DarkBlue}{RGB}{0,0,140}
+
+%Color azul especial:
+\definecolor{aaublue}{RGB}{33,25,82}
+
+% Formateo de los títulos de secciones.
+\usepackage{titlesec}
+
+% Configuración para capítulos grandes y centrados
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering} % Formato del título del capítulo (grande, negrita, centrado)
+  {\chaptername\ \thechapter} % Número del capítulo
+  {20pt} % Espacio entre el número y el título
+  {\Huge} % Formato del título
+  [\vspace{20pt}] % Espacio después del título
+
+% Configuración para secciones grandes y centradas
+\titleformat{\section}
+  {\color{aaublue}\normalfont\LARGE\bfseries\centering} % Formato del título de la sección (grande, negrita, centrado)
+  {\thesection}{1em}{}
+  [\vspace{10pt}] % Espacio después del título
+
+% Configuración para subsecciones
+\titleformat{\subsection}
+  {\color{aaublue}\normalfont\Large\bfseries} % Formato del título de la subsección (grande, negrita)
+  {\thesubsection}{1em}{}
+  [\vspace{10pt}] % Espacio después del título
+
+\titleformat*{\subsubsection}
+  {\color{aaublue}\normalfont\normalsize\bfseries}
+
+% Espacio antes y después de los títulos de capítulos y secciones
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\titlespacing*{\section}{0pt}{20pt}{15pt}
+\titlespacing*{\subsection}{0pt}{10pt}{10pt}
+
+%Cambia las comas por puntos en modo math:
+\decimalpoint
+
+%Mismo estilo de URL que la letra:
+\urlstyle{rm}
+
+%Permite un estilo de URL en APA bueno:
+\AtBeginDocument{\urlstyle{APACsame}}
+
+%Sube el título:
+\setlength{\droptitle}{-7em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textbf{Universidad de los Andes}}
+\lhead{\textbf{Proyecto Grado}}
+\fancyfoot[CE,CO]{\thepage}

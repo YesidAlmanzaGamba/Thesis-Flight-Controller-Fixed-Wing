@@ -1,0 +1,30 @@
+\section{Introducción }
+\vspace{5 px}
+
+
+Este proyecto se enfoca en la investigación y desarrollo de un controlador de vuelo destinado a ser implementado en vehículos aéreos no tripulados (UAVs), en este caso particular un UAV de ala fija. La relevancia de este proyecto radica en el papel crucial que desempeña el controlador de vuelo, siendo este dispositivo el encargado del monitoreo, sensado y control de la aeronave \cite{justin}. \\
+
+%Adicionalmente, en este proyecto se abarca el planteamiento de un algoritmo de navegación autónoma mediante el controlador de vuelo. Esta área de investigación se encuentra en constante evolución y presenta un creciente interés en diversas aplicaciones, tales como; la agricultura, la vigilancia, la cartografía, la inspección de infraestructuras y el envío de suministros médicos en zonas rurales. La capacidad de planificar y seguir trayectorias de vuelo con precisión es esencial para maximizar la eficiencia de las operaciones, reducir costos y garantizar la seguridad en vuelos autónomos a larga distancia \cite{3}.
+
+Los sistemas aéreos no tripulados han sido objeto de desarrollo desde los años 80s. Su evolución ha pasado por varias denominaciones. En la década de 1930 se empezó a utilizar el término “drone”, que traducido literalmente del inglés significa “zángano” y fue de uso extendido hasta la década de los 50. En los años 60 apareció la denominación RPV (Remotely Piloted Vehicle), es decir, vehículo pilotado a distancia. Durante los 80, la Autoridad de Aviación Civil norteamericana introdujo cambios conceptuales al concepto RPV, aplicando la denominación “Remotely Operated Aircraft” (ROA), sustituyendo las palabras “vehículo” por “aeronave” y “pilotado” por “operado” \cite{UAS-FAC}.\\
+
+En Colombia, los UAS son utilizados en diversas aplicaciones. La Fuerza Aérea los emplea para seguridad; en agricultura, se utilizan para fumigar cultivos; en fotogrametría, para estudios topográficos; y en mercadeo, para programas publicitarios, entre otros \cite{UAgriculture}. De acuerdo a una entrevista realizada a Andrés Gomez, ingeniero electrónico que participó en el desarrollo del Vtool de la Fuerza Aérea Colombiana \textit{coelum}; la mayoría de los controladores de vuelo de los UAV utilizados son comerciales e internacionales. Una evaluación del mercado de empresas como SpeedyBee, Ardupilot y  ,ha permitido identificar que, aunque pueden ser adquiridos en el mercado nacional, presentan las siguientes características:\\
+
+\begin{itemize}
+    \item Manejan un número de actuadores de 1 a 11
+    \item Tienen un consumo de 300 mA/h
+    \item Pesan aproximadamente 10 g
+    \item El control de la nave puede realizarse solo en el aire o solo en tierra.
+    \item La operación es ciega, lo que indica que el operador de vuelo solo maneja el transmisor pero no tiene conocimiento de la aeronave, por ejemplo, ángulos de giro, altitud, presión atmosférica, entre otros.
+    \item Tienen una sola unidad de recolección de movimiento inercial.
+    \item Los modelos comerciales, como el Speedy Bee, cuentan con un sistema de recopilación de datos encriptados.
+\end{itemize}
+
+
+\vspace{5 px}
+El controlador de vuelo propuesto posee características diferenciadoras frente a un controlador de vuelo comercial. Primero, busca ampliar significativamente la capacidad de actuadores disponibles, lo que resultará en una mayor maniobrabilidad y versatilidad del UAV. Por otra parte, da prioridad a la integración de dispositivos especializados incluyendo; altímetro, barómetro, gps y sensores inerciales. Estos proporcionarán datos esenciales como la orientación, velocidad angular, aceleración, longitud, latitud,  y posición geográfica. Esto mejorará la seguridad, precisión, confiabilidad y rendimiento general del UAV. Por último, se incluye una pantalla de visualización en el UAV, que permitirá verificar el correcto funcionamiento de la posición GPS, los ángulos de orientación y la altura del dispositivo previamente a una misión de vuelo.\\
+
+El objetivo de este tesis es proponer un controlador de vuelo, implementarlo en un UAV de ala fija real y realizar pruebas de vuelo para evaluar su rendimiento. Esta investigación tiene como propósito principal mejorar la instrumentación de los UAVs de ala fija, lo cual puede tener un impacto significativo en diversas aplicaciones industriales.\\
+
+Al culminar este proyecto, se logró monitorear y supervisar los ángulos de giro de la areonave en tiempo real (Yaw Pitch, Roll), así como la altitud, posición GPS y presión atmosférica. Además, junto con los datos de geolocalización y altitud se logró reconstruir la trayectoria seguida por la aeronave durante la prueba de vuelo. Esto puede ser de gran utilidad para industrias en donde se requiera monitoreo constante de aeronaves no tripuladas.
+
