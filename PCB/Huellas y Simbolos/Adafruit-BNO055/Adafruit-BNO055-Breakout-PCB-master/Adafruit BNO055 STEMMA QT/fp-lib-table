@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Adafruit BNO055 STEMMA QT")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit BNO055 STEMMA QT.pretty")(options "")(descr ""))
-)

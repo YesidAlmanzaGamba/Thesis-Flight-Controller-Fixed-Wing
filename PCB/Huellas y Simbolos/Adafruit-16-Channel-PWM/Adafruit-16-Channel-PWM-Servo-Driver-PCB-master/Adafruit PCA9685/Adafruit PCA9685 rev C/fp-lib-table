@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Adafruit PCA9685 rev C")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit PCA9685 rev C.pretty")(options "")(descr ""))
-)

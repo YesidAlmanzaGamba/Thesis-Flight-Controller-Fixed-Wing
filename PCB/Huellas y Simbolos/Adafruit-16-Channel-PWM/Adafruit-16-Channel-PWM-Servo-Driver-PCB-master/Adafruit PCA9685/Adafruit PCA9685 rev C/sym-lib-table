@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "Adafruit PCA9685 rev C-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Adafruit PCA9685 rev C-eagle-import.kicad_sym")(options "")(descr ""))
-)
