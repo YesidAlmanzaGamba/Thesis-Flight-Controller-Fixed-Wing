@@ -1,0 +1,104 @@
+#include <Arduino.h>
+#include <Wire.h>
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BNO055.h>
+#include "ms4525do.h"
+
+// Crear una instancia del sensor BNO055
+Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x29); // 55 es el ID del sensor, 0x29 es la dirección I2C
+bfs::Ms4525do pitot;
+
+float airTemperature = 0;
+float airPressure = 0;
+float airPressurePsi = 0;
+float airSpeed = 0;
+float RHO_AIR = 0;
+
+void updateRho() {
+    float T = airTemperature + 273.15; // Convertir a Kelvin
+    RHO_AIR = (0.125 * 100) / ((8.31446261815324) * 220); // Densidad del aire
+}
+
+void PressurePSI() {
+  airPressurePsi = airPressure * 0.1450377377; // Convertir kPa a PSI
+}
+
+void updateAirSpeed() {
+    float pressure = pitot.pres_pa();
+    if (pressure > 0) {
+        airSpeed = sqrt((2 * pressure) / (RHO_AIR));
+    } else {
+        airSpeed = 0;
+    }
+    PressurePSI();
+}
+
+void showPressure() {
+    Serial.print(" Pressure Kpa: ");
+    Serial.print(airPressure, 6);
+    Serial.print(" Velocidad del aire (m/s): ");
+    Serial.print(airSpeed, 6);
+    Serial.print(" Air density: ");
+    Serial.print(RHO_AIR, 6);
+    Serial.print(" Air Temperature: ");
+    Serial.println(airTemperature);
+}
+
+void readPitotData() {
+
+    
+    if (pitot.Read()) {
+    /* Display the data */
+    Serial.print(pitot.pres_pa(), 6);
+    Serial.print("\t");
+    Serial.print(pitot.die_temp_c(), 6);
+    Serial.print("\n");
+  }
+    //updateRho();
+    //updateAirSpeed();
+    //showPressure();
+}
+
+void setup(void) {
+  Serial.begin(115200);
+  Wire.begin();
+  Wire.setClock(400000);
+
+  Serial.println("Orientation Sensor Test"); 
+  Serial.println("");
+  
+  /* Initialise the sensor */
+  if (!bno.begin()) {
+    /* There was a problem detecting the BNO055 ... check your connections */
+    Serial.print("Ooops, no BNO055 detected ... Check your wiring or I2C ADDR!");
+    while (1);
+  }
+  
+  delay(1000);
+    
+  bno.setExtCrystalUse(true);
+
+  pitot.Config(&Wire, 0x28, 1.0f, -1.0f);
+  if (!pitot.Begin()) {
+    Serial.println("Error communicating with pitot");
+  }
+}
+
+void loop(void) {
+  /* Get a new sensor event */ 
+  sensors_event_t event; 
+  bno.getEvent(&event);
+  
+  /* Display the floating point data */
+  Serial.print("X: ");
+  Serial.print(event.orientation.x, 4);
+  Serial.print("\tY: ");
+  Serial.print(event.orientation.y, 4);
+  Serial.print("\tZ: ");
+  Serial.print(event.orientation.z, 4);
+  Serial.println("");
+
+  readPitotData();
+  
+  delay(100);
+}

@@ -1,0 +1,83 @@
+
+#include <Arduino.h>
+
+
+int pin = 7;
+unsigned long duration;
+unsigned long total;
+int count=0;
+unsigned long durations[10] = {0};
+void setup() {
+  Serial.begin(115200);
+  pinMode(pin, INPUT);
+}
+
+void loop() {
+  duration = pulseIn(pin, HIGH,3000)+400;
+  total = total + duration;
+  if(duration > 2000){
+    Serial.print(duration);
+    Serial.print("\t");
+    Serial.println(total);
+    total = 0;
+    count=0;
+  }
+  else{
+    
+    Serial.print(count);
+    durations[count] = duration;
+    Serial.print(" ch");
+    Serial.print(count);
+    Serial.print(": ");
+    Serial.print(durations[count]);
+    Serial.print("\t");
+    count++;
+  }
+}
+
+
+/*
+#include <Arduino.h>
+
+const int pin = 7;
+const int numChannels = 10;
+unsigned long durations[numChannels] = {0};
+unsigned long duration;
+unsigned long total = 0;
+int channelIndex = 0;
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(pin, INPUT);
+}
+
+void loop() {
+  duration = pulseIn(pin, HIGH) + 400;
+  total += duration;
+
+  if (duration > 2000) { // Pulso de sincronización
+    // Reinicia el índice para la siguiente secuencia
+    channelIndex = 0;
+
+    // Imprime los valores almacenados
+    for (int i = 0; i < numChannels; i++) {
+      Serial.print("Ch");
+      Serial.print(i + 1);
+      Serial.print(": ");
+      Serial.print(durations[i]);
+      if (i < numChannels - 1) {
+        Serial.print("\t");
+      }
+    }
+    Serial.println();
+
+    // Reinicia para la siguiente secuencia
+    total = 0;
+  } else {
+    if (channelIndex < numChannels) {
+      durations[channelIndex] = duration;
+      channelIndex++;
+    }
+  }
+}
+*/

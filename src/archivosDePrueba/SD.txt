@@ -1,0 +1,126 @@
+#include <SPI.h>
+#include <SD.h>
+
+// Pines para el lector de tarjetas SD
+#define MOSI_PIN 35
+#define SCK_PIN 36
+#define MISO_PIN 37
+#define CS_PIN 38
+
+File myFile;
+bool fileCreated = false;
+String fileName;
+
+// Variables de los datos
+float temperatura = 25.09;
+float presion = 743.60;
+float altitud = 2649.70;
+float yaw1 = 0.60;
+float pitch1 = 5.38;
+float roll1 = 0.62;
+float yaw = 150.69;
+float pitch = 0.00;
+float roll = -6.00;
+float compass = 297.92;
+float latitud = 0.000000;
+float longitud = 0.000000;
+
+void createNewFile() {
+  int fileCounter = 0;
+  File root = SD.open("/");
+  File file = root.openNextFile();
+
+  while (file) {
+    fileCounter++;
+    file = root.openNextFile();
+  }
+
+  fileName = "/dataSaved_" + String(fileCounter + 1) + ".csv";
+
+  // Crea y abre el archivo para escribir, y escribe la cabecera
+  myFile = SD.open(fileName, FILE_WRITE);
+  if (myFile) {
+    myFile.println("temperatura,presion,altitud,yaw1,pitch1,roll1,yaw,pitch,roll,compass,latitud,longitud");
+    myFile.close();
+    fileCreated = true;
+    Serial.println("File created: " + fileName);
+  } else {
+    Serial.println("Error creating file.");
+  }
+}
+
+
+
+void saveData() {
+  // Abre el archivo para añadir datos
+  myFile = SD.open(fileName, FILE_APPEND);
+  if (myFile) {
+    // Escribe los datos en el archivo
+    myFile.print(temperatura);
+    myFile.print(",");
+    myFile.print(presion);
+    myFile.print(",");
+    myFile.print(altitud);
+    myFile.print(",");
+    myFile.print(yaw1);
+    myFile.print(",");
+    myFile.print(pitch1);
+    myFile.print(",");
+    myFile.print(roll1);
+    myFile.print(",");
+    myFile.print(yaw);
+    myFile.print(",");
+    myFile.print(pitch);
+    myFile.print(",");
+    myFile.print(roll);
+    myFile.print(",");
+    myFile.print(compass);
+    myFile.print(",");
+    myFile.print(latitud);
+    myFile.print(",");
+    myFile.println(longitud);
+    myFile.close();
+    Serial.println("Data written to file: " + fileName);
+  } else {
+    Serial.println("Error opening file for writing.");
+  }
+}
+
+
+void setup() {
+  Serial.begin(115200);
+
+  // Configura el SPI con los pines especificados
+  SPI.begin(SCK_PIN, MISO_PIN, MOSI_PIN, CS_PIN);
+
+  if (!SD.begin(CS_PIN, SPI)) {
+    Serial.println("Initialization of SD card failed!");
+    return;
+  }
+  Serial.println("SD card is ready to use.");
+
+  createNewFile();
+}
+
+void loop() {
+  if (fileCreated) {
+    // Simula la recolección de datos actualizando las variables
+    // Aquí podrías poner la lógica para actualizar las variables con los datos actuales
+    temperatura = 25.10; // Ejemplo de actualización de los datos
+    presion = 743.65;
+    altitud = 2650.00;
+    yaw1 = 0.65;
+    pitch1 = 5.40;
+    roll1 = 0.65;
+    yaw = 150.75;
+    pitch = 0.05;
+    roll = -6.05;
+    compass = 298.00;
+    latitud = 0.000010;
+    longitud = 0.000010;
+
+    saveData();  // Llama a la función para guardar los datos
+    delay(500); // Espera 5 segundos antes de recolectar y escribir nuevos datos
+  }
+}
+

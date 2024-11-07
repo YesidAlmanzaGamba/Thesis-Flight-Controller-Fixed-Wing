@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "name": "Flotsam",
+        "url": "https://os.mbed.com/teams/Flotsam/"
+    },
+    "build": {
+        "builder": "MbedLibBuilder"
+    },
+    "description": "Adafruit GPS library",
+    "examples": [
+        "https://os.mbed.com/teams/Flotsam/code/GPSLibrary/"
+    ],
+    "frameworks": "mbed",
+    "keywords": [],
+    "name": "Adafruit_GPS",
+    "platforms": "*",
+    "repository": {
+        "type": "hg",
+        "url": "https://os.mbed.com/teams/Flotsam/code/Adafruit_GPS/"
+    },
+    "version": "0.0.0+sha.ba9ed1caafc3"
+}

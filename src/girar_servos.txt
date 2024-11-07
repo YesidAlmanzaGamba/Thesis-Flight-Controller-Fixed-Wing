@@ -1,0 +1,41 @@
+#include <Arduino.h>
+#include <Wire.h>
+#include <Adafruit_PWMServoDriver.h>
+
+// Crear un objeto PCA9685 con la dirección I2C predeterminada (0x40)
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+void setServoPulse(uint8_t n, double pulse) {
+  double pulselength;
+  
+  pulselength = 1000000;   // 1,000,000 us por segundo
+  pulselength /= 50;   // 50 Hz
+  pulselength /= 4096; // 12 bits de resolución
+
+  pulse /= pulselength;
+  pwm.setPWM(n, 0, pulse);
+}
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println("Iniciando PCA9685...");
+
+  pwm.begin();
+  pwm.setPWMFreq(50);  // Frecuencia PWM de 50 Hz para servos
+
+  delay(10);
+}
+
+void loop() {
+  // Mover el servo a la posición mínima (ángulo 0 grados)
+  setServoPulse(0, 1000);
+  delay(1000);
+
+  // Mover el servo a la posición máxima (ángulo 180 grados)
+  setServoPulse(0, 2000);
+  delay(1000);
+
+  // Mover el servo a la posición media (ángulo 90 grados)
+  setServoPulse(0, 1500);
+  delay(1000);
+}
+

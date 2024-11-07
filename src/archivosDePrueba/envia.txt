@@ -1,0 +1,39 @@
+#include <SPI.h>
+#include <nRF24L01.h>
+#include <RF24.h>
+
+// Configura los pines personalizados para SPI
+const int userCePin = 5;
+const int userCsnPin = 10;
+SPIClass userSPI(VSPI);  // Usando el bus SPI hardware VSPI
+
+RF24 radio(userCePin, userCsnPin, userSPI); // CE, CSN, SPI
+
+const byte address[6] = "00001";
+
+struct Data_Package {
+  byte a = 0;
+  byte b = 125;
+  byte c = 255;
+  int d = 1024;
+  float e = 3.141592;
+  char f[6] = "Test";
+};
+
+Data_Package data;
+
+void setup() {
+  // Configura los pines de SPI
+  userSPI.begin(18, 19, 23, userCsnPin); // SCK, MISO, MOSI, CSN
+  
+  radio.begin();
+  radio.openWritingPipe(address);
+  radio.setPALevel(RF24_PA_MIN);
+  radio.stopListening();
+}
+
+void loop() {
+  data.a++;
+  radio.write(&data, sizeof(Data_Package));
+  delay(1000);
+}

@@ -1,0 +1,396 @@
+
+
+#include <Arduino.h>
+#include "SoftwareSerial.h"
+#include "Q2HX711.h"
+#include <Adafruit_MPU6050.h>
+#include <Adafruit_Sensor.h>
+#include <Wire.h>
+
+// Tubo pitot
+const byte MPS_OUT_pin = 33; // OUT data pin
+const byte MPS_SCK_pin = 25; // clock data pin
+int avg_size = 10; // #pts to average over
+Q2HX711 MPS20N0040D(MPS_OUT_pin, MPS_SCK_pin); // start comm with the HX710B
+
+// Giroscopio
+Adafruit_MPU6050 mpu;
+
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+
+  //Tubo pitot
+  float avg_val = 0.0; // variable for averaging
+  for (int ii=0;ii<avg_size;ii++){
+    avg_val += MPS20N0040D.read(); // add multiple ADC readings
+    delay(50); // delay between readings
+    }
+  avg_val /= avg_size;
+  Serial.println(avg_val,0); // print out the average
+
+  //giroscopio
+  sensors_event_t a, g, temp;
+  mpu.getEvent(&a, &g, &temp);
+  if (!mpu.begin()) {
+    Serial.println("Failed to find MPU6050 chip");
+    while (1) {
+      delay(10);
+    }
+  }
+  Serial.println("MPU6050 Found!");
+
+  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
+  Serial.print("Accelerometer range set to: ");
+  switch (mpu.getAccelerometerRange()) {
+  case MPU6050_RANGE_2_G:
+    Serial.println("+-2G");
+    break;
+  case MPU6050_RANGE_4_G:
+    Serial.println("+-4G");
+    break;
+  case MPU6050_RANGE_8_G:
+    Serial.println("+-8G");
+    break;
+  case MPU6050_RANGE_16_G:
+    Serial.println("+-16G");
+    break;
+  }
+  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
+  Serial.print("Gyro range set to: ");
+  switch (mpu.getGyroRange()) {
+  case MPU6050_RANGE_250_DEG:
+    Serial.println("+- 250 deg/s");
+    break;
+  case MPU6050_RANGE_500_DEG:
+    Serial.println("+- 500 deg/s");
+    break;
+  case MPU6050_RANGE_1000_DEG:
+    Serial.println("+- 1000 deg/s");
+    break;
+  case MPU6050_RANGE_2000_DEG:
+    Serial.println("+- 2000 deg/s");
+    break;
+  }
+
+  mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);
+  Serial.print("Filter bandwidth set to: ");
+  switch (mpu.getFilterBandwidth()) {
+  case MPU6050_BAND_260_HZ:
+    Serial.println("260 Hz");
+    break;
+  case MPU6050_BAND_184_HZ:
+    Serial.println("184 Hz");
+    break;
+  case MPU6050_BAND_94_HZ:
+    Serial.println("94 Hz");
+    break;
+  case MPU6050_BAND_44_HZ:
+    Serial.println("44 Hz");
+    break;
+  case MPU6050_BAND_21_HZ:
+    Serial.println("21 Hz");
+    break;
+  case MPU6050_BAND_10_HZ:
+    Serial.println("10 Hz");
+    break;
+  case MPU6050_BAND_5_HZ:
+    Serial.println("5 Hz");
+    break;
+  }
+
+  Serial.println("");
+  delay(100);
+
+  /* Print out the values */
+  Serial.print("Acceleration X: ");
+  Serial.print(a.acceleration.x);
+  Serial.print(", Y: ");
+  Serial.print(a.acceleration.y);
+  Serial.print(", Z: ");
+  Serial.print(a.acceleration.z);
+  Serial.println(" m/s^2");
+
+  Serial.print("Rotation X: ");
+  Serial.print(g.gyro.x);
+  Serial.print(", Y: ");
+  Serial.print(g.gyro.y);
+  Serial.print(", Z: ");
+  Serial.print(g.gyro.z);
+  Serial.println(" rad/s");
+
+  Serial.print("Temperature: ");
+  Serial.print(temp.temperature);
+  Serial.println(" degC");
+
+  Serial.println("");
+  delay(500);
+
+
+  
+}
+
+
+
+
+#include <Wire.h>
+#include <Adafruit_MPU6050.h>
+#include <Arduino.h>
+#include <Servo.h>
+// Definir los pines SDA y SCL de la ESP32
+#define SDA_PIN 21
+#define SCL_PIN 22
+
+// Crear una instancia de la clase Adafruit_MPU6050
+Adafruit_MPU6050 mpu;
+
+// Variables para almacenar los valores del giroscopio
+float gyroX, gyroY, gyroZ;
+float acelX, acelY, acelZ;
+
+// Variables para el controlador de vuelo
+float errorX, errorY;
+float setpointX, setpointY;
+float kp = 0.1; // Ganancia proporcional
+float ki = 0.01; // Ganancia integral
+float kd = 0.01; // Ganancia derivativa
+float prev_errorX, prev_errorY;
+float integralX, integralY;
+float derivativeX, derivativeY;
+
+
+
+const int servo_pitch_pin = 23;
+const int servo_roll_pin = 19;
+const int servo_yaw_pin = 18;
+
+// Inicializar los servomotores
+Servo servo_pitch;
+Servo servo_roll;
+Servo servo_yaw;
+
+
+Servo yaw_servo;
+Servo pitch_servo;
+Servo roll_servo;
+
+
+// Función para inicializar el giroscopio
+void setup_mpu() {
+  Wire.begin(SDA_PIN, SCL_PIN);
+  mpu.begin();
+  mpu.setGyroRange(MPU6050_RANGE_250_DEG);
+  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
+  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
+  mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
+}
+
+// Función para leer los valores del giroscopio
+void read_gyro() {
+  sensors_event_t a, g, temp;
+  mpu.getEvent(&a, &g, &temp);
+  gyroX = g.gyro.x;
+  gyroY = g.gyro.y;
+  gyroZ = g.gyro.z;
+  
+
+  acelX=a.acceleration.x;
+  acelY=a.acceleration.y;
+  acelZ=a.acceleration.z;
+}
+
+// Función para calcular el error de estabilización
+void calculate_error() {
+  errorX = setpointX - gyroX;
+  errorY = setpointY - gyroY;
+}
+
+// Función para calcular la señal de control
+float calculate_signalX() {
+  integralX += errorX;
+  derivativeX = errorX - prev_errorX;
+  prev_errorX = errorX;
+  return kp * errorX + ki * integralX + kd * derivativeX;
+}
+
+float calculate_signalY() {
+  integralY += errorY;
+  derivativeY = errorY - prev_errorY;
+  prev_errorY = errorY;
+  return kp * errorY + ki * integralY + kd * derivativeY;
+}
+
+// Función para enviar la señal de control al motor o servomotor
+void send_signal(float signalX, float signalY) {
+  // Aquí deberías enviar la señal a tu motor o servomotor
+  // Puedes utilizar la librería ESP32 Servo para controlar servomotores:
+  // https://github.com/arduino-libraries/Servo
+  Serial.print("X °: ");
+  Serial.println(signalX);
+  Serial.print("Y °: ");
+  Serial.println(signalY);
+
+}
+
+// Función principal del programa
+void setup() {
+  setup_mpu();
+  setpointX = 0; // Establecer el setpoint en 0 grados
+  setpointY = 0;
+  Serial.begin(9600);
+}
+
+void loop() {
+  read_gyro();
+  calculate_error();
+  float signalX = calculate_signalX();
+  float signalY = calculate_signalY();
+
+
+  send_signal(signalX, signalY);
+  delay(10); // Pequeña pausa para evitar que el loop se ejecute demasiado rápido
+}
+
+
+#include <Adafruit_MPU6050.h>
+#include <Wire.h>
+#include <Servo.h>
+
+// Define los pines para los servos
+#define YAW_PIN 5
+#define PITCH_PIN 18
+#define ROLL_PIN 19
+
+// Define las constantes del PID
+#define KP 0.8
+#define KD 0.2
+#define KI 0.1
+
+
+#define SERVO_MIN_ANGLE 0
+#define SERVO_MAX_ANGLE 180
+#define MAX_INTEGRAL 10 
+
+float gyroX, gyroY, gyroZ;
+float acelX, acelY, acelZ;
+
+// Inicializa los objetos MPU6050 y servos
+Adafruit_MPU6050 mpu;
+Servo yaw_servo;
+Servo pitch_servo;
+Servo roll_servo;
+
+// Variables para el PID
+float prev_error[3] = {0, 0, 0};
+float integral[3] = {0, 0, 0};
+float setpoint[3] = {0, 0, 0};
+
+// Función para enviar una señal PWM a un servo
+void send_signal(Servo &servo, float angle) {
+  int pulse_width = map(angle, -90, 90, 1000, 2000);
+  servo.writeMicroseconds(pulse_width);
+}
+
+// Función para calcular el control PID
+float pid_control(float input, float &prev_error, float &integral, float setpoint) {
+  float error = setpoint - input;
+  float derivative = error - prev_error;
+  integral += error;
+  prev_error = error;
+  float output = KP * error + KD * derivative + KI * integral;
+
+  if (integral > MAX_INTEGRAL) {
+    integral = MAX_INTEGRAL;
+  } else if (integral < -MAX_INTEGRAL) {
+    integral = -MAX_INTEGRAL;
+  }
+
+  
+  return output;
+}
+
+void setup() {
+  // Inicializa la comunicación I2C
+  Wire.begin();
+
+  // Inicializa el MPU6050
+  if (!mpu.begin()) {
+    Serial.println("Failed to find MPU6050 chip");
+    while (1) {
+      delay(10);
+    }
+  }
+  mpu.setGyroOffsets(0, 0, 0);(0, 0, 0);
+  // Configura los pines para los servos
+  yaw_servo.attach(YAW_PIN);
+  pitch_servo.attach(PITCH_PIN);
+  roll_servo.attach(ROLL_PIN);
+
+  // Inicializa la comunicación serial
+  Serial.begin(9600);
+}
+
+void send_signal(float rollOutput, float pitchOutput, float yawOutput) {
+  // Convertir los valores de salida del PID en ángulos para los servos
+  int rollAngle = map(rollOutput, -255, 255, SERVO_MIN_ANGLE, SERVO_MAX_ANGLE);
+  int pitchAngle = map(pitchOutput, -255, 255, SERVO_MIN_ANGLE, SERVO_MAX_ANGLE);
+  int yawAngle = map(yawOutput, -255, 255, SERVO_MIN_ANGLE, SERVO_MAX_ANGLE);
+
+  // Enviar señales a los servos
+  roll_servo.write(rollAngle);
+  pitch_servo.write(pitchAngle);
+  yaw_servo.write(yawAngle);
+}
+
+
+void read_gyro() {
+  sensors_event_t a, g, temp;
+  mpu.getEvent(&a, &g, &temp);
+  gyroX = g.gyro.x;
+  gyroY = g.gyro.y;
+  gyroZ = g.gyro.z;
+  
+
+  acelX=a.acceleration.x;
+  acelY=a.acceleration.y;
+  acelZ=a.acceleration.z;
+}
+
+
+
+void loop() {
+  // Lee los valores del MPU6050
+
+  read_gyro();
+
+  // Calcula la velocidad angular
+
+
+  // Calcula los ángulos de orientación
+  float roll = atan2(gyroY, gyroZ) * 180 / M_PI;
+  float pitch = atan2(-gyroX, sqrt(gyroY * gyroY + gyroZ * gyroZ)) * 180 / M_PI;
+  float yaw = 0; // TODO: Calcula el ángulo de yaw
+
+  // Imprime los ángulos de orientación
+  Serial.print("Yaw: ");
+  Serial.print(yaw);
+  Serial.print("\tPitch: ");
+  Serial.print(pitch);
+  Serial.print("\tRoll: ");
+  Serial.println(roll);
+
+  // Calcula la señal de control para cada servo usando PID
+  float yaw_signal = pid_control(yaw, prev_error[0], integral[0], setpoint[0]);
+  float pitch_signal = pid_control(pitch, prev_error[1], integral[1], setpoint[1]);
+  float roll_signal = pid_control(roll, prev_error[2], integral[2], setpoint[2]);
+
+  // Envía las señales PWM a los servos
+
+
+}
