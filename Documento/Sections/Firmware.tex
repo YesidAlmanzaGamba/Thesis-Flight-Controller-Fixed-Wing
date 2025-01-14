@@ -78,7 +78,7 @@ El ESP32-S3 está equipado con memoria interna suficiente para gestionar las ope
 \paragraph{\textbf{Memoria externa}}
 El microcontrolador soporta memoria externa a través de interfaces SPI, permitiendo la expansión del almacenamiento para aplicaciones que acumulan grandes volúmenes de datos, como registros de vuelo o datos sensoriales. La flexibilidad en la gestión de la memoria externa facilita la implementación de sistemas complejos y la adaptación a requerimientos específicos de almacenamiento y procesamiento.\cite{ESP32S3}\\
 
-\end{comment}
+%end{comment}
 
 \subsection{Verificación de Conectividad Sensores y Actuadores }
 Antes de proceder con la sensórica, es fundamental realizar una verificación de los sensores y actuadores conectados al sistema. Este paso incluye un escaneo de las direcciones de los dispositivos I2C, asegurando que todos los componentes estén correctamente conectados al bus I2C. Este escaneo permite identificar qué dispositivos están presentes y si falta alguno, lo que facilita la detección de problemas de conexión antes de inicializar el programa.\\ \\
@@ -110,9 +110,9 @@ Los dispositivos detectados en el bus I2C y sus correspondientes direcciones son
 
 
 
-\subsection{Sensorica y adquisisción de datos} \\ \\
+\subsection{Sensorica y adquisición de datos} \\ \\
 
-Los sensores son uno de los componentes más críticos en el controlador de vuelo, proporcionando los datos necesarios para la navegación y el control de estabilidad del UAV. Estos incluyen dos Unidades de Medición Inerciales \textbf{IMUs} para la detección de movimiento y orientación de la aeronave, un \textbf{barómetro} para medir la presión atmosférica y la altura de la aeronave. Finalmente un módulo \textbf{GPS} para obtener la posición geográfica de la aeronave en todo momento. \\ \\
+    Los sensores son uno de los componentes más críticos en el controlador de vuelo, proporcionando los datos necesarios para la navegación y el control de estabilidad del UAV. Estos incluyen dos Unidades de Medición Inerciales \textbf{IMUs} para la detección de movimiento y orientación de la aeronave, un \textbf{barómetro} para medir la presión atmosférica y la altura de la aeronave. Finalmente un módulo \textbf{GPS} para obtener la posición geográfica de la aeronave en todo momento. \\ \\
 
 
 \subsubsection{ Unidades de Medición Inerciales} \\ \\
@@ -128,10 +128,10 @@ Los sensores son uno de los componentes más críticos en el controlador de vuel
     
     Por otro lado, el sensor \textbf{MPU6050}, según el Cuadro \ref{tab:mpu6050_specs}, requiere un postprocesamiento de la aceleración angular en cada uno de los ejes del dispositivo para obtener la orientación. Mientras que el \textbf{MPU6050} proporciona datos de giroscopio y acelerómetro en bruto, junto con soporte para filtros y funciones programables, el cálculo de la orientación en grados, radianes o cuaterniones debe realizarse externamente. Esto implica un esfuerzo adicional en el procesamiento de datos para lograr el mismo nivel de interpretación inmediata que ofrece el \textbf{BNO055}. \\ 
     
-    En resumen, mientras que el \textbf{BNO055} simplifica la integración y el uso con su capacidad de cálculo interno de orientación, el \textbf{MPU6050} requiere un procesamiento posterior de los datos para obtener resultados similares, lo que puede ser una consideración importante en el diseño y la implementación de sistemas que dependen de la precisión y rapidez de los datos de orientación.\\ \\ 
+    En resumen, mientras que el \textbf{BNO055} simplifica la integración y el uso con su capacidad de cálculo interno de orientación, el \textbf{MPU6050} requiere un procesamiento posterior de los datos para obtener resultados similares, lo que puede ser una consideración importante en el diseño y la implementación de sistemas que dependen de la precisión y rapidez de los datos de orientación.
 
     
-    \paragraph{\textbf{\textbf{BNO055}}}  \\ \\
+\paragraph{\textbf{\textbf{BNO055}}}
 
     \begin{table}[h]
 \centering
@@ -761,6 +761,6 @@ El \textbf{Buzzer} se conecta al \textbf{ESP32-S3} a través de Un pin \textbf{G
 \vspace{5 px}
 
 
-
+\end{comment}
 
 

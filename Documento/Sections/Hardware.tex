@@ -1,14 +1,14 @@
 
+\begin{comment}
+
 \section{Desarrollo de Hardware}
 \subsection{Arquitectura Controlador de Vuelo}
-\\
-Durante la fase inicial del proyecto, se realizó una revisión bibliográfica para definir los componentes esenciales en un controlador de vuelo. Basándome en esta investigación, se diseñó un esquema general de la arquitectura que seguiría el controlador de vuelo, tal y como se muestra en la Figura \ref{fig:arqui_controlador}.\\ \\
 
-La unidad de procesamiento en la arquitectura del controlador de vuelo está a cargo del microcontrolador \textbf{ESP32-S3}, que proporciona un procesamiento potente y una gran flexibilidad en la comunicación con otros componentes del sistema. Este microcontrolador de doble núcleo opera a una velocidad de hasta 240 MHz y cuenta con conectividad Wi-Fi y Bluetooth 5.0. Maneja la intercomunicación mediante diversos protocolos estandarizados como I2C, UART y SPI, permitiendo una interacción eficiente con múltiples dispositivos periféricos.\\ \\
+Durante la fase inicial del proyecto, se realizó una revisión bibliográfica para definir los componentes esenciales en un controlador de vuelo. Basándome en esta investigación, se diseñó un esquema general de la arquitectura que seguiría el controlador de vuelo, tal y como se muestra en la Figura \ref{fig:arqui_controlador}.
 
-Es relevante mencionar que, en la mayoría de las arquitecturas estudiadas, se utiliza el microcontrolador STM32 Nucleo F767ZI, que, aunque es una opción de alto desempeño con un núcleo ARM Cortex-M7 a 216 MHz, 32 bits, y varias interfaces de comunicación, no cuenta con las capacidades integradas de velocidad, Wi-Fi y Bluetooth que ofrece el ESP32-S3.\\ \\
+La unidad de procesamiento en la arquitectura del controlador de vuelo está a cargo del microcontrolador \textbf{ESP32-S3}, que proporciona un procesamiento potente y una gran flexibilidad en la comunicación con otros componentes del sistema. Este microcontrolador de doble núcleo opera a una velocidad de hasta 240 MHz y cuenta con conectividad Wi-Fi y Bluetooth 5.0. Maneja la intercomunicación mediante diversos protocolos estandarizados como I2C, UART y SPI, permitiendo una interacción eficiente con múltiples dispositivos periféricos.
 
-
+Es relevante mencionar que, en la mayoría de las arquitecturas estudiadas, se utiliza el microcontrolador STM32 Nucleo F767ZI, que, aunque es una opción de alto desempeño con un núcleo ARM Cortex-M7 a 216 MHz, 32 bits, y varias interfaces de comunicación, no cuenta con las capacidades integradas de velocidad, Wi-Fi y Bluetooth que ofrece el ESP32-S3. Haa
 
 Un aspecto crítico es que se incluyen dos Unidades de Medición Inercial \textbf{(IMUs)}, una actuando como primaria y la otra como secundaria o de respaldo. Este esquema de redundancia aumentará la fiabilidad del sistema. En caso de que falle una \textbf{IMU}, la otra puede tomar el control inmediatamente, y así continuar la recolección de datos sobre orientación y movimiento, que son parámetros críticos para la estabilidad y navegación del UAV.
 \vspace{5 px}
@@ -24,8 +24,8 @@ La Figura \ref{fig:arqui_controlador} muestra el diagrama de la arquitectura del
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/Metodologia/arquitectura_controlador.png}
-    \caption{Arquitectura del controlador de vuelo diagrama de Caja Gris }
-    \label{fig:arqui_controlador}
+        \caption{Arquitectura del controlador de vuelo diagrama de Caja Gris}
+        \label{fig:arqui_controlador}
 \end{figure}
 
 Para ver de forma más detallada como sería esta arquitectura y como se integraría con los distintos módulos, se desarrollo el siguiente diagrama de Caja Blanca (véase \ref{fig:arqui_Blanxa}) , en el que se puede observar con más detalle cuales serán los componentes principales en la estructura del dispositivo. De este diagrama todos los dispositivos que están encapsulados por el recuadro verde, indican que están inmersos en el sistema mientras que todos los que se encuentran por fuera son módulos adicionales o que se encuentran en otra parte del Sistema.
@@ -45,7 +45,7 @@ Una vez finalizada la etapa de diseño y habiendo terminado de definir los compo
 Otro problema relacionado con la \textbf{PCA9685} fue el de alimentación del pin \textbf{V+} o el voltaje de entrada del módulo. Puesto que inicialmente se tenía este dispositivo alimentado a una tensión de \textbf{+5v}, la cual al momento de realizar pruebas de movimiento de los servomotores generaba un consumo elevado de corriente que causaba un overshoot de voltaje y ocacionaba un reset en el dispositivo. 
 
 
-\subsubsection{ Diseño del Esquemático Final}\\ \\
+\subsubsection{ Diseño del Esquemático Final}
 
 El software donde se diseñaron las dos versiones del circuito fue \textbf{KIcad} versión \textbf{8.0}. Este software fue seleccionado, puesto que es \textbf{Open Source} y hay un gran número de huellas y componentes creados por la comunidad. \\
 
@@ -63,7 +63,7 @@ Cabe resaltar que se crearon 2 footprints para el dispositivo. El de los módulo
     \label{fig:sch2.0}
 \end{figure}
 
-\subsubsection{Diseño del Layout del PCB final} \\ \\
+\subsubsection{Diseño del Layout del PCB final}
 
 El \textbf{PCB} fue diseñado en dos capas (véase \ref{fig:pcb_2.0} ). En la capa \textbf{TOP} se realizaron varios planos relacionados  con los distintos voltajes de operación del dispositivo, en los que encontramos el de alimentación por batería externa de \textbf{7.4 v}  resaltado en color verde , seguidamente del plano resaltado con color amarillo de \textbf{3.3 v} y finalmente el de \textbf{5v} que serían los planos restantes de \textbf{5V}. En la capa de \textbf{Bottom} se hicieron solamente 2 planos, el de \textbf{7.4 v} resaltado de verde y el de \textbf{GND} que es de color \textbf{azul} en el que se encuentran todas las tierras generales del dispositivo. \\
 \begin{figure}[H]
@@ -91,23 +91,16 @@ Una vez finalizado el apartado de diseño del layout se procedió a buscar los d
     \caption{Modelo 3d Circuito Impreso}
     \label{fig:model3d_pcb}
 \end{figure}
-
-\\ \\
+\vspace{5px}
 \subsubsection{Fabricación del PCB}
-\\ \\
 El \textbf{Printed Circuit Board (PCB)} fue fabricado en el laboratorio de circuitos impresos de la Universidad de los Andes. Se fabricaron tres de los mismos circuitos en caso de que hubiera algún fallo con alguno de los PCBs. Estos PCBs se fabricaron usando un sustrato de FR4, conocido por su excelente estabilidad térmica y propiedades dieléctricas. Además, el PCB cuenta con tecnología True Hole, lo que garantiza la continuidad eléctrica entre capas.
-
-\\
+\vspace{5px}
 Para asegurar la calidad y fiabilidad, la fabricación siguió el estándar IPC de fabricación de circuitos impresos, garantizando que el PCB cumple con los requisitos estándares de calidad y rendimiento.
-\\
-
+\vspace{5px}
 \subsubsection{ Montaje del PCB}
-\\ \\
-
+\subsubsection{ Montaje del PCB}
 La PCB fue ensamblada teniendo en cuenta los grupos de componentes en ambas capas. Todos los módulos están en la capa superior a excepción del módulo de lectura SD que se encuentra en la capa inferior. Se tomó esta decisión en particular para ahorrar espacio y mejorar la accesibilidad a los componentes significativos durante el mantenimiento y el ensamblaje.
-
-\\ \\
-
+\vspace{5px}
 La mayoría de los módulos fueron conectados a través de regletas de inserción, para que en caso de fallo o actualización, los componentes respectivos puedan ser reemplazados sin esfuerzo. Sin embargo, en el módulo SD de lectura, las regletas de inserción no fueron preferidas, ya que estas pueden causar una mala unión mecánica que lleva a la inestabilidad del sistema. La Figura \ref{fig:ensamblada} es una imagen de la tarjeta ensamblada, de la que se puede ver claramente la disposición de los diferentes módulos en la tarjeta. La disposición se ha planeado de tal manera que proporciona un ensamblaje fuerte y adecuado con respecto a las necesidades funcionales y de mantenimiento del equipo.
 
 \begin{figure}[H]
@@ -116,4 +109,5 @@ La mayoría de los módulos fueron conectados a través de regletas de inserció
     \caption{PCB ensamblada}
     \label{fig:ensamblada}
 \end{figure}
-\vspace{5 px}\\ \\
+
+\end{comment}

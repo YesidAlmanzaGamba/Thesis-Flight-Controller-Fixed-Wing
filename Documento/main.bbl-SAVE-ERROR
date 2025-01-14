@@ -1,0 +1,492 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{justin}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=79fbd47e7c5bb8517ee996bc491bdac2}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{fullhash}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{fullhashraw}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{bibnamehash}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{authorbibnamehash}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{authornamehash}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{authorfullhash}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \strng{authorfullhashraw}{79fbd47e7c5bb8517ee996bc491bdac2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Accessed: Dec. 5, 2023]}
+      \field{title}{Flight Controller explained: Understanding FPV Drone Control Systems}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://oscarliang.com/flight-controller-explained/
+      \endverb
+      \verb{url}
+      \verb https://oscarliang.com/flight-controller-explained/
+      \endverb
+    \endentry
+    \entry{UAS-FAC}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=6054996a35627c82b3b5f41b44a537e4}{%
+           family={{AAAES}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Fuerza Aérea Colombiana}%
+      }
+      \strng{namehash}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{fullhash}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{fullhashraw}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{bibnamehash}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{authorbibnamehash}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{authornamehash}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{authorfullhash}{6054996a35627c82b3b5f41b44a537e4}
+      \strng{authorfullhashraw}{6054996a35627c82b3b5f41b44a537e4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online]. Available: \url{https://aaaes.fac.mil.co/sites/aaaes/files/AAAES/documentos/normatividad2022/Guias/guia_uascuas.pdf}. [Accessed: Jun. 19, 2024]}
+      \field{title}{Guía UASCUAS}
+      \field{year}{2022}
+    \endentry
+    \entry{UAgriculture}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4642766c7ac7de278be5076535898020}{%
+           family={Barreto},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi X.\bibnamedelimi Beltrán},
+           giveni={G\bibinitperiod\bibinitdelim X\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Facultad de Ciencias Agropecuarias, Programa Ingeniería Agronómica, Universidad de Ciencias Ambientales y Aplicadas}%
+      }
+      \list{location}{1}{%
+        {Bogotá, Colombia}%
+      }
+      \strng{namehash}{4642766c7ac7de278be5076535898020}
+      \strng{fullhash}{4642766c7ac7de278be5076535898020}
+      \strng{fullhashraw}{4642766c7ac7de278be5076535898020}
+      \strng{bibnamehash}{4642766c7ac7de278be5076535898020}
+      \strng{authorbibnamehash}{4642766c7ac7de278be5076535898020}
+      \strng{authornamehash}{4642766c7ac7de278be5076535898020}
+      \strng{authorfullhash}{4642766c7ac7de278be5076535898020}
+      \strng{authorfullhashraw}{4642766c7ac7de278be5076535898020}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{Antecedentes, uso y aplicación de drones en Colombia como herramienta estratégica de análisis en la agricultura de precisión}
+      \field{type}{modalidad Investigación}
+      \field{year}{2023}
+    \endentry
+    \entry{paper}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5a91ac4881663b8b34a3fd0cc0d2c834}{%
+           family={Ebeid},
+           familyi={E\bibinitperiod},
+           given={Emad\bibnamedelimb Samuel\bibnamedelima Malki},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d3a1fb702654fe014b295a15b351f88e}{%
+           family={Skriver},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d0a44bf0410c07067657060649bd9f5}{%
+           family={Laursen},
+           familyi={L\bibinitperiod},
+           given={Kristian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5f445c456a6d72da33240d56aa9f06c3}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Kjeld},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ffd980e2cc842b55224ad2ab69596a21}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Ulrik},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
+      \strng{fullhash}{a14da9d807544aea3aa5c275dc435f70}
+      \strng{fullhashraw}{a14da9d807544aea3aa5c275dc435f70}
+      \strng{bibnamehash}{a14da9d807544aea3aa5c275dc435f70}
+      \strng{authorbibnamehash}{a14da9d807544aea3aa5c275dc435f70}
+      \strng{authornamehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
+      \strng{authorfullhash}{a14da9d807544aea3aa5c275dc435f70}
+      \strng{authorfullhashraw}{a14da9d807544aea3aa5c275dc435f70}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Microprocessors and Microsystems}
+      \field{title}{A Survey of Open-Source UAV Flight Controllers and Flight Simulators}
+      \field{volume}{61}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1016/j.micpro.2018.05.002
+      \endverb
+    \endentry
+    \entry{rtos}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f0a951b4a0115c9290df1de72ee54469}{%
+           family={Rico},
+           familyi={R\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b8b5f312e6a6db32ed01a3f852e27d97}{%
+           family={Rico-Azagra},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d4c818fa1f10aeadefde32f0d469c75d}{%
+           family={Gil-Martinez},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Montserrat},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb1f1b73eba73522f7b093848839e1f9}
+      \strng{fullhash}{988dca2282530a15645a10b0451f6734}
+      \strng{fullhashraw}{988dca2282530a15645a10b0451f6734}
+      \strng{bibnamehash}{988dca2282530a15645a10b0451f6734}
+      \strng{authorbibnamehash}{988dca2282530a15645a10b0451f6734}
+      \strng{authornamehash}{bb1f1b73eba73522f7b093848839e1f9}
+      \strng{authorfullhash}{988dca2282530a15645a10b0451f6734}
+      \strng{authorfullhashraw}{988dca2282530a15645a10b0451f6734}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Hardware and RTOS Design of a Flight Controller for Professional Applications}
+      \field{volume}{PP}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2022.3232749
+      \endverb
+    \endentry
+    \entry{UAV1}{thesis}{}{}
+      \name{author}{2}{}{%
+        {{hash=b417498631bcfd4c0318b607c695a37f}{%
+           family={Espinosa},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi M.\bibnamedelimi Zaraza},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=2d6eafec2e461d364acf67c5e4112bf9}{%
+           family={Galvan},
+           familyi={G\bibinitperiod},
+           given={E.\bibnamedelimi J.\bibnamedelimi F.\bibnamedelimi Buitrago},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Industrial de Santander}%
+      }
+      \list{location}{1}{%
+        {Bucaramanga}%
+      }
+      \strng{namehash}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{fullhash}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{fullhashraw}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{bibnamehash}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{authorbibnamehash}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{authornamehash}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{authorfullhash}{456c7145177d87779ad7ec8d2be3abfa}
+      \strng{authorfullhashraw}{456c7145177d87779ad7ec8d2be3abfa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Facultad de Ingenierías Físicomecánicas, Escuela de Ingeniería Mecánica}
+      \field{title}{Diseño e Implementación de un Controlador de Vuelo para un Vehículo Aéreo Autónomo No Tripulado (UAV) Parrot Mambo}
+      \field{type}{mathesis}
+      \field{year}{2023}
+    \endentry
+    \entry{alafija}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=030355005e9ca0c269b0084e9568e99b}{%
+           family={Iaerocol},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{030355005e9ca0c269b0084e9568e99b}
+      \strng{fullhash}{030355005e9ca0c269b0084e9568e99b}
+      \strng{fullhashraw}{030355005e9ca0c269b0084e9568e99b}
+      \strng{bibnamehash}{030355005e9ca0c269b0084e9568e99b}
+      \strng{authorbibnamehash}{030355005e9ca0c269b0084e9568e99b}
+      \strng{authornamehash}{030355005e9ca0c269b0084e9568e99b}
+      \strng{authorfullhash}{030355005e9ca0c269b0084e9568e99b}
+      \strng{authorfullhashraw}{030355005e9ca0c269b0084e9568e99b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Dec. 5, 2023}
+      \field{title}{¿Qué son los drones de Ala Fija? Aprende Sus Características}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://iaerocol.co/blog/que-son-los-drones-de-ala-fija/
+      \endverb
+      \verb{url}
+      \verb https://iaerocol.co/blog/que-son-los-drones-de-ala-fija/
+      \endverb
+    \endentry
+    \entry{UAV2}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=780481b1c370eb32fec0c3e244864569}{%
+           family={Chavarro},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi A.\bibnamedelimi Gomez},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Autónoma de Occidente}%
+      }
+      \list{location}{1}{%
+        {Santiago de Cali}%
+      }
+      \strng{namehash}{780481b1c370eb32fec0c3e244864569}
+      \strng{fullhash}{780481b1c370eb32fec0c3e244864569}
+      \strng{fullhashraw}{780481b1c370eb32fec0c3e244864569}
+      \strng{bibnamehash}{780481b1c370eb32fec0c3e244864569}
+      \strng{authorbibnamehash}{780481b1c370eb32fec0c3e244864569}
+      \strng{authornamehash}{780481b1c370eb32fec0c3e244864569}
+      \strng{authorfullhash}{780481b1c370eb32fec0c3e244864569}
+      \strng{authorfullhashraw}{780481b1c370eb32fec0c3e244864569}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Facultad de Ingeniería, Departamento de Automática y Electrónica, Programa Ingeniería Mecatrónica}
+      \field{title}{Diseño y Construcción de Vehículo Aéreo No Tripulado Tipo RPV}
+      \field{type}{mathesis}
+      \field{year}{2008}
+    \endentry
+    \entry{reaper}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d0ceca60f3e4ce3ae911ca6f596cb9c4}{%
+           family={Update},
+           familyi={U\bibinitperiod},
+           given={Defense},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{fullhash}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{fullhashraw}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{bibnamehash}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{authorbibnamehash}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{authornamehash}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{authorfullhash}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \strng{authorfullhashraw}{d0ceca60f3e4ce3ae911ca6f596cb9c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{Accessed: Mar. 10, 2024}
+      \field{title}{Reaper ER Extends RPA Missions to +33 Hours}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://defense-update.com/20150916_reaper_er.html
+      \endverb
+      \verb{url}
+      \verb https://defense-update.com/20150916_reaper_er.html
+      \endverb
+    \endentry
+    \entry{6}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Dec. 5, 2023}
+      \field{title}{Flight Controllers explained for everyone}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://fusion.engineering/flight-controllers-explained-for-everyone/
+      \endverb
+      \verb{url}
+      \verb https://fusion.engineering/flight-controllers-explained-for-everyone/
+      \endverb
+    \endentry
+    \entry{controladores}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=261c466fa02ea50f79a50236f56d6f3e}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{fullhash}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{fullhashraw}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{bibnamehash}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{authorbibnamehash}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{authornamehash}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{authorfullhash}{261c466fa02ea50f79a50236f56d6f3e}
+      \strng{authorfullhashraw}{261c466fa02ea50f79a50236f56d6f3e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Mar. 10, 2024}
+      \field{title}{Flight Controller Explained: Understanding FPV Drone Control Systems}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://oscarliang.com/flight-controller-explained/
+      \endverb
+      \verb{url}
+      \verb https://oscarliang.com/flight-controller-explained/
+      \endverb
+    \endentry
+    \entry{MCU}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6a3edccbfc9ebdab63530db71afd90e8}{%
+           family={Drew},
+           familyi={D\bibinitperiod},
+           given={Equipo},
+           giveni={E\bibinitperiod},
+           prefix={de\bibnamedelima redacción\bibnamedelima de},
+           prefixi={d\bibinitperiod\bibinitdelim r\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{fullhash}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{fullhashraw}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{bibnamehash}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{authorbibnamehash}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{authornamehash}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{authorfullhash}{6a3edccbfc9ebdab63530db71afd90e8}
+      \strng{authorfullhashraw}{6a3edccbfc9ebdab63530db71afd90e8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{note}{Accessed: Mar. 10, 2024}
+      \field{title}{MCU: Main control unit, ¿qué es?}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://blog.wearedrew.co/mcu-main-control-unit-que-es
+      \endverb
+      \verb{url}
+      \verb https://blog.wearedrew.co/mcu-main-control-unit-que-es
+      \endverb
+    \endentry
+    \entry{IMU}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=142ce50fab37d197720886f5e675eea6}{%
+           family={Navigation},
+           familyi={N\bibinitperiod},
+           given={UAV},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{142ce50fab37d197720886f5e675eea6}
+      \strng{fullhash}{142ce50fab37d197720886f5e675eea6}
+      \strng{fullhashraw}{142ce50fab37d197720886f5e675eea6}
+      \strng{bibnamehash}{142ce50fab37d197720886f5e675eea6}
+      \strng{authorbibnamehash}{142ce50fab37d197720886f5e675eea6}
+      \strng{authornamehash}{142ce50fab37d197720886f5e675eea6}
+      \strng{authorfullhash}{142ce50fab37d197720886f5e675eea6}
+      \strng{authorfullhashraw}{142ce50fab37d197720886f5e675eea6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Accessed: Mar. 10, 2024}
+      \field{title}{UAV Navigation en Profundidad: Qué es una IMU y para qué se utiliza}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.uavnavigation.com/es/empresa/blog/que-es-un-imu
+      \endverb
+      \verb{url}
+      \verb https://www.uavnavigation.com/es/empresa/blog/que-es-un-imu
+      \endverb
+    \endentry
+    \entry{GPS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7691eb642cbbde1844b0a39cf0f3b17b}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={Umiles},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{fullhash}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{fullhashraw}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{bibnamehash}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{authorbibnamehash}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{authornamehash}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{authorfullhash}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \strng{authorfullhashraw}{7691eb642cbbde1844b0a39cf0f3b17b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Accessed: Mar. 10, 2024}
+      \field{title}{GPS en Drones: Para qué sirve y cuándo se utiliza}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://umilesgroup.com/gps-drones/
+      \endverb
+      \verb{url}
+      \verb https://umilesgroup.com/gps-drones/
+      \endverb
+    \endentry
+    \entry{circular_aerea}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f32c5ad028c593883db724249cf36dea}{%
+           family={Organization},
+           familyi={O\bibinitperiod},
+           given={International\bibnamedelimb Civil\bibnamedelima Aviation},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ICAO Circular 328-AN/190}%
+      }
+      \strng{namehash}{f32c5ad028c593883db724249cf36dea}
+      \strng{fullhash}{f32c5ad028c593883db724249cf36dea}
+      \strng{fullhashraw}{f32c5ad028c593883db724249cf36dea}
+      \strng{bibnamehash}{f32c5ad028c593883db724249cf36dea}
+      \strng{authorbibnamehash}{f32c5ad028c593883db724249cf36dea}
+      \strng{authornamehash}{f32c5ad028c593883db724249cf36dea}
+      \strng{authorfullhash}{f32c5ad028c593883db724249cf36dea}
+      \strng{authorfullhashraw}{f32c5ad028c593883db724249cf36dea}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Unmanned Aircraft Systems (UAS)}
+      \field{year}{2011}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,59 +1,17 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Sistema aéreo no tripulado (UAS)}}{10}{figure.caption.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Dron de ala fija MQ-9 Reaper Hunter \blx@tocontentsinit {0}\cite {reaper}}}{11}{figure.caption.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Controladores de Vuelo \blx@tocontentsinit {0}\cite {controladores}}}{12}{figure.caption.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Movimientos Inerciales de un UAV: Yaw, Pitch, Roll}}{13}{figure.caption.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Superficies de control en una aeronave}}{14}{figure.caption.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama Metodología Implementada}}{16}{figure.caption.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama de bloques del Controlador de Vuelo para UAV de ala fija }}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Arquitectura del controlador de vuelo diagrama de Caja Gris }}{18}{figure.caption.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Arquitectura del controlador de vuelo diagrama de Caja Blanca }}{19}{figure.caption.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Esquematico Circuito Impreso 2.0 }}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Layout Circuito Impreso 2.0 }}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Normativa IPC 2221 \blx@tocontentsinit {0}\cite {IPC} }}{21}{figure.caption.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Modelo 3d Circuito Impreso}}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces PCB ensamblada}}{23}{figure.caption.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Carcasa PCB modelo Final}}{24}{figure.caption.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Producto Final ensamblado}}{25}{figure.caption.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Escaneo I2C de los dispositivos conectados.}}{27}{figure.caption.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Movimientos Inerciales Yaw, Pitch y Roll en el controlador de vuelo}}{29}{figure.caption.20}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Ángulos de Giro Pitch obtenidos con \textbf {MPU6050} y \textbf {BNO055}.}}{31}{figure.caption.21}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Ángulos de Giro Roll obtenidos con \textbf {MPU6050} y \textbf {BNO055}.}}{31}{figure.caption.22}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Ángulos de Giro \textbf {MPU6050} y \textbf {BNO055}.}}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Validación de la precisión del GPS utilizando GnssLogger.}}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Lector de tarjetas MicroSD}}{35}{figure.caption.25}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Conexión del Radio Control con el Controlador de Vuelo}}{37}{figure.caption.26}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Diagrama Transmisor y decodificado de Señales PWM}}{38}{figure.caption.27}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Conexión del Controlador de Vuelo y la estación en Tierra}}{39}{figure.caption.28}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Diagrama general de funcionamiento Controlador y estación a Tierra }}{41}{figure.caption.29}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Movimiento general Superficies de Control }}{43}{figure.caption.30}%
-\contentsline {figure}{\numberline {29}{\ignorespaces PID básico Aeronave }}{43}{figure.caption.31}%
-\contentsline {figure}{\numberline {30}{\ignorespaces PID básico Aeronave }}{45}{figure.caption.32}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Mapa de Visualización UAV}}{46}{figure.caption.33}%
-\contentsline {figure}{\numberline {32}{\ignorespaces indicadores de vuelo para un UAV}}{47}{figure.caption.34}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Modelo 3d UAV en la Interfaz}}{48}{figure.caption.35}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Gráficas de funcionamiento UAV }}{48}{figure.caption.36}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Costos desarrollo Controlador }}{49}{figure.caption.37}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Pruebas de lectura y escritura valores PWM}}{51}{figure.caption.38}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Pruebas de validación y montaje controladores }}{52}{figure.caption.39}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Comparación de ángulo Roll entre controladores Delta y SpeedyBee V3 F405 en la primera toma de datos }}{54}{figure.caption.42}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Comparación de Roll entre controladores Delta y SpeedyBee V3 F405 en la segunda toma de datos }}{55}{figure.caption.43}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Comparación de Pitch entre controladores Delta y SpeedyBee V3 F405 en la primera toma de datos }}{56}{figure.caption.44}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Comparación de Roll entre controladores Delta y SpeedyBee V3 F405 en la segunda toma de datos }}{56}{figure.caption.45}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Variación de altura medida por el BMP280 durante el ascenso y descenso en el Edificio Mario Laserna.}}{57}{figure.caption.46}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Recorrido de prueba de GPS en \textbf {El Bobo}, Universidad de los Andes.}}{58}{figure.caption.47}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Instalación del Controlador de Vuelo Protégé}}{59}{figure.caption.48}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Diagrama de la prueba de vuelo}}{60}{figure.caption.49}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Matriz de evaluación para prueba de vuelo}}{61}{figure.caption.50}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Matriz de evaluación para prueba de vuelo}}{62}{figure.caption.51}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Recorrido del UAV prueba de Vuelo}}{63}{figure.caption.52}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Latitud y Longitud vs Altitud}}{64}{figure.caption.53}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Datos Obtenidos BMP280}}{65}{figure.caption.54}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Yaw, Pitch, Roll y Compas vs Tiempo}}{66}{figure.caption.55}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Datos Obtenidos BNO055}}{67}{figure.caption.56}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Comparación datos Transmisión y Recepción}}{69}{figure.caption.57}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Datos Guardados Interfaz}}{71}{figure.caption.58}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Esquemático Circuito Impreso 1.0 }}{74}{figure.caption.59}%
-\contentsline {figure}{\numberline {56}{\ignorespaces Layout Circuito Impreso 1.0 }}{74}{figure.caption.60}%
-\contentsline {figure}{\numberline {57}{\ignorespaces Circuito Impreso Ensamblado 1.0 }}{75}{figure.caption.61}%
-\contentsline {figure}{\numberline {58}{\ignorespaces Carcasas Versiones }}{76}{figure.caption.62}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Sistema aéreo no tripulado (UAS)}}{11}{figure.caption.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Dron de ala fija MQ-9 Reaper Hunter \blx@tocontentsinit {0}\cite {reaper}}}{12}{figure.caption.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Controladores de Vuelo \blx@tocontentsinit {0}\cite {controladores}}}{13}{figure.caption.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Movimientos Inerciales de un UAV: Yaw, Pitch, Roll}}{14}{figure.caption.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Superficies de control en una aeronave}}{15}{figure.caption.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama Metodología Implementada}}{17}{figure.caption.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama de bloques del Controlador de Vuelo para UAV de ala fija }}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Mapa de Visualización UAV}}{19}{figure.caption.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces indicadores de vuelo para un UAV}}{20}{figure.caption.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Modelo 3d UAV en la Interfaz}}{21}{figure.caption.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Gráficas de funcionamiento UAV }}{21}{figure.caption.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Costos desarrollo Controlador }}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Esquemático Circuito Impreso 1.0 }}{24}{figure.caption.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Layout Circuito Impreso 1.0 }}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Circuito Impreso Ensamblado 1.0 }}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Carcasas Versiones }}{26}{figure.caption.16}%

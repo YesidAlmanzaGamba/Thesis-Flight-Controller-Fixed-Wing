@@ -8,7 +8,6 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "D:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/include",
                 "D:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/src",
                 "C:/Users/U S E R/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "C:/Users/U S E R/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
@@ -261,7 +260,6 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "D:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/include",
                     "D:/Universidad Camilo/Andes/Tesis/Thesis-Flight-Controller-Fixed-Wing/src",
                     "C:/Users/U S E R/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "C:/Users/U S E R/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
@@ -513,7 +511,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=60115",
+                "PLATFORMIO=60116",
                 "ARDUINO_ESP32S3_DEV",
                 "ARDUINO_USB_MODE=1",
                 "ARDUINO_RUNNING_CORE=1",

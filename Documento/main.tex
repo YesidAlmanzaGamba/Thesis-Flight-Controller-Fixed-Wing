@@ -1,3 +1,6 @@
+\makeatletter
+\providecommand{\sf@counterlist}{}
+\makeatother
 \documentclass[journal,onecolumn]{IEEEtran}
 \usepackage[letterpaper,bindingoffset=0.0in,left=28mm,right=28mm,top=28mm,bottom=28mm,%
             footskip=16mm]{geometry}
@@ -17,11 +20,11 @@
 \usepackage{esvect}
 \usepackage{array}
 \usepackage[hidelinks, colorlinks=true, urlcolor=gray, citecolor=gray]{hyperref}
-\usepackage{bookmark}
 \usepackage{enumerate}
 \usepackage{chemfig}
 \usepackage{enumitem}
-\usepackage{titlesec}
+\usepackage{sectsty}
+\allsectionsfont{\bfseries\centering}
 \usepackage{url}
 \usepackage[T1]{fontenc}
 \usepackage{titling}
@@ -43,13 +46,18 @@
 \usepackage{blindtext}
 \setlength{\columnsep}{1cm}
 \usepackage{appendix}
-\usepackage{biblatex}
+\usepackage{tocloft}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{biblio.bib} % Add your .bib file here
+\bibliography{references}
+\usepackage{bookmark}
 \usepackage{graphicx}
 \usepackage{pgfgantt}
 \usepackage{sectsty}
 \usepackage{listings}
 \usepackage{xcolor}
-\usepackage{cite}
+\usepackage{caption} % Asegúrate de que esta línea está presente
 \usepackage{verbatim}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -78,8 +86,11 @@
 \lstset{style=mystyle}
 
 
-\sectionfont{\centering}
-
+\usepackage{titlesec}
+\titleformat{\paragraph}[runin]
+  {\normalfont\normalsize\bfseries} % Formato de texto
+  {\thesubparagraph}{1em}{}         % Numeración y espaciado
+\titlespacing*{\paragraph}{0pt}{1.5ex plus 1ex minus .2ex}{1em}
 
 % Cambiar el estilo de numeración de secciones a números arábigos
 \renewcommand{\thesection}{\arabic{section}}
@@ -105,28 +116,26 @@
 
 \begin{document}
 
-\begin{titlepage}
-\centering
-\includegraphics[scale=0.18]{Documentos/logo_uniandes.png}\\
+    \begin{titlepage}
+    \centering
+    \includegraphics[scale=0.18]{Documentos/logo_uniandes.png}\\
 
-\vspace{1cm}
-%{\scshape\Large Departamento de Ingeniería Electrónica Universidad de los Andes\par}
-\vspace{3cm}
-{\scshape \Large \textbf{desarrollo e implementación de un controlador de vuelo y estación en tierra para un uav de ala fija 
-
-} \par}
-\vspace{3cm}
-{\itshape\Large Proyecto de Grado \par}
-\vfill
-{\itshape\Large Programa de Ingeniería electrónica Universidad de los Andes\par}
-{\Large Autor: \par}
-{\Large Yesid Camilo Almanza Gamba \par}
-\vfill
-{\Large Profesora Asesora: \par}
-{\Large Alba Ávila Bernal  \par}
-\vfill
-{\Large Junio 2024 \par}
-\end{titlepage}
+    \vspace{1cm}
+    %{\scshape\Large Departamento de Ingeniería Electrónica Universidad de los Andes\par}
+    \vspace{3cm}
+    {\scshape \Large \textbf{desarrollo e implementación de un controlador de vuelo y estación en tierra para un uav de ala fija } \par}
+    \vspace{3cm}
+    {\itshape\Large Proyecto de Grado \par}
+    \vfill
+    {\itshape\Large Programa de Ingeniería electrónica Universidad de los Andes\par}
+    {\Large Autor: \par}
+    {\Large Yesid Camilo Almanza Gamba \par}
+    \vfill
+    {\Large Profesora Asesora: \par}
+    {\Large Alba Ávila Bernal  \par}
+    \vfill
+    {\Large Junio 2024 \par}
+    \end{titlepage}
 
 \clearpage
 
@@ -136,9 +145,13 @@
 
 \tableofcontents
 \clearpage
+\makeatletter
 \listoffigures
+\makeatother
 \clearpage
+\makeatletter
 \listoftables
+\makeatother
 \clearpage
 \input{Sections/Abstract}
 \clearpage
@@ -151,6 +164,8 @@
 \clearpage
 \input{Sections/Planteamiento_problema}
 \clearpage
+\input{Sections/Planteamiento_problema}
+\clearpage
 \input{Sections/Objetivos}
 \clearpage
 \input{Sections/Marco Teórico}
@@ -159,97 +174,29 @@
 \clearpage
 \input{Sections/Hardware}
 \clearpage
-\input{Sections/Enclousure}
+%\input{Sections/Enclosure}
 \clearpage 
-\input{Sections/Firmware}
+%\input{Sections/Firmware}
 \clearpage
 \input{Sections/Interfaz}
 \clearpage
 \input{Sections/Costos}
 \clearpage
-\input{Sections/pruebas_funcionamiento}
+%\input{Sections/pruebas_funcionamiento}
 \clearpage
-\input{Sections/vuelo}
+%\input{Sections/vuelo}
 \clearpage
-\input{Sections/prueba_vuelo}
+%\input{Sections/prueba_vuelo}
 \clearpage
-\input{Sections/resultados}
+%\input{Sections/resultados}
 
 \clearpage
 \input{Sections/conclusiones}
-
-
-
-
-
-
-\begin{thebibliography}{20}
-
-%[1]AAAES, "Guía UASCUAS," Fuerza Aérea Colombiana, 2022. [Online]. Available: https://aaaes.fac.mil.co/sites/aaaes/files/AAAES/documentos/normatividad2022/Guias/guia_uascuas.pdf. [Accessed: Jun. 19, 2024]. AGREGAR 1
-\bibitem{paper}Ebeid, Emad Samuel Malki \& Skriver, Martin \& Laursen, Kristian \&Jensen, Kjeld v Schultz, Ulrik. (2018). A Survey of Open-Source UAV Flight Controllers and Flight Simulators. Microprocessors and Microsystems. 61.10.1016/j.micpro.2018.05.002. 
-
-\bibitem{rtos}Rico, Ramon \& Rico-Azagra, Javier \&Gil-Martinez, Montserrat. (2022). Hardware and RTOS Design of a Flight Controller for Professional Applications. IEEE Access. PP. 1-1. 10.1109/ACCESS.2022.3232749. 
-
-\bibitem{justin} Justin et al., “Flight Controller explained: Understanding FPV Drone Control Systems,” Oscar Liang, \url{https://oscarliang.com/flight-controller-explained/} (accessed Dec. 5, 2023). 
-
-\bibitem{UAS-FAC}AAAES, "Guía UASCUAS," Fuerza Aérea Colombiana, 2022. [Online]. Available: \url{https://aaaes.fac.mil.co/sites/aaaes/files/AAAES/documentos/normatividad2022/Guias/guia_uascuas.pdf. [Accessed: Jun. 19, 2024]}
-
-\bibitem{UAgriculture} G. X. Beltrán Barreto, "Antecedentes, uso y aplicación de drones en Colombia como herramienta estratégica de análisis en la agricultura de precisión," modalidad Investigación, Facultad de Ciencias Agropecuarias, Programa Ingeniería Agronómica, Univ. de Ciencias Ambientales y Aplicadas, Bogotá, Colombia, Jul. 2023.
-
-
-%\bibitem{IPC}[2] “IPC-2222B Estándar de Diseño para tarjetas de circuitos impresos orgánicos rígidos, Formato: PDF,” Inicio, https://www.consultronica.es/tienda-certificaciones-ipc-foa/ipc/pdf-ipc-2222b-estandar-de-diseno-para-tarjetas-de-circuitos-impresos-organicos-rigidos-49-139-detail.html (accessed Nov. 28, 2023). 
-
-\bibitem{UAV1} J. M. Zaraza Espinosa and E. J. F. Buitrago Galvan, "Diseño e Implementación de un Controlador de Vuelo para un Vehículo Aéreo Autónomo No Tripulado (UAV) Parrot Mambo," Universidad Industrial de Santander, Facultad de Ingenierías Físicomecánicas, Escuela de Ingeniería Mecánica, Bucaramanga, 2023.
-
-\bibitem{UAV2}J. A. Gomez Chavarro, "Diseño y Construcción de Vehículo Aéreo No Tripulado Tipo RPV," Universidad Autónoma de Occidente, Facultad de Ingeniería, Departamento de Automática y Electrónica, Programa Ingeniería Mecatrónica, Santiago de Cali, 2008.
-
-
-\bibitem{alafija} E. nbsp; 	Iaerocol and Iaerocol, “¿Qué son los drones de Ala Fija? Aprende Sus Caracteristicas,” Instituto Educativo Aeronáutico de Colombia, https://iaerocol.co/blog/que-son-los-drones-de-ala-fija/ (accessed Dec. 5, 2023). 
-
-\bibitem{6}[6] Flight Controllers explained for everyone,” Fusion Engineering, https://fusion.engineering/flight-controllers-explained-for-everyone/ (accessed Dec. 5, 2023). 
-    
-\bibitem{7} E. Oland, R. Schlanbusch y R. Kristiansen, "Underactuated Waypoint Tracking of a Fixed-Wing UAV," IFAC Proceedings Volumes, vol. 46, no. 30, pp. 126-133, 2013. DOI: 10.3182/20131120-3-FR-4045.00007.
-
-
-\bibitem{8}“Technology readiness levels,” NASA, https://www.nasa.gov/directorates/somd/space-communications-navigation-program/technology-readiness-levels/ (accessed Dec. 6, 2023). 
-
-\bibitem{9} Pérez Rocha, A.  (2011). Desarrollo de un controlador óptimo para un aeromodelo tipo avioneta. Uniandes. 
-   
-\bibitem{10}Álvarez Gómez, S.  (2018). Construcción de un vehículo aéreo no tripulado con un sistema de aterrizaje autónomo. [online]  Universidad de los Andes.  [Acceso : 6 de diciembre 2023]
-
-\bibitem{reaper}[11]Defense Update. (2015, September 16). Reaper ER Extends RPA Missions to +33 Hours. Defense Update. Recuperado el [10/03/2024], de https://defense-update.com/20150916\_reaper\_er.html
-
-\bibitem{controladores} O. Liang, "Flight Controller Explained: Understanding FPV Drone Control Systems," Oscar Liang, 13-Sep-2023. [En línea]. Disponible en: https://oscarliang.com/flight-controller-explained/. [Accedido: fecha de acceso].
-
-\bibitem{MCU}Equipo de redacción de Drew, "MCU: Main control unit, ¿qué es?," blog.wearedrew.co, 6 junio 2021. [En línea]. Disponible en: https://blog.wearedrew.co/mcu-main-control-unit-que-es. [Accedido: 10 marzo 2024].
-
-\bibitem{IMU}UAV Navigation, "UAV Navigation en Profundidad: Qué es una IMU y para qué se utiliza," UAV Navigation, 10-Feb-2022. [En línea]. Disponible en: https://www.uavnavigation.com/es/empresa/blog/que-es-un-imu. [Accedido: 10-Mar-2024].
-
-\bibitem{GPS}Umiles Group, "GPS en Drones: Para qué sirve y cuándo se utiliza," Umiles Group, 23-Ago-2023. [En línea]. Disponible en: https://umilesgroup.com/gps-drones/. [Accedido: 10-Mar-2024].
-
-\bibitem{BNO}BricoGeek, "Sensor inercial Absoluto 9 DOF BNO055 Adafruit 4646," BricoGeek.com. Disponible en: https://tienda.bricogeek.com/medicion-inercial-imu/802-sensor-inercial-absoluto-9-dof-bno055.html. [Accedido: 10-Mar-2024].
-
-\bibitem{MPU6050}Vistronica, "Módulo MPU6050 para Arduino," Vistronica SAS, [Online]. Disponible en: https://www.vistronica.com/sensores/imu/modulo-mpu6050-para-arduino-detail.html. [Accedido: 10-Mar-2024].
-
-\bibitem{GPS} MATEKSYS, "M10Q-5883", 2023. [Online]. Available: https://www.mateksys.com/?portfolio=m10q-5883. [Accessed:10-Mar-2024].
-
-
-\bibitem{ESP32S3}"ESP32-S3 Series Datasheet," Espressif Systems, v1.8, 2023. [En línea]. Disponible: www.espressif.com.  [Accedido: 10-Mar-2024].
-
-\bibitem{flysky}FlySky RC Model Technology Co., Ltd, \emph{FS-i6 Digital Proportional Radio Control System Instruction Manual}, 2015-2016. [Online]. Available: https://www.flysky-cn.com/fsi6
-
-\bibitem{NRF} Dejan Nedelkovski, "Arduino Wireless Communication – NRF24L01 Tutorial," HowToMechatronics, [Online]. Available: https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/. [Accessed:10-Mar-2024].
-
-
-
-
-\bibitem{IPC}Aldeltatec, "Norma IPC-2221B para Diseño de PCB - Actualización," [En línea]. Disponible en: https://www.aldeltatec.com/blog-diseno-con-normas-y-certificaciones/norma-ipc-2221b-para-diseno-de-pcb-actualizacion/. [Accedido: 10-jun-2024].
-
-\bibitem{circular_aerea} International Civil Aviation Organization, "Unmanned Aircraft Systems (UAS)," ICAO Circular 328-AN/190, 2011.
-
-\end{thebibliography}
-
 \input{Sections/anexos}
+\begin{comment}
+ sdfsd
+\end{comment}
 
+\printbibliography
 
 \end{document}
