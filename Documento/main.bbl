@@ -37,8 +37,8 @@
       \strng{authornamehash}{79fbd47e7c5bb8517ee996bc491bdac2}
       \strng{authorfullhash}{79fbd47e7c5bb8517ee996bc491bdac2}
       \strng{authorfullhashraw}{79fbd47e7c5bb8517ee996bc491bdac2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Accessed: Dec. 5, 2023]}
@@ -68,8 +68,8 @@
       \strng{authornamehash}{6054996a35627c82b3b5f41b44a537e4}
       \strng{authorfullhash}{6054996a35627c82b3b5f41b44a537e4}
       \strng{authorfullhashraw}{6054996a35627c82b3b5f41b44a537e4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{[Online]. Available: \url{https://aaaes.fac.mil.co/sites/aaaes/files/AAAES/documentos/normatividad2022/Guias/guia_uascuas.pdf}. [Accessed: Jun. 19, 2024]}
@@ -98,8 +98,8 @@
       \strng{authornamehash}{4642766c7ac7de278be5076535898020}
       \strng{authorfullhash}{4642766c7ac7de278be5076535898020}
       \strng{authorfullhashraw}{4642766c7ac7de278be5076535898020}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -143,8 +143,8 @@
       \strng{authornamehash}{02befd2ffbeb1d6a05ae0879984f9ccd}
       \strng{authorfullhash}{a14da9d807544aea3aa5c275dc435f70}
       \strng{authorfullhashraw}{a14da9d807544aea3aa5c275dc435f70}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Microprocessors and Microsystems}
@@ -181,8 +181,8 @@
       \strng{authornamehash}{bb1f1b73eba73522f7b093848839e1f9}
       \strng{authorfullhash}{988dca2282530a15645a10b0451f6734}
       \strng{authorfullhashraw}{988dca2282530a15645a10b0451f6734}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Access}
@@ -322,8 +322,8 @@
       \endverb
     \endentry
     \entry{6}{misc}{}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: Dec. 5, 2023}
       \field{title}{Flight Controllers explained for everyone}
@@ -383,8 +383,8 @@
       \strng{authornamehash}{6a3edccbfc9ebdab63530db71afd90e8}
       \strng{authorfullhash}{6a3edccbfc9ebdab63530db71afd90e8}
       \strng{authorfullhashraw}{6a3edccbfc9ebdab63530db71afd90e8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -414,8 +414,8 @@
       \strng{authornamehash}{142ce50fab37d197720886f5e675eea6}
       \strng{authorfullhash}{142ce50fab37d197720886f5e675eea6}
       \strng{authorfullhashraw}{142ce50fab37d197720886f5e675eea6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -486,7 +486,65 @@
       \field{title}{Unmanned Aircraft Systems (UAS)}
       \field{year}{2011}
     \endentry
+    \entry{BNO}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6ffc9d22b6849b13c2d339fd4f8a826c}{%
+           family={BricoGeek},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{fullhash}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{fullhashraw}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{bibnamehash}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{authorbibnamehash}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{authornamehash}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{authorfullhash}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \strng{authorfullhashraw}{6ffc9d22b6849b13c2d339fd4f8a826c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Mar. 10, 2024}
+      \field{title}{Sensor inercial Absoluto 9 DOF BNO055 Adafruit 4646}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tienda.bricogeek.com/medicion-inercial-imu/802-sensor-inercial-absoluto-9-dof-bno055.html
+      \endverb
+      \verb{url}
+      \verb https://tienda.bricogeek.com/medicion-inercial-imu/802-sensor-inercial-absoluto-9-dof-bno055.html
+      \endverb
+    \endentry
+    \entry{flysky}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=845f6de7fc9bc42890ef94d8f61fb7a0}{%
+           family={FlySky\bibnamedelimb RC\bibnamedelimb Model\bibnamedelimb Technology\bibnamedelima Co.},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ltd},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{fullhash}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{fullhashraw}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{bibnamehash}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{authorbibnamehash}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{authornamehash}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{authorfullhash}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \strng{authorfullhashraw}{845f6de7fc9bc42890ef94d8f61fb7a0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FS-i6 Digital Proportional Radio Control System Instruction Manual}
+      \field{year}{2015-2016}
+      \verb{urlraw}
+      \verb https://www.flysky-cn.com/fsi6
+      \endverb
+      \verb{url}
+      \verb https://www.flysky-cn.com/fsi6
+      \endverb
+    \endentry
   \enddatalist
+  \missing{19}
 \endrefsection
 \endinput
 

@@ -479,6 +479,9 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec
 INPUT .\Configuracion.tex
 INPUT .\Configuracion.tex
 INPUT Configuracion.tex
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
 OUTPUT main.aux
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
@@ -560,11 +563,20 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
 OUTPUT main.toc
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\main.lof
+INPUT .\main.lof
+INPUT main.lof
 OUTPUT main.lof
+INPUT .\main.lot
+INPUT .\main.lot
+INPUT main.lot
 OUTPUT main.lot
 INPUT .\Sections\Abstract.tex
 INPUT .\Sections\Abstract.tex
@@ -696,6 +708,186 @@ INPUT .\Sections\Hardware.tex
 INPUT .\Sections\Hardware.tex
 INPUT .\Sections\Hardware.tex
 INPUT Sections\Hardware.tex
+INPUT .\Sections\Enclousure.tex
+INPUT .\Sections\Enclousure.tex
+INPUT .\Sections\Enclousure.tex
+INPUT .\Sections\Enclousure.tex
+INPUT Sections\Enclousure.tex
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\carcasa.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Imagenes\Metodologia\producto final.png
+INPUT .\Sections\Firmware.tex
+INPUT .\Sections\Firmware.tex
+INPUT .\Sections\Firmware.tex
+INPUT .\Sections\Firmware.tex
+INPUT Sections\Firmware.tex
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT .\Imagenes\Metodologia\I2C_scan.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+INPUT C:\Users\U S E R\AppData\Local\MiKTeX\fonts\tfm\public\esvect\vect8.tfm
+INPUT C:\Users\U S E R\AppData\Local\MiKTeX\fonts\tfm\public\esvect\vect6.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\SD.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Metodologia\estacion en tierra.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\Superficies de Control.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT .\Imagenes\Firmware\PID basico.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT .\Imagenes\Firmware\Pantalla oled.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\Sections\Interfaz.tex
 INPUT .\Sections\Interfaz.tex
 INPUT .\Sections\Interfaz.tex
@@ -741,6 +933,158 @@ INPUT .\Imagenes\Costos\presupuesto.png
 INPUT .\Imagenes\Costos\presupuesto.png
 INPUT .\Imagenes\Costos\presupuesto.png
 INPUT .\Imagenes\Costos\presupuesto.png
+INPUT .\Sections\pruebas_funcionamiento.tex
+INPUT .\Sections\pruebas_funcionamiento.tex
+INPUT .\Sections\pruebas_funcionamiento.tex
+INPUT .\Sections\pruebas_funcionamiento.tex
+INPUT Sections\pruebas_funcionamiento.tex
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\pwm canales.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT .\Imagenes\Pruebas\montajeControladores.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_1_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\roll_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_1_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\pitch_2_compare.png
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\altura.jpg
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Imagenes\Pruebas\gps.png
+INPUT .\Sections\prueba_vuelo.tex
+INPUT .\Sections\prueba_vuelo.tex
+INPUT .\Sections\prueba_vuelo.tex
+INPUT .\Sections\prueba_vuelo.tex
+INPUT Sections\prueba_vuelo.tex
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\UAV protegé.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\Esquematico.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\matriz_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Imagenes\Pruebas\resumen_prueba_vuelo_local.png
+INPUT .\Sections\resultados.tex
+INPUT .\Sections\resultados.tex
+INPUT .\Sections\resultados.tex
+INPUT .\Sections\resultados.tex
+INPUT Sections\resultados.tex
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\gps_Prueba.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\latitud y longitud acenso.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\BMP280_sensor.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\yaw_pitch_roll_vs_tiempo.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\BNO055_orientacion.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\comparison_subplots.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
+INPUT .\Imagenes\Vuelo\subplots_interfaz.png
 INPUT .\Sections\conclusiones.tex
 INPUT .\Sections\conclusiones.tex
 INPUT .\Sections\conclusiones.tex
@@ -780,13 +1124,29 @@ INPUT .\Imagenes\Anexos\carcasa_version.png
 INPUT .\Imagenes\Anexos\carcasa_version.png
 INPUT .\Imagenes\Anexos\carcasa_version.png
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
-INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT main.aux
+INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

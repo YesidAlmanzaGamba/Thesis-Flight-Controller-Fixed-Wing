@@ -1,16 +1,21 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
-[1] Config.pm:311> INFO - Logfile is 'main.blg'
-[256] biber-MSWIN64:340> INFO - === 
-[359] Biber.pm:420> INFO - Reading 'main.bcf'
-[667] Biber.pm:994> INFO - Found 15 citekeys in bib section 0
-[704] Biber.pm:4463> INFO - Processing section 0
-[734] Biber.pm:4654> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[824] bibtex.pm:1713> INFO - LaTeX decoding ...
-[894] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
-[1102] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1103] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1105] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1137] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1156] bbl.pm:779> INFO - Output to main.bbl
-[1156] Biber.pm:131> WARN - legacy month field 'Jul.' in entry 'UAgriculture' is not an integer - this will probably not sort properly.
-[1157] Biber.pm:133> INFO - WARNINGS: 1
+[3] Config.pm:311> INFO - Logfile is 'main.blg'
+[268] biber-MSWIN64:340> INFO - === 
+[341] Biber.pm:420> INFO - Reading 'main.bcf'
+[634] Biber.pm:994> INFO - Found 18 citekeys in bib section 0
+[682] Biber.pm:4463> INFO - Processing section 0
+[713] Biber.pm:4654> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[801] bibtex.pm:1713> INFO - LaTeX decoding ...
+[862] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[1038] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[1661] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1675] bibtex.pm:1519> INFO - Found BibTeX data source 'C:/Users/U S E R/AppData/Local/Programs/MiKTeX/bibtex/bib/feupphdteses/references.bib'
+[1728] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1728] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1729] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[1764] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1783] bbl.pm:779> INFO - Output to main.bbl
+[1784] Biber.pm:131> WARN - legacy month field 'Jul.' in entry 'UAgriculture' is not an integer - this will probably not sort properly.
+[1784] Biber.pm:131> WARN - legacy year field '2015-2016' in entry 'flysky' is not an integer - this will probably not sort properly.
+[1785] Biber.pm:131> WARN - I didn't find a database entry for '19' (section 0)
+[1786] Biber.pm:133> INFO - WARNINGS: 3

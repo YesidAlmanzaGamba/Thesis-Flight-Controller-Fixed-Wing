@@ -1,38 +1,112 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Abstract}{4}{section.1}%
-\contentsline {section}{\numberline {2}Agradecimientos}{5}{section.2}%
-\contentsline {section}{\numberline {3}Introducción }{6}{section.3}%
-\contentsline {section}{\numberline {4}Estado del Arte}{7}{section.4}%
-\contentsline {section}{\numberline {5}Planteamiento del problema}{8}{section.5}%
-\contentsline {section}{\numberline {6}Planteamiento del problema}{9}{section.6}%
-\contentsline {section}{\numberline {7}Objetivos}{10}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Objetivo General}{10}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Objetivos Específicos}{10}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Marco teórico}{11}{section.8}%
-\contentsline {subsection}{\numberline {8.1}UAV}{12}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1} UAV de ala fija}{12}{subsubsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.2}Ground Control Station (GCS):}{12}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Interfaz de la GCS:}{12}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Operador del UAV:}{12}{subsubsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.3}Controlador de Vuelo}{13}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Ejes inerciales del avión}{14}{subsection.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.1}Yaw o eje vertical:}{14}{subsubsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.2}Pitch o eje transversal:}{14}{subsubsection.8.4.2}%
-\contentsline {subsubsection}{\numberline {8.4.3}Roll o eje longitudinal:}{14}{subsubsection.8.4.3}%
-\contentsline {subsection}{\numberline {8.5}Main control unit (MCU)}{14}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Unidad de Medida Inercial (IMU)}{15}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Superficies de control}{15}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Sistema de Posicionamiento Global (GPS) }{15}{subsection.8.8}%
-\contentsline {subsection}{\numberline {8.9}Indicadores de vuelo}{15}{subsection.8.9}%
-\contentsline {subsection}{\numberline {8.10}Normativa seguida en el desarrollo del proyecto}{16}{subsection.8.10}%
-\contentsline {section}{\numberline {9}Metodología}{17}{section.9}%
-\contentsline {section}{\numberline {10}Diagrama Funcional}{18}{section.10}%
-\contentsline {section}{\numberline {11}Interfaz}{19}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Mapa de Posición en Tiempo Real}{19}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Indicadores de Vuelo:}{19}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Modelo 3D del UAV:}{20}{subsection.11.3}%
-\contentsline {subsubsection}{\numberline {11.3.1}Gráficas en Tiempo Real:}{21}{subsubsection.11.3.1}%
-\contentsline {section}{\numberline {12}Costos del Sistema}{22}{section.12}%
-\contentsline {section}{\numberline {13}Conclusiones}{23}{section.13}%
-\contentsline {section}{\numberline {14}Trabajos Futuros}{23}{section.14}%
-\contentsline {section}{\numberline {15}Anexos}{24}{section.15}%
+\contentsline {section}{\numberline {1}Abstract}{7}{section.1}%
+\contentsline {section}{\numberline {2}Agradecimientos}{8}{section.2}%
+\contentsline {section}{\numberline {3}Introducción }{9}{section.3}%
+\contentsline {section}{\numberline {4}Estado del Arte}{10}{section.4}%
+\contentsline {section}{\numberline {5}Planteamiento del problema}{11}{section.5}%
+\contentsline {section}{\numberline {6}Planteamiento del problema}{12}{section.6}%
+\contentsline {section}{\numberline {7}Objetivos}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Objetivo General}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Objetivos Específicos}{13}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Marco teórico}{14}{section.8}%
+\contentsline {subsection}{\numberline {8.1}UAV}{15}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1} UAV de ala fija}{15}{subsubsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.2}Ground Control Station (GCS):}{15}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Interfaz de la GCS:}{15}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Operador del UAV:}{15}{subsubsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.3}Controlador de Vuelo}{16}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Ejes inerciales del avión}{17}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}Yaw o eje vertical:}{17}{subsubsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.2}Pitch o eje transversal:}{17}{subsubsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.3}Roll o eje longitudinal:}{17}{subsubsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.5}Main control unit (MCU)}{17}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Unidad de Medida Inercial (IMU)}{18}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Superficies de control}{18}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Sistema de Posicionamiento Global (GPS) }{18}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Indicadores de vuelo}{18}{subsection.8.9}%
+\contentsline {subsection}{\numberline {8.10}Normativa seguida en el desarrollo del proyecto}{19}{subsection.8.10}%
+\contentsline {section}{\numberline {9}Metodología}{20}{section.9}%
+\contentsline {section}{\numberline {10}Diagrama Funcional}{21}{section.10}%
+\contentsline {section}{\numberline {11}Desarrollo Enclosure electrónico}{22}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Diseño Enclosure electrónico}{22}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Fabricación Enclosure electrónico}{22}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Desarrollo de Firmware}{24}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Entorno de Programación}{24}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Verificación de Conectividad Sensores y Actuadores }{24}{subsection.12.2}%
+\contentsline {subsubsection}{\numberline {12.2.1}Escaneo de direcciones I2C}{24}{subsubsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.3}Sensorica y adquisición de datos}{25}{subsection.12.3}%
+\contentsline {subsubsection}{\numberline {12.3.1} Unidades de Medición Inerciales}{25}{subsubsection.12.3.1}%
+\contentsline {subsubsection}{\numberline {12.3.2}BNO055}{26}{subsubsection.12.3.2}%
+\contentsline {subsubsection}{\numberline {12.3.3} Marcos de Referencia para la Medición de Ángulos en el Controlador de Vuelo}{26}{subsubsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.4} Filtrado y recopilación de datos de movimientos inerciales}{27}{subsection.12.4}%
+\contentsline {subsubsection}{\numberline {12.4.1}Fase de Predicción}{27}{subsubsection.12.4.1}%
+\contentsline {subsubsection}{\numberline {12.4.2} Fase de Actualización}{28}{subsubsection.12.4.2}%
+\contentsline {subsubsection}{\numberline {12.4.3}Protocolo de Inicialización y Recepción de Datos del BNO055}{30}{subsubsection.12.4.3}%
+\contentsline {subsubsection}{\numberline {12.4.4}Recepción de Datos del BNO055}{30}{subsubsection.12.4.4}%
+\contentsline {subsubsection}{\numberline {12.4.5}Cálculo del Heading}{30}{subsubsection.12.4.5}%
+\contentsline {subsubsection}{\numberline {12.4.6}Suavizado del Heading con EMA}{31}{subsubsection.12.4.6}%
+\contentsline {subsection}{\numberline {12.5}Barómetro, Altímetro y Termómetro}{31}{subsection.12.5}%
+\contentsline {subsubsection}{\numberline {12.5.1}Inicialización del BMP280}{31}{subsubsection.12.5.1}%
+\contentsline {subsubsection}{\numberline {12.5.2}Aplicación del EMA (Exponential Moving Average)}{32}{subsubsection.12.5.2}%
+\contentsline {subsubsection}{\numberline {12.5.3}Proceso de Lectura de Datos}{32}{subsubsection.12.5.3}%
+\contentsline {subsection}{\numberline {12.6}Sistema de Posicionamiento Global (GPS)}{32}{subsection.12.6}%
+\contentsline {subsubsection}{\numberline {12.6.1}Proceso de Inicialización del GPS}{32}{subsubsection.12.6.1}%
+\contentsline {subsection}{\numberline {12.7}Recopilación y Almacenamiento de Datos}{33}{subsection.12.7}%
+\contentsline {subsubsection}{\numberline {12.7.1}SD TF}{33}{subsubsection.12.7.1}%
+\contentsline {subsubsection}{\numberline {12.7.2}Conexión y Configuración}{34}{subsubsection.12.7.2}%
+\contentsline {subsection}{\numberline {12.8}Telecomunicaciones}{34}{subsection.12.8}%
+\contentsline {subsubsection}{\numberline {12.8.1}Módulo de radiofrecuencia Fly-Sky FS-IA6B}{34}{subsubsection.12.8.1}%
+\contentsline {subsubsection}{\numberline {12.8.2}Proceso de Decodificación}{35}{subsubsection.12.8.2}%
+\contentsline {subsubsection}{\numberline {12.8.3}Medición del Pulso}{35}{subsubsection.12.8.3}%
+\contentsline {subsubsection}{\numberline {12.8.4}Mapeo de la Señal}{35}{subsubsection.12.8.4}%
+\contentsline {subsubsection}{\numberline {12.8.5}Condiciones de Valor por Defecto}{35}{subsubsection.12.8.5}%
+\contentsline {subsubsection}{\numberline {12.8.6}Lectura de Interruptores}{35}{subsubsection.12.8.6}%
+\contentsline {subsection}{\numberline {12.9}Telemetría}{36}{subsection.12.9}%
+\contentsline {subsubsection}{\numberline {12.9.1}Módulo nRF24L01}{36}{subsubsection.12.9.1}%
+\contentsline {subsubsection}{\numberline {12.9.2}Estación en Tierra }{36}{subsubsection.12.9.2}%
+\contentsline {subsubsection}{\numberline {12.9.3}Arquitectura General del Firmware Controlador de Vuelo y la Estación de Control en Tierra}{37}{subsubsection.12.9.3}%
+\contentsline {subsection}{\numberline {12.10}Controlador de Vuelo}{37}{subsection.12.10}%
+\contentsline {subsection}{\numberline {12.11}Estación de Control en Tierra}{38}{subsection.12.11}%
+\contentsline {subsection}{\numberline {12.12}Actuadores}{39}{subsection.12.12}%
+\contentsline {subsubsection}{\numberline {12.12.1}Funcionamiento}{40}{subsubsection.12.12.1}%
+\contentsline {subsubsection}{\numberline {12.12.2}Movimiento Superficies de Control}{40}{subsubsection.12.12.2}%
+\contentsline {subsection}{\numberline {12.13}Control}{41}{subsection.12.13}%
+\contentsline {subsubsection}{\numberline {12.13.1}Modos de Operación}{42}{subsubsection.12.13.1}%
+\contentsline {subsection}{\numberline {12.14}Indicadores Adicionales}{42}{subsection.12.14}%
+\contentsline {subsubsection}{\numberline {12.14.1}Dispositivo de visualización}{42}{subsubsection.12.14.1}%
+\contentsline {subsubsection}{\numberline {12.14.2}Buzzer}{43}{subsubsection.12.14.2}%
+\contentsline {section}{\numberline {13}Interfaz}{44}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Mapa de Posición en Tiempo Real}{44}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Indicadores de Vuelo:}{44}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Modelo 3D del UAV:}{45}{subsection.13.3}%
+\contentsline {subsubsection}{\numberline {13.3.1}Gráficas en Tiempo Real:}{46}{subsubsection.13.3.1}%
+\contentsline {section}{\numberline {14}Costos del Sistema}{47}{section.14}%
+\contentsline {section}{\numberline {15}Pruebas de Funcionamiento}{48}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Introducción}{48}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Prueba de Almacenamiento de Datos}{48}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Verificación de la lectura y escritura del valor de los servos con osciloscopio}{49}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Comparación de Controladores}{49}{subsection.15.4}%
+\contentsline {subsubsection}{\numberline {15.4.1}Descripción del SpeedyBee V3 F405}{50}{subsubsection.15.4.1}%
+\contentsline {subsubsection}{\numberline {15.4.2}Resultados de la Prueba}{51}{subsubsection.15.4.2}%
+\contentsline {subsubsection}{\numberline {15.4.3}Análisis de las Tablas}{52}{subsubsection.15.4.3}%
+\contentsline {subsubsection}{\numberline {15.4.4}Comparación de Roll}{52}{subsubsection.15.4.4}%
+\contentsline {subsubsection}{\numberline {15.4.5}Comparación de Pitch}{53}{subsubsection.15.4.5}%
+\contentsline {subsection}{\numberline {15.5}Pruebas de Variación de Altura con el Barómetro BMP280}{55}{subsection.15.5}%
+\contentsline {subsubsection}{\numberline {15.5.1}Procedimiento de la Prueba}{55}{subsubsection.15.5.1}%
+\contentsline {subsubsection}{\numberline {15.5.2}Resultados}{55}{subsubsection.15.5.2}%
+\contentsline {subsubsection}{\numberline {15.5.3}Análisis de las Alturas del Edificio}{55}{subsubsection.15.5.3}%
+\contentsline {subsection}{\numberline {15.6}Pruebas de GPS}{56}{subsection.15.6}%
+\contentsline {section}{\numberline {16}Prueba de vuelo}{57}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Metodología de la Prueba}{57}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Matriz de Rendimiento de la Prueba de vuelo}{59}{subsection.16.2}%
+\contentsline {section}{\numberline {17}Resultados Prueba de Vuelo}{61}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Análisis de Resultados GPS Controlador de Vuelo}{61}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Datos Recibidos del Barómetro BMP280 Controlador de Vuelo}{62}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Análisis de Resultados de los Ángulos de Movimiento del UAV Controlador de Vuelo}{64}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Transmisión y Recepción de Datos}{66}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Recepción datos de la Interfaz}{68}{subsection.17.5}%
+\contentsline {subsubsection}{\numberline {17.5.1}Problemas Identificados}{68}{subsubsection.17.5.1}%
+\contentsline {subsubsection}{\numberline {17.5.2}Solución Propuesta}{68}{subsubsection.17.5.2}%
+\contentsline {section}{\numberline {18}Conclusiones}{70}{section.18}%
+\contentsline {section}{\numberline {19}Trabajos Futuros}{70}{section.19}%
+\contentsline {section}{\numberline {20}Anexos}{71}{section.20}%
