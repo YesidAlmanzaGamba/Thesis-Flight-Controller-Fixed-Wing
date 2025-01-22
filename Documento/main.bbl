@@ -322,8 +322,8 @@
       \endverb
     \endentry
     \entry{6}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: Dec. 5, 2023}
       \field{title}{Flight Controllers explained for everyone}
@@ -485,6 +485,34 @@
       \field{labeltitlesource}{title}
       \field{title}{Unmanned Aircraft Systems (UAS)}
       \field{year}{2011}
+    \endentry
+    \entry{IPC}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa49096c39b194df04c79259e8aab5b2}{%
+           family={Aldeltatec},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{fullhash}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{fullhashraw}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{bibnamehash}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{authorbibnamehash}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{authornamehash}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{authorfullhash}{fa49096c39b194df04c79259e8aab5b2}
+      \strng{authorfullhashraw}{fa49096c39b194df04c79259e8aab5b2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Jun. 10, 2024}
+      \field{title}{Norma IPC-2221B para Diseño de PCB - Actualización}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.aldeltatec.com/blog-diseno-con-normas-y-certificaciones/norma-ipc-2221b-para-diseno-de-pcb-actualizacion/
+      \endverb
+      \verb{url}
+      \verb https://www.aldeltatec.com/blog-diseno-con-normas-y-certificaciones/norma-ipc-2221b-para-diseno-de-pcb-actualizacion/
+      \endverb
     \endentry
     \entry{BNO}{misc}{}{}
       \name{author}{1}{}{%

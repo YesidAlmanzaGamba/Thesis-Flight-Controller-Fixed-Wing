@@ -1,27 +1,24 @@
-\section{Pruebas de Funcionamiento}
+\section{Pruebas de Funcionamiento Locales}
 
 
-    \subsection{Introducción}
-        En esta sección se describen las pruebas realizadas para validar el funcionamiento del controlador de vuelo en conjunto. Primeramente se van a describir ciertas pruebas que se realizaron a cada sección de componentes, verificando su funcionamiento individual y la estabilidad del sistema bajo condiciones operativas.
+    \subsection{Introducción}\vspace{5 px}
+
+        En esta sección se describen las pruebas realizadas para validar el funcionamiento del controlador de vuelo en conjunto. Primeramente se van a describir ciertas pruebas que se realizaron a cada sección de componentes, verificando su funcionamiento individual y la estabilidad del sistema bajo condiciones operativas.\vspace{5 px}
+
     \subsection{Prueba de Almacenamiento de Datos}
         \vspace{5 px}
-        Para este apartado de prueba de datos se utilizo el modulo de Almacenamiento de Datos que esta situado en la parte inferior del dispositivo tal y como se observa en la imagen , seguidamente se procedió a configurar la \textbf{ESP32-S3} para poder escribir y guardar datos en una unidad \textbf{microSD}. Para realizar esto, debemos recordar que la comunicación con el modulo de almacenamiento de datos se realiza mediante el protocolo \textbf{SPI} por lo que se debe instanciar los pines de \textbf{MISO, MOSI, SCK, CS} de este protocolo con los siguientes\textbf{GPIOS} :
-        \vspace{5 px}
-        \begin{lstlisting}[language=C++]
-        #define MOSI_PIN 35
-        #define SCK_PIN 36
-        #define MISO_PIN 37
-        #define CS_PIN 38
-        \end{lstlisting}
+
+        Para este apartado de prueba de datos se utilizo el modulo de Almacenamiento de Datos que esta situado en la parte inferior del dispositivo, seguidamente se procedió a configurar la \textbf{ESP32-S3} para poder escribir y guardar datos en una unidad \textbf{microSD}. 
 
         \vspace{5 px}
 
-        Posteriormente, se procedió a realizar un script que fuera capaz de leer la cantidad de archivos en la unidad de almacenamiento y ponerle una cabecera de nombre que fuera \textbf{dataSaved\_n.csv} donde \textbf{n} es la cantidad de archivos que tiene la \textbf{microSD}, de tal forma que el nombre fuese único cada vez que se reinicia el dispositivo. Esto se realizo de esta forma para evitar estar sobrescribiendo información en un mismo archivo. Adicionalmente, la información que se va a guardar en la microSD, es la información crucial de todos los datos de vuelo que el UAV ha generado desde su puesta de operación hasta el momento en el que se recupere esta información. \\
+        Posteriormente, se procedió a realizar un script que fuera capaz de leer la cantidad de archivos en la unidad de almacenamiento y ponerle una cabecera de nombre que fuera \textbf{dataSaved\_n.csv} donde \textbf{n} es la cantidad de archivos que tiene la \textbf{microSD}, de tal forma que el nombre fuese único cada vez que se reinicia el dispositivo. Esto se realizo para evitar estar sobrescribiendo información en un mismo archivo. Adicionalmente, la información que se va a guardar en la microSD, es la información crucial de todos los datos de vuelo que el UAV ha generado desde su puesta de operación hasta el momento en el que se recupere esta información. \\
         \vspace{10 px}
-        Para ver la capacidad de recolección de datos del dispositivos y el tamaño del archivo generado .Se procedió a dejar simulando el dispositivo durante 3  horas y 20 minutos, generando un archivo CSV con un tamaño de 1,18 MB (1.245.184 bytes). El archivo contiene un total de 17.031 líneas de datos.
+
+        Para ver la capacidad de recolección de datos del dispositivos y el tamaño del archivo generado .Se procedió a dejar simulando el dispositivo durante 3  horas y 20 minutos, generando un archivo CSV con un tamaño de 1,18 MB (1.245.184 bytes). El archivo contiene un total de 17.031 líneas de datos.\vspace{5 px}
 
 
-        Para estimar la capacidad de almacenamiento a largo plazo, realizamos una proyección utilizando una memoria de 64 GB. A continuación, se muestra el cálculo detallado:
+        Para estimar la capacidad de almacenamiento a largo plazo, realizamos una proyección utilizando una memoria de 64 GB. A continuación, se muestra el cálculo detallado:\vspace{5 px}
 
         \vspace{5 px}
         \begin{itemize}
@@ -30,6 +27,7 @@
             \item Número de líneas en el archivo: 17.031
         \end{itemize}
         \vspace{5 px}
+
         Para determinar cuántas horas de operación se pueden almacenar en una memoria de 64 GB (68.719.476.736 bytes), utilizamos la siguiente regla de tres:
 
         \begin{equation}
@@ -49,7 +47,8 @@
         \end{equation}
 
         \vspace{5 px}
-        Por lo tanto, se puede almacenar información en una memoria de 64 GB durante aproximadamente 183.816,34 horas o 20,99 años, considerando el ritmo de generación de datos y el tamaño de los archivos registrados en esta prueba.
+
+        Por lo tanto, se puede almacenar información en una memoria de 64 GB durante aproximadamente 183.816,34 horas o 20,99 años, considerando el ritmo de generación de datos y el tamaño de los archivos registrados en esta prueba.\vspace{5 px}
 
 
     \subsection{Verificación de la lectura y escritura del valor de los servos con osciloscopio}
@@ -185,6 +184,7 @@
         \end{table}
 
         \subsubsection{Análisis de las Tablas}
+            \vspace{5 px}
 
             En las tablas de datos de Roll y Pitch, se observa que ambos controladores presentan comportamientos bastante similares. El error relativo entre las mediciones de los controladores Delta y SpeedyBee V3 F405 varía generalmente entre el 1\% y el 4\%. Sin embargo, hay excepciones notables, como cuando se miden ángulos cercanos a los -10°, tanto en Roll como en Pitch, donde el error puede llegar hasta el 19\%.
 
@@ -192,8 +192,10 @@
             Es importante destacar que existe cierta incertidumbre asociada a la forma en que se recopilaron los datos. Fijar los ángulos en diferentes grados puede introducir variaciones en las lecturas de ambos controladores debido a pequeñas discrepancias en la posición exacta y la respuesta de los sensores. Esto puede afectar la precisión de las mediciones comparadas.
             \vspace{5px}
 
-        \subsubsection{Comparación de Roll}
-            En los gráficos de la Figura \ref{fig:comparacionRoll}, se puede observar que los ángulos de Roll medidos por ambos controladores son muy similares. En la primera toma de datos, los valores siguen una tendencia casi idéntica, con variaciones mínimas en algunos puntos. En la segunda toma de datos, se observa un comportamiento similar, reafirmando la consistencia entre las mediciones de ambos dispositivos.
+        \subsubsection{Comparación de Roll}\vspace{5 px}
+
+            En los gráficos de la Figura \ref{fig:comparacionRoll}, se puede observar que los ángulos de Roll medidos por ambos controladores son muy similares. En la primera toma de datos, los valores siguen una tendencia casi idéntica, con variaciones mínimas en algunos puntos. En la segunda toma de datos, se observa un comportamiento similar, reafirmando la consistencia entre las mediciones de ambos dispositivos.\vspace{5 px}
+            
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=5.5 in]{Imagenes/Pruebas/roll_1_compare.png}
@@ -206,11 +208,12 @@
                 \includegraphics[width=5.5 in]{Imagenes/Pruebas/roll_2_compare.png}
                 \caption{Comparación de Roll entre controladores Delta y SpeedyBee V3 F405 en la segunda toma de datos }
                 \label{fig:comparacionRoll}
-            \end{figure}
+            \end{figure}\vspace{5 px}
 
 
-        \subsubsection{Comparación de Pitch}
-            De manera similar, los gráficos de la Figura \ref{fig:comparacionPitch1} presentan la comparación de los ángulos de Pitch. Aquí también se evidencia que ambos controladores tienen un comportamiento muy parecido. Las diferencias entre los valores son mínimas y generalmente se mantienen dentro de un margen de error aceptable.
+        \subsubsection{Comparación de Pitch}\vspace{5 px}
+
+            De manera similar, los gráficos de la Figura \ref{fig:comparacionPitch1} presentan la comparación de los ángulos de Pitch. Aquí también se evidencia que ambos controladores tienen un comportamiento muy parecido. Las diferencias entre los valores son mínimas y generalmente se mantienen dentro de un margen de error aceptable.\vspace{5 px}
 
 
             \begin{figure}[H]
@@ -225,14 +228,17 @@
                 \includegraphics[width=5.5 in]{Imagenes/Pruebas/pitch_2_compare.png}
                 \caption{Comparación de Roll entre controladores Delta y SpeedyBee V3 F405 en la segunda toma de datos }
                 \label{fig:comparacionPitch2}
-            \end{figure}
+            \end{figure}\vspace{5 px}
 
 
-    \subsection{Pruebas de Variación de Altura con el Barómetro BMP280}
+    \subsection{Pruebas de Variación de Altura con el Barómetro BMP280}\vspace{5 px}
 
-        Para evaluar el desempeño del sensor barométrico BMP280 en la medición de la altura, se realizó una prueba en el Edificio Mario Laserna. Durante esta prueba, se utilizó un ascensor para cambiar de piso en diferentes niveles del edificio. La prueba se inició en el nivel S2 y se ascendió hasta el piso 8. Finalmente, se descendió al nivel inicial y se capturaron los datos correspondientes a la variación de altura.
 
-        \subsubsection{Procedimiento de la Prueba}
+        Para evaluar el desempeño del sensor barométrico BMP280 en la medición de la altura, se realizó una prueba en el Edificio Mario Laserna. Durante esta prueba, se utilizó un ascensor para cambiar de piso en diferentes niveles del edificio. La prueba se inició en el nivel S2 y se ascendió hasta el piso 8. Finalmente, se descendió al nivel inicial y se capturaron los datos correspondientes a la variación de altura.\vspace{5 px}
+    
+
+        \subsubsection{Procedimiento de la Prueba}\vspace{5 px}
+    
 
             \begin{enumerate}
                 \item \textbf{Inicio en el Nivel S2}: La prueba comenzó en el nivel subterráneo 2 del edificio.
@@ -240,9 +246,10 @@
                 \item \textbf{Descenso al Nivel Inicial}: Posteriormente, se descendió de nuevo hasta el nivel S2, registrando los datos durante todo el recorrido.
             \end{enumerate}
 
-        \subsubsection{Resultados}
+        \subsubsection{Resultados}\vspace{5 px}
+    
 
-            La figura adjunta muestra los resultados obtenidos de la prueba de variación de altura. Se puede observar cómo la altura medida por el BMP280 cambia a medida que el sensor se mueve a diferentes niveles del edificio. Los datos capturados reflejan un aumento progresivo de la altura durante el ascenso y una disminución correspondiente durante el descenso.
+            La figura adjunta muestra los resultados obtenidos de la prueba de variación de altura. Se puede observar cómo la altura medida por el BMP280 cambia a medida que el sensor se mueve a diferentes niveles del edificio. Los datos capturados reflejan un aumento progresivo de la altura durante el ascenso y una disminución correspondiente durante el descenso.\vspace{5 px}
 
             \begin{figure}[H]
                 \centering
@@ -251,26 +258,25 @@
                 \label{fig:variacion_altura}
             \end{figure}
 
-        \subsubsection{Análisis de las Alturas del Edificio}
+        \subsubsection{Análisis de las Alturas del Edificio}\vspace{5 px}
 
-            La prueba de variación de altura realizada en el Edificio Mario Laserna nos permitió obtener datos precisos sobre la altitud a diferentes niveles del edificio. Según los datos registrados, la altura en el nivel S2 era de aproximadamente 2595 metros sobre el nivel del mar (msnm), mientras que en el piso 8 la altura era de aproximadamente 2625 metros msnm.
+            La prueba de variación de altura realizada en el Edificio Mario Laserna nos permitió obtener datos precisos sobre la altitud a diferentes niveles del edificio. Según los datos registrados, la altura en el nivel S2 era de aproximadamente 2595 metros sobre el nivel del mar (msnm), mientras que en el piso 8 la altura era de aproximadamente 2625 metros msnm.\vspace{5 px}
 
-            Para calcular la diferencia de altura entre estos dos niveles, se realiza la siguiente operación:
+            Para calcular la diferencia de altura entre estos dos niveles, se realiza la siguiente operación:\vspace{5 px}
 
             \[
             \text{Diferencia de altura} = 2625 \, \text{msnm} - 2595 \, \text{msnm} = 30 \, \text{metros}
             \]
-
-            Por lo tanto, la altura total del edificio, desde el nivel S2 hasta el piso 8, es de 30 metros.
-
-            Estos resultados demuestran la capacidad del sensor BMP280 para medir con precisión las variaciones de altura en un entorno controlado como el de un edificio de varios pisos.
+            \vspace{5 px}
+            Por lo tanto, la altura total del edificio, desde el nivel S2 hasta el piso 8, es de 30 metros.Estos resultados demuestran la capacidad del sensor BMP280 para medir con precisión las variaciones de altura en un entorno controlado como el de un edificio de varios pisos.\vspace{5 px}
 
 
 
-    \subsection{Pruebas de GPS}
-        Se realizó una prueba de GPS en el espacio abierto conocido como \textbf{El Bobo} en la Universidad de los Andes. Durante esta prueba, los datos de ubicación fueron almacenados en la tarjeta SD del dispositivo para su posterior análisis y ploteo en un mapa. Tal y como se muestra en la imagen adjunta, se realizó un desplazamiento en forma de bucle para verificar la precisión del GPS.
+    \subsection{Pruebas de GPS}\vspace{5 px}
 
-        El recorrido se realizó alrededor de la zona verde, registrando puntos de ubicación en intervalos regulares. Los datos capturados fueron luego representados en un mapa, mostrando el trayecto seguido. Esta prueba permitió evaluar la precisión del GPS en un entorno controlado y abierto, confirmando su capacidad para rastrear movimientos en tiempo real y proporcionar datos de ubicación precisos.
+        Se realizó una prueba de GPS en el espacio abierto conocido como \textbf{El Bobo} en la Universidad de los Andes. Durante esta prueba, los datos de ubicación fueron almacenados en la tarjeta SD del dispositivo para su posterior análisis y ploteo en un mapa. Tal y como se muestra en la imagen adjunta, se realizó un desplazamiento en forma de bucle para verificar la precisión del GPS.\vspace{5 px}
+
+        El recorrido se realizó alrededor de la zona verde, registrando puntos de ubicación en intervalos regulares. Los datos capturados fueron luego representados en un mapa, mostrando el trayecto seguido. Esta prueba permitió evaluar la precisión del GPS en un entorno controlado y abierto, confirmando su capacidad para rastrear movimientos en tiempo real y proporcionar datos de ubicación precisos.\vspace{5 px}
 
         \begin{figure}[H]
         \centering

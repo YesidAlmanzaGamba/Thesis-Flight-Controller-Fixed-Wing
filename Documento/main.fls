@@ -563,20 +563,11 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
 OUTPUT main.toc
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT .\main.lof
-INPUT .\main.lof
-INPUT main.lof
 OUTPUT main.lof
-INPUT .\main.lot
-INPUT .\main.lot
-INPUT main.lot
 OUTPUT main.lot
 INPUT .\Sections\Abstract.tex
 INPUT .\Sections\Abstract.tex
@@ -585,13 +576,13 @@ INPUT .\Sections\Abstract.tex
 INPUT Sections\Abstract.tex
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\Sections\Agradecimientos.tex
 INPUT .\Sections\Agradecimientos.tex
 INPUT .\Sections\Agradecimientos.tex
 INPUT .\Sections\Agradecimientos.tex
 INPUT Sections\Agradecimientos.tex
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\Sections\Introducción.tex
@@ -638,7 +629,6 @@ INPUT .\Sections\Planteamiento_problema.tex
 INPUT .\Sections\Planteamiento_problema.tex
 INPUT .\Sections\Planteamiento_problema.tex
 INPUT Sections\Planteamiento_problema.tex
-INPUT Sections\Planteamiento_problema.tex
 INPUT .\Sections\Objetivos.tex
 INPUT .\Sections\Objetivos.tex
 INPUT .\Sections\Objetivos.tex
@@ -663,20 +653,6 @@ INPUT .\Imagenes\Marco Teorico\raf_reaper_fly.jpg
 INPUT .\Imagenes\Marco Teorico\raf_reaper_fly.jpg
 INPUT .\Imagenes\Marco Teorico\raf_reaper_fly.jpg
 INPUT .\Imagenes\Marco Teorico\raf_reaper_fly.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\flight controller.jpg
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
-INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
 INPUT .\Imagenes\Marco Teorico\s_control.png
 INPUT .\Imagenes\Marco Teorico\s_control.png
 INPUT .\Imagenes\Marco Teorico\s_control.png
@@ -684,6 +660,20 @@ INPUT .\Imagenes\Marco Teorico\s_control.png
 INPUT .\Imagenes\Marco Teorico\s_control.png
 INPUT .\Imagenes\Marco Teorico\s_control.png
 INPUT .\Imagenes\Marco Teorico\s_control.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\YAW_PITCH_ROLL_UAV.png
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
+INPUT .\Imagenes\Marco Teorico\flight controller.jpg
 INPUT .\Sections\Metodología.tex
 INPUT .\Sections\Metodología.tex
 INPUT .\Sections\Metodología.tex
@@ -708,6 +698,55 @@ INPUT .\Sections\Hardware.tex
 INPUT .\Sections\Hardware.tex
 INPUT .\Sections\Hardware.tex
 INPUT Sections\Hardware.tex
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitectura_controlador.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\arquitecturaModulos.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\SCH2.0.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\PCB20.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\ipc2221.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\model3d.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
+INPUT .\Imagenes\Metodologia\pcb_ensamblada.png
 INPUT .\Sections\Enclousure.tex
 INPUT .\Sections\Enclousure.tex
 INPUT .\Sections\Enclousure.tex
@@ -764,13 +803,6 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
-INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
@@ -778,6 +810,13 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
+INPUT .\Imagenes\Metodologia\pcb_yaw_pitch_roll.png
 INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
 INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
 INPUT .\Imagenes\Metodologia\Angulos_Giro_pitch_Mpu6050_BNO055.png
@@ -792,13 +831,6 @@ INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
 INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
 INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
 INPUT .\Imagenes\Metodologia\Angulos_Giro_roll_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
-INPUT .\Imagenes\Metodologia\Angulos_Giro_Mpu6050_BNO055.png
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -813,17 +845,17 @@ INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
+INPUT .\Imagenes\Firmware\GPS.png
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
-INPUT .\Imagenes\Firmware\GPS.png
-INPUT .\Imagenes\Firmware\GPS.png
-INPUT .\Imagenes\Firmware\GPS.png
-INPUT .\Imagenes\Firmware\GPS.png
-INPUT .\Imagenes\Firmware\GPS.png
-INPUT .\Imagenes\Firmware\GPS.png
-INPUT .\Imagenes\Firmware\GPS.png
 INPUT .\Imagenes\Metodologia\SD.png
 INPUT .\Imagenes\Metodologia\SD.png
 INPUT .\Imagenes\Metodologia\SD.png
@@ -838,19 +870,19 @@ INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
 INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
 INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
 INPUT .\Imagenes\Metodologia\Radio Control.drawio.png
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
-INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
-INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
+INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
-INPUT .\Imagenes\Metodologia\Diagrama Receptor.png
 INPUT .\Imagenes\Metodologia\estacion en tierra.png
 INPUT .\Imagenes\Metodologia\estacion en tierra.png
 INPUT .\Imagenes\Metodologia\estacion en tierra.png
@@ -858,13 +890,6 @@ INPUT .\Imagenes\Metodologia\estacion en tierra.png
 INPUT .\Imagenes\Metodologia\estacion en tierra.png
 INPUT .\Imagenes\Metodologia\estacion en tierra.png
 INPUT .\Imagenes\Metodologia\estacion en tierra.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
-INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
 INPUT .\Imagenes\Firmware\Superficies de Control.png
 INPUT .\Imagenes\Firmware\Superficies de Control.png
 INPUT .\Imagenes\Firmware\Superficies de Control.png
@@ -888,6 +913,13 @@ INPUT .\Imagenes\Firmware\Pantalla oled.png
 INPUT .\Imagenes\Firmware\Pantalla oled.png
 INPUT .\Imagenes\Firmware\Pantalla oled.png
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
+INPUT .\Imagenes\Interfaz\diagrama general de codigo.png
 INPUT .\Sections\Interfaz.tex
 INPUT .\Sections\Interfaz.tex
 INPUT .\Sections\Interfaz.tex
@@ -1123,9 +1155,7 @@ INPUT .\Imagenes\Anexos\carcasa_version.png
 INPUT .\Imagenes\Anexos\carcasa_version.png
 INPUT .\Imagenes\Anexos\carcasa_version.png
 INPUT .\Imagenes\Anexos\carcasa_version.png
-INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT main.aux
-INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\U S E R\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb

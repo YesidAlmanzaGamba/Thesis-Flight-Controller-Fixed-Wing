@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.13)  15 JAN 2025 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.13)  22 JAN 2025 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1701,12 +1701,6 @@ LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
 
 
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:waypoints' multiply defined.
-
-
 LaTeX Warning: Label `fig:mov-Superficies ' multiply defined.
 
 
@@ -1872,7 +1866,6 @@ File: uesvect.fd
 
 [1
 
-
 ]
 
 [2])
@@ -1907,88 +1900,31 @@ LaTeX Info: Redefining \% on input line 1.
 
 [6
 
-] (Sections/Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-)
+] (Sections/Abstract.tex)
 
 [7
 
-] (Sections/Agradecimientos.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-)
+] (Sections/Agradecimientos.tex)
 
 [8
 
 ] (Sections/Introducción.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-)
 
 [9
 
-] (Sections/Estado_del_Arte.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 10--164
+]) (Sections/Estado_del_Arte.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 14--160
 
  []
 
 
 
-[10
-
-] (Sections/Planteamiento_problema.tex
+[10] (Sections/Planteamiento_problema.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -2002,20 +1938,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 [11
 
-] (Sections/Planteamiento_problema.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-)
-
-[12
-
 ] (Sections/Objetivos.tex
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
@@ -2028,158 +1950,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
 )
 
-[13
+[12
 
 ] (Sections/Marco Teórico.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-<Imagenes/Marco Teorico/UAS.png, id=433, 597.60106pt x 845.26315pt>
+<Imagenes/Marco Teorico/UAS.png, id=454, 597.60106pt x 845.26315pt>
 File: Imagenes/Marco Teorico/UAS.png Graphic file (type png)
 <use Imagenes/Marco Teorico/UAS.png>
-Package pdftex.def Info: Imagenes/Marco Teorico/UAS.png  used on input line 11.
+Package pdftex.def Info: Imagenes/Marco Teorico/UAS.png  used on input line 15.
 
 (pdftex.def)             Requested size: 284.52911pt x 341.42686pt.
 
 
-[14
+[13
 
  <./Imagenes/Marco Teorico/UAS.png (PNG copy)>]
-<Imagenes/Marco Teorico/raf_reaper_fly.jpg, id=443, 471.7625pt x 276.03125pt>
+<Imagenes/Marco Teorico/raf_reaper_fly.jpg, id=464, 471.7625pt x 276.03125pt>
 File: Imagenes/Marco Teorico/raf_reaper_fly.jpg Graphic file (type jpg)
 <use Imagenes/Marco Teorico/raf_reaper_fly.jpg>
 Package pdftex.def Info: Imagenes/Marco Teorico/raf_reaper_fly.jpg  used on inp
-ut line 32.
+ut line 33.
 (pdftex.def)             Requested size: 227.62398pt x 142.26929pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
 
-[15 <./Imagenes/Marco Teorico/raf_reaper_fly.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[14 <./Imagenes/Marco Teorico/raf_reaper_fly.jpg>]
+<Imagenes/Marco Teorico/s_control.png, id=475, 666.49pt x 325.215pt>
+File: Imagenes/Marco Teorico/s_control.png Graphic file (type png)
+<use Imagenes/Marco Teorico/s_control.png>
+Package pdftex.def Info: Imagenes/Marco Teorico/s_control.png  used on input li
+ne 80.
+(pdftex.def)             Requested size: 284.5308pt x 170.72058pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-<Imagenes/Marco Teorico/flight controller.jpg, id=456, 774.64406pt x 784.43062p
-t>
-File: Imagenes/Marco Teorico/flight controller.jpg Graphic file (type jpg)
-<use Imagenes/Marco Teorico/flight controller.jpg>
-Package pdftex.def Info: Imagenes/Marco Teorico/flight controller.jpg  used on 
-input line 64.
-(pdftex.def)             Requested size: 227.61969pt x 142.2567pt.
-
-
-[16 <./Imagenes/Marco Teorico/flight controller.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-<Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png, id=469, 690.32906pt x 459.21562
+<Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png, id=482, 690.32906pt x 459.21562
 pt>
 File: Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png Graphic file (type png)
 <use Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png>
 Package pdftex.def Info: Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png  used on
- input line 105.
+ input line 110.
 (pdftex.def)             Requested size: 284.53252pt x 170.71992pt.
 
 
-[17 <./Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png>]
-<Imagenes/Marco Teorico/s_control.png, id=478, 666.49pt x 325.215pt>
-File: Imagenes/Marco Teorico/s_control.png Graphic file (type png)
-<use Imagenes/Marco Teorico/s_control.png>
-Package pdftex.def Info: Imagenes/Marco Teorico/s_control.png  used on input li
-ne 124.
-(pdftex.def)             Requested size: 284.5308pt x 170.72058pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--127
-
- []
+[15 <./Imagenes/Marco Teorico/s_control.png (PNG copy)>]
+<Imagenes/Marco Teorico/flight controller.jpg, id=489, 774.64406pt x 784.43062p
+t>
+File: Imagenes/Marco Teorico/flight controller.jpg Graphic file (type jpg)
+<use Imagenes/Marco Teorico/flight controller.jpg>
+Package pdftex.def Info: Imagenes/Marco Teorico/flight controller.jpg  used on 
+input line 130.
+(pdftex.def)             Requested size: 227.61969pt x 142.2567pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[16 <./Imagenes/Marco Teorico/YAW_PITCH_ROLL_UAV.png>]
 
- []
+[17 <./Imagenes/Marco Teorico/flight controller.jpg>])
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-
-[18 <./Imagenes/Marco Teorico/s_control.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-)
-
-[19] (Sections/Metodología.tex
-<Imagenes/Metodologia/metodologia.png, id=494, 1082.0425pt x 1204.5pt>
+[18] (Sections/Metodología.tex
+<Imagenes/Metodologia/metodologia.png, id=516, 1082.0425pt x 1204.5pt>
 File: Imagenes/Metodologia/metodologia.png Graphic file (type png)
 <use Imagenes/Metodologia/metodologia.png>
 Package pdftex.def Info: Imagenes/Metodologia/metodologia.png  used on input li
@@ -2187,10 +2031,10 @@ ne 7.
 (pdftex.def)             Requested size: 398.33858pt x 443.41577pt.
 
 
-[20
+[19
 
  <./Imagenes/Metodologia/metodologia.png>]
-<Imagenes/funcional/Diagrama funcional.png, id=501, 979.66pt x 615.29875pt>
+<Imagenes/funcional/Diagrama funcional.png, id=523, 979.66pt x 615.29875pt>
 File: Imagenes/funcional/Diagrama funcional.png Graphic file (type png)
 <use Imagenes/funcional/Diagrama funcional.png>
 Package pdftex.def Info: Imagenes/funcional/Diagrama funcional.png  used on inp
@@ -2198,230 +2042,157 @@ ut line 17.
 (pdftex.def)             Requested size: 454.95958pt x 285.7448pt.
 )
 
+[20
+
+ <./Imagenes/funcional/Diagrama funcional.png>] (Sections/Hardware.tex
+<Imagenes/Metodologia/arquitectura_controlador.png, id=531, 925.5378pt x 259.69
+02pt>
+File: Imagenes/Metodologia/arquitectura_controlador.png Graphic file (type png)
+
+<use Imagenes/Metodologia/arquitectura_controlador.png>
+Package pdftex.def Info: Imagenes/Metodologia/arquitectura_controlador.png  use
+d on input line 28.
+(pdftex.def)             Requested size: 454.95958pt x 127.65347pt.
+<Imagenes/Metodologia/arquitecturaModulos.png, id=533, 3983.13094pt x 1707.3787
+5pt>
+File: Imagenes/Metodologia/arquitecturaModulos.png Graphic file (type png)
+<use Imagenes/Metodologia/arquitecturaModulos.png>
+Package pdftex.def Info: Imagenes/Metodologia/arquitecturaModulos.png  used on 
+input line 37.
+(pdftex.def)             Requested size: 454.95958pt x 195.00272pt.
+
+
 [21
 
- <./Imagenes/funcional/Diagrama funcional.png>] (Sections/Hardware.tex)
-(Sections/Enclousure.tex
-<Imagenes/Metodologia/carcasa.png, id=509, 1454.43375pt x 513.92pt>
+ <./Imagenes/Metodologia/arquitectura_controlador.png>]
+
+[22 <./Imagenes/Metodologia/arquitecturaModulos.png (PNG copy)>]
+<Imagenes/Metodologia/SCH2.0.png, id=548, 867.99281pt x 585.68813pt>
+File: Imagenes/Metodologia/SCH2.0.png Graphic file (type png)
+<use Imagenes/Metodologia/SCH2.0.png>
+Package pdftex.def Info: Imagenes/Metodologia/SCH2.0.png  used on input line 64
+.
+(pdftex.def)             Requested size: 454.95958pt x 306.9904pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
+
+ []
+
+<Imagenes/Metodologia/PCB20.png, id=550, 1704.3675pt x 650.43pt>
+File: Imagenes/Metodologia/PCB20.png Graphic file (type png)
+<use Imagenes/Metodologia/PCB20.png>
+Package pdftex.def Info: Imagenes/Metodologia/PCB20.png  used on input line 75.
+
+(pdftex.def)             Requested size: 454.95958pt x 173.62357pt.
+
+
+[23 <./Imagenes/Metodologia/SCH2.0.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+<Imagenes/Metodologia/ipc2221.png, id=558, 1285.80376pt x 459.7175pt>
+File: Imagenes/Metodologia/ipc2221.png Graphic file (type png)
+<use Imagenes/Metodologia/ipc2221.png>
+Package pdftex.def Info: Imagenes/Metodologia/ipc2221.png  used on input line 8
+5.
+(pdftex.def)             Requested size: 454.95958pt x 162.66422pt.
+<Imagenes/Metodologia/model3d.png, id=561, 721.19438pt x 374.14781pt>
+File: Imagenes/Metodologia/model3d.png Graphic file (type png)
+<use Imagenes/Metodologia/model3d.png>
+Package pdftex.def Info: Imagenes/Metodologia/model3d.png  used on input line 9
+4.
+(pdftex.def)             Requested size: 454.95958pt x 236.02835pt.
+
+
+[24 <./Imagenes/Metodologia/PCB20.png> <./Imagenes/Metodologia/ipc2221.png>]
+<Imagenes/Metodologia/pcb_ensamblada.png, id=570, 1445.4pt x 482.55281pt>
+File: Imagenes/Metodologia/pcb_ensamblada.png Graphic file (type png)
+<use Imagenes/Metodologia/pcb_ensamblada.png>
+Package pdftex.def Info: Imagenes/Metodologia/pcb_ensamblada.png  used on input
+ line 116.
+(pdftex.def)             Requested size: 454.95958pt x 151.88712pt.
+
+
+[25 <./Imagenes/Metodologia/model3d.png>]) (Sections/Enclousure.tex
+<Imagenes/Metodologia/carcasa.png, id=578, 1454.43375pt x 513.92pt>
 File: Imagenes/Metodologia/carcasa.png Graphic file (type png)
 <use Imagenes/Metodologia/carcasa.png>
 Package pdftex.def Info: Imagenes/Metodologia/carcasa.png  used on input line 9
 .
 (pdftex.def)             Requested size: 454.95958pt x 160.75642pt.
-<Imagenes/Metodologia/producto final.png, id=511, 1445.4pt x 627.84563pt>
+
+
+[26 <./Imagenes/Metodologia/pcb_ensamblada.png> <./Imagenes/Metodologia/carcasa
+.png>]
+<Imagenes/Metodologia/producto final.png, id=586, 1445.4pt x 627.84563pt>
 File: Imagenes/Metodologia/producto final.png Graphic file (type png)
 <use Imagenes/Metodologia/producto final.png>
 Package pdftex.def Info: Imagenes/Metodologia/producto final.png  used on input
  line 22.
 (pdftex.def)             Requested size: 341.43306pt x 148.31015pt.
+) (Sections/Firmware.tex
 
-
-[22
-
-
- <./Imagenes/Metodologia/carcasa.png>])
-
-[23 <./Imagenes/Metodologia/producto final.png>] (Sections/Firmware.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-<Imagenes/Metodologia/I2C_scan.png, id=522, 293.59688pt x 138.5175pt>
+[27 <./Imagenes/Metodologia/producto final.png>]
+<Imagenes/Metodologia/I2C_scan.png, id=592, 293.59688pt x 138.5175pt>
 File: Imagenes/Metodologia/I2C_scan.png Graphic file (type png)
 <use Imagenes/Metodologia/I2C_scan.png>
 Package pdftex.def Info: Imagenes/Metodologia/I2C_scan.png  used on input line 
-91.
+97.
 (pdftex.def)             Requested size: 284.52756pt x 134.23921pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
 
- []
-
-
-
-[24
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-
-
-[25 <./Imagenes/Metodologia/I2C_scan.png>]
+[28 <./Imagenes/Metodologia/I2C_scan.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-35.
+40.
 
 (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Imagenes/Metodologia/pcb_yaw_pitch_roll.png, id=539, 545.78906pt x 424.58624pt
+
+[29]
+<Imagenes/Metodologia/pcb_yaw_pitch_roll.png, id=608, 545.78906pt x 424.58624pt
 >
 File: Imagenes/Metodologia/pcb_yaw_pitch_roll.png Graphic file (type png)
 <use Imagenes/Metodologia/pcb_yaw_pitch_roll.png>
 Package pdftex.def Info: Imagenes/Metodologia/pcb_yaw_pitch_roll.png  used on i
-nput line 171.
+nput line 177.
 (pdftex.def)             Requested size: 363.96904pt x 283.14317pt.
 
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-
- []
-
-
-
-[27 <./Imagenes/Metodologia/pcb_yaw_pitch_roll.png>]
-<Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png, id=556, 628.749pt 
+[30 <./Imagenes/Metodologia/pcb_yaw_pitch_roll.png>]
+<Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png, id=617, 628.749pt 
 x 377.2494pt>
 File: Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png Graphic file (
 type png)
 <use Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png>
 Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055
-.png  used on input line 238.
+.png  used on input line 249.
 (pdftex.def)             Requested size: 363.96904pt x 218.39034pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--241
-
- []
-
-
-
-[28]
-<Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png, id=561, 744.8628pt 
+[31]
+<Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png, id=626, 744.8628pt 
 x 372.9132pt>
 File: Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png Graphic file (t
 ype png)
 <use Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>
 Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.
-png  used on input line 245.
+png  used on input line 256.
 (pdftex.def)             Requested size: 363.96904pt x 182.22263pt.
-<Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png, id=562, 899.61093pt x 41
-3.29407pt>
-File: Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png Graphic file (type p
-ng)
-<use Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>
-Package pdftex.def Info: Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png  
-used on input line 252.
-(pdftex.def)             Requested size: 363.96904pt x 167.2129pt.
 
 
-[29 <./Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png> <./Imagenes/
+[32 <./Imagenes/Metodologia/Angulos_Giro_pitch_Mpu6050_BNO055.png> <./Imagenes/
 Metodologia/Angulos_Giro_roll_Mpu6050_BNO055.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
- []
+[33]
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
-
- []
-
-
-
-[30 <./Imagenes/Metodologia/Angulos_Giro_Mpu6050_BNO055.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
-
- []
-
-
-
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 380--384
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
-
- []
-
-
+[34]
 (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
@@ -2431,176 +2202,102 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
-
- []
-
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 40
-5.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 44
+6.
 (C:\Users\U S E R\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
-
- []
-
-
-
-[32]
-<Imagenes/Firmware/GPS.png, id=602, 443.40656pt x 239.39438pt>
+<Imagenes/Firmware/GPS.png, id=662, 443.40656pt x 239.39438pt>
 File: Imagenes/Firmware/GPS.png Graphic file (type png)
 <use Imagenes/Firmware/GPS.png>
-Package pdftex.def Info: Imagenes/Firmware/GPS.png  used on input line 417.
+Package pdftex.def Info: Imagenes/Firmware/GPS.png  used on input line 458.
 (pdftex.def)             Requested size: 284.52756pt x 153.62463pt.
-<Imagenes/Metodologia/SD.png, id=603, 597.23125pt x 437.635pt>
+
+
+[35 <./Imagenes/Firmware/GPS.png>]
+<Imagenes/Metodologia/SD.png, id=674, 597.23125pt x 437.635pt>
 File: Imagenes/Metodologia/SD.png Graphic file (type png)
 <use Imagenes/Metodologia/SD.png>
-Package pdftex.def Info: Imagenes/Metodologia/SD.png  used on input line 436.
+Package pdftex.def Info: Imagenes/Metodologia/SD.png  used on input line 479.
 (pdftex.def)             Requested size: 144.54pt x 105.916pt.
 
 
-[33 <./Imagenes/Firmware/GPS.png> <./Imagenes/Metodologia/SD.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+[36 <./Imagenes/Metodologia/SD.png (PNG copy)>]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-
- []
+LaTeX Warning: Citation '19' on page 37 undefined on input line 520.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+LaTeX Warning: Citation '19' on page 37 undefined on input line 521.
 
- []
-
-
-LaTeX Warning: Citation '19' on page 34 undefined on input line 473.
-
-
-LaTeX Warning: Citation '19' on page 34 undefined on input line 474.
-
-<Imagenes/Metodologia/Radio Control.drawio.png, id=613, 1004.75375pt x 468.7512
+<Imagenes/Metodologia/Radio Control.drawio.png, id=684, 1004.75375pt x 468.7512
 5pt>
 File: Imagenes/Metodologia/Radio Control.drawio.png Graphic file (type png)
 <use Imagenes/Metodologia/Radio Control.drawio.png>
 Package pdftex.def Info: Imagenes/Metodologia/Radio Control.drawio.png  used on
- input line 484.
+ input line 531.
 (pdftex.def)             Requested size: 433.62pt x 202.2958pt.
 
 
-[34]
-
-[35 <./Imagenes/Metodologia/Radio Control.drawio.png>]
-<Imagenes/Metodologia/Diagrama Receptor.png, id=625, 1121.18875pt x 456.70625pt
+[37 <./Imagenes/Metodologia/Radio Control.drawio.png>]
+<Imagenes/Metodologia/Diagrama Receptor.png, id=692, 1121.18875pt x 456.70625pt
 >
 File: Imagenes/Metodologia/Diagrama Receptor.png Graphic file (type png)
 <use Imagenes/Metodologia/Diagrama Receptor.png>
 Package pdftex.def Info: Imagenes/Metodologia/Diagrama Receptor.png  used on in
-put line 540.
+put line 587.
 (pdftex.def)             Requested size: 433.62pt x 176.63037pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
-
- []
-
-
-
-[36 <./Imagenes/Metodologia/Diagrama Receptor.png>]
-<Imagenes/Metodologia/estacion en tierra.png, id=636, 1445.4pt x 813.0375pt>
-File: Imagenes/Metodologia/estacion en tierra.png Graphic file (type png)
-<use Imagenes/Metodologia/estacion en tierra.png>
-Package pdftex.def Info: Imagenes/Metodologia/estacion en tierra.png  used on i
-nput line 573.
-(pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--576
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--576
-
- []
-
-
-
-[37 <./Imagenes/Metodologia/estacion en tierra.png>]
-<Imagenes/Interfaz/diagrama general de codigo.png, id=643, 893.3375pt x 784.932
-5pt>
-File: Imagenes/Interfaz/diagrama general de codigo.png Graphic file (type png)
-<use Imagenes/Interfaz/diagrama general de codigo.png>
-Package pdftex.def Info: Imagenes/Interfaz/diagrama general de codigo.png  used
- on input line 623.
-(pdftex.def)             Requested size: 454.95958pt x 399.75932pt.
 
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+<Imagenes/Metodologia/estacion en tierra.png, id=700, 1445.4pt x 813.0375pt>
+File: Imagenes/Metodologia/estacion en tierra.png Graphic file (type png)
+<use Imagenes/Metodologia/estacion en tierra.png>
+Package pdftex.def Info: Imagenes/Metodologia/estacion en tierra.png  used on i
+nput line 619.
+(pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
+
+
+[39 <./Imagenes/Metodologia/Diagrama Receptor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--637
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--637
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 
  []
 
 
-
-[39 <./Imagenes/Interfaz/diagrama general de codigo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 642--643
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 644.
+nput line 637.
+
+
+[40 <./Imagenes/Metodologia/estacion en tierra.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--666
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
 
  []
 
@@ -2610,112 +2307,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 667--668
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
-
- []
-
-<Imagenes/Firmware/Superficies de Control.png, id=654, 1325.95375pt x 743.77875
+<Imagenes/Firmware/Superficies de Control.png, id=718, 1325.95375pt x 743.77875
 pt>
 File: Imagenes/Firmware/Superficies de Control.png Graphic file (type png)
 <use Imagenes/Firmware/Superficies de Control.png>
 Package pdftex.def Info: Imagenes/Firmware/Superficies de Control.png  used on 
-input line 692.
+input line 685.
 (pdftex.def)             Requested size: 454.95958pt x 255.19666pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--695
+Underfull \hbox (badness 10000) in paragraph at lines 681--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--695
+Underfull \hbox (badness 10000) in paragraph at lines 681--688
 
  []
 
 
 
-[40]
-<Imagenes/Firmware/PID basico.png, id=673, 1175.39125pt x 382.42876pt>
+[41]
+<Imagenes/Firmware/PID basico.png, id=731, 1175.39125pt x 382.42876pt>
 File: Imagenes/Firmware/PID basico.png Graphic file (type png)
 <use Imagenes/Firmware/PID basico.png>
-Package pdftex.def Info: Imagenes/Firmware/PID basico.png  used on input line 7
-03.
+Package pdftex.def Info: Imagenes/Firmware/PID basico.png  used on input line 6
+96.
 (pdftex.def)             Requested size: 454.95958pt x 148.02621pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--711
+Underfull \hbox (badness 10000) in paragraph at lines 702--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--711
+Underfull \hbox (badness 10000) in paragraph at lines 702--704
 
  []
 
 
 
-[41 <./Imagenes/Firmware/Superficies de Control.png> <./Imagenes/Firmware/PID b
+[42 <./Imagenes/Firmware/Superficies de Control.png> <./Imagenes/Firmware/PID b
 asico.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--715
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
-<Imagenes/Firmware/Pantalla oled.png, id=680, 295.1025pt x 195.73125pt>
+<Imagenes/Firmware/Pantalla oled.png, id=739, 295.1025pt x 195.73125pt>
 File: Imagenes/Firmware/Pantalla oled.png Graphic file (type png)
 <use Imagenes/Firmware/Pantalla oled.png>
 Package pdftex.def Info: Imagenes/Firmware/Pantalla oled.png  used on input lin
-e 721.
-(pdftex.def)             Requested size: 454.95958pt x 301.76453pt.
+e 719.
+(pdftex.def)             Requested size: 227.62204pt x 150.97633pt.
 
 
-[42])
+[43 <./Imagenes/Firmware/Pantalla oled.png>]
+<Imagenes/Interfaz/diagrama general de codigo.png, id=746, 893.3375pt x 784.932
+5pt>
+File: Imagenes/Interfaz/diagrama general de codigo.png Graphic file (type png)
+<use Imagenes/Interfaz/diagrama general de codigo.png>
+Package pdftex.def Info: Imagenes/Interfaz/diagrama general de codigo.png  used
+ on input line 743.
+(pdftex.def)             Requested size: 454.95958pt x 399.75932pt.
 
-[43 <./Imagenes/Firmware/Pantalla oled.png>] (Sections/Interfaz.tex
-<Imagenes/Interfaz/mapa_interfaz.png, id=692, 1232.35406pt x 779.91376pt>
+
+[44 <./Imagenes/Interfaz/diagrama general de codigo.png>])
+
+[45] (Sections/Interfaz.tex
+<Imagenes/Interfaz/mapa_interfaz.png, id=757, 1232.35406pt x 779.91376pt>
 File: Imagenes/Interfaz/mapa_interfaz.png Graphic file (type png)
 <use Imagenes/Interfaz/mapa_interfaz.png>
 Package pdftex.def Info: Imagenes/Interfaz/mapa_interfaz.png  used on input lin
 e 11.
-(pdftex.def)             Requested size: 433.62pt x 274.41386pt.
-<Imagenes/Interfaz/metricas.png, id=694, 1189.44376pt x 778.40813pt>
+(pdftex.def)             Requested size: 289.07999pt x 182.94655pt.
+<Imagenes/Interfaz/metricas.png, id=759, 1189.44376pt x 778.40813pt>
 File: Imagenes/Interfaz/metricas.png Graphic file (type png)
 <use Imagenes/Interfaz/metricas.png>
 Package pdftex.def Info: Imagenes/Interfaz/metricas.png  used on input line 29.
 
-(pdftex.def)             Requested size: 433.62pt x 283.76622pt.
+(pdftex.def)             Requested size: 289.07999pt x 189.17352pt.
 
 
-[44
+[46
 
  <./Imagenes/Interfaz/mapa_interfaz.png>]
-<Imagenes/Interfaz/modelo3d.png, id=701, 1242.89343pt x 793.46437pt>
+<Imagenes/Interfaz/modelo3d.png, id=766, 1242.89343pt x 793.46437pt>
 File: Imagenes/Interfaz/modelo3d.png Graphic file (type png)
 <use Imagenes/Interfaz/modelo3d.png>
 Package pdftex.def Info: Imagenes/Interfaz/modelo3d.png  used on input line 39.
 
-(pdftex.def)             Requested size: 361.34999pt x 230.67992pt.
-
-
-[45 <./Imagenes/Interfaz/metricas.png>]
-<Imagenes/Interfaz/graficas.png, id=707, 1243.64626pt x 769.37437pt>
+(pdftex.def)             Requested size: 289.07999pt x 184.5512pt.
+<Imagenes/Interfaz/graficas.png, id=767, 1243.64626pt x 769.37437pt>
 File: Imagenes/Interfaz/graficas.png Graphic file (type png)
 <use Imagenes/Interfaz/graficas.png>
 Package pdftex.def Info: Imagenes/Interfaz/graficas.png  used on input line 50.
@@ -2723,9 +2422,10 @@ Package pdftex.def Info: Imagenes/Interfaz/graficas.png  used on input line 50.
 (pdftex.def)             Requested size: 433.62pt x 268.25197pt.
 )
 
-[46 <./Imagenes/Interfaz/modelo3d.png> <./Imagenes/Interfaz/graficas.png>]
-(Sections/Costos.tex
-<Imagenes/Costos/presupuesto.png, id=715, 681.29532pt x 861.2175pt>
+[47 <./Imagenes/Interfaz/metricas.png> <./Imagenes/Interfaz/modelo3d.png>]
+
+[48 <./Imagenes/Interfaz/graficas.png>] (Sections/Costos.tex
+<Imagenes/Costos/presupuesto.png, id=781, 681.29532pt x 861.2175pt>
 File: Imagenes/Costos/presupuesto.png Graphic file (type png)
 <use Imagenes/Costos/presupuesto.png>
 Package pdftex.def Info: Imagenes/Costos/presupuesto.png  used on input line 7.
@@ -2733,95 +2433,94 @@ Package pdftex.def Info: Imagenes/Costos/presupuesto.png  used on input line 7.
 (pdftex.def)             Requested size: 369.88582pt x 467.57361pt.
 )
 
-[47
+[49
 
  <./Imagenes/Costos/presupuesto.png>] (Sections/pruebas_funcionamiento.tex
 
-[48
+[50
 
 ]
-<Imagenes/Pruebas/pwm canales.png, id=735, 1615.03375pt x 392.46625pt>
+<Imagenes/Pruebas/pwm canales.png, id=795, 1615.03375pt x 392.46625pt>
 File: Imagenes/Pruebas/pwm canales.png Graphic file (type png)
 <use Imagenes/Pruebas/pwm canales.png>
 Package pdftex.def Info: Imagenes/Pruebas/pwm canales.png  used on input line 6
-2.
+1.
 (pdftex.def)             Requested size: 505.89pt x 122.93285pt.
 
-Overfull \hbox (50.93042pt too wide) in paragraph at lines 62--63
+Overfull \hbox (50.93042pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-
-
-[49 <./Imagenes/Pruebas/pwm canales.png>]
-<Imagenes/Pruebas/montajeControladores.png, id=743, 1445.4pt x 813.0375pt>
+<Imagenes/Pruebas/montajeControladores.png, id=797, 1445.4pt x 813.0375pt>
 File: Imagenes/Pruebas/montajeControladores.png Graphic file (type png)
 <use Imagenes/Pruebas/montajeControladores.png>
 Package pdftex.def Info: Imagenes/Pruebas/montajeControladores.png  used on inp
-ut line 93.
+ut line 92.
 (pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
 
 
-[50 <./Imagenes/Pruebas/montajeControladores.png (PNG copy)>]
+[51 <./Imagenes/Pruebas/pwm canales.png>]
 
-[51]
-<Imagenes/Pruebas/roll_1_compare.png, id=754, 685.251pt x 464.499pt>
+[52 <./Imagenes/Pruebas/montajeControladores.png (PNG copy)>]
+<Imagenes/Pruebas/roll_1_compare.png, id=809, 685.251pt x 464.499pt>
 File: Imagenes/Pruebas/roll_1_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/roll_1_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/roll_1_compare.png  used on input lin
-e 199.
+e 201.
 (pdftex.def)             Requested size: 397.48499pt x 269.44504pt.
-<Imagenes/Pruebas/roll_2_compare.png, id=755, 685.251pt x 464.499pt>
+
+
+[53]
+<Imagenes/Pruebas/roll_2_compare.png, id=814, 685.251pt x 464.499pt>
 File: Imagenes/Pruebas/roll_2_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/roll_2_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/roll_2_compare.png  used on input lin
-e 206.
+e 208.
 (pdftex.def)             Requested size: 397.48499pt x 269.44504pt.
 
 
-[52 <./Imagenes/Pruebas/roll_1_compare.png>]
-<Imagenes/Pruebas/pitch_1_compare.png, id=762, 685.47pt x 464.499pt>
+[54 <./Imagenes/Pruebas/roll_1_compare.png> <./Imagenes/Pruebas/roll_2_compare.
+png>]
+<Imagenes/Pruebas/pitch_1_compare.png, id=823, 685.47pt x 464.499pt>
 File: Imagenes/Pruebas/pitch_1_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/pitch_1_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/pitch_1_compare.png  used on input li
-ne 218.
+ne 221.
 (pdftex.def)             Requested size: 397.48499pt x 269.35999pt.
-
-
-[53 <./Imagenes/Pruebas/roll_2_compare.png>]
-<Imagenes/Pruebas/pitch_2_compare.png, id=768, 685.47pt x 464.28pt>
+<Imagenes/Pruebas/pitch_2_compare.png, id=824, 685.47pt x 464.28pt>
 File: Imagenes/Pruebas/pitch_2_compare.png Graphic file (type png)
 <use Imagenes/Pruebas/pitch_2_compare.png>
 Package pdftex.def Info: Imagenes/Pruebas/pitch_2_compare.png  used on input li
-ne 225.
+ne 228.
 (pdftex.def)             Requested size: 397.48499pt x 269.23299pt.
 
 
-[54 <./Imagenes/Pruebas/pitch_1_compare.png> <./Imagenes/Pruebas/pitch_2_compar
-e.png>]
-<Imagenes/Pruebas/altura.jpg, id=776, 528.47438pt x 328.97906pt>
+[55 <./Imagenes/Pruebas/pitch_1_compare.png>]
+<Imagenes/Pruebas/altura.jpg, id=830, 528.47438pt x 328.97906pt>
 File: Imagenes/Pruebas/altura.jpg Graphic file (type jpg)
 <use Imagenes/Pruebas/altura.jpg>
-Package pdftex.def Info: Imagenes/Pruebas/altura.jpg  used on input line 249.
+Package pdftex.def Info: Imagenes/Pruebas/altura.jpg  used on input line 256.
 (pdftex.def)             Requested size: 363.96904pt x 226.57413pt.
 
 
-[55 <./Imagenes/Pruebas/altura.jpg>]
-<Imagenes/Pruebas/gps.png, id=784, 343.2825pt x 261.22594pt>
+[56 <./Imagenes/Pruebas/pitch_2_compare.png>]
+<Imagenes/Pruebas/gps.png, id=839, 343.2825pt x 261.22594pt>
 File: Imagenes/Pruebas/gps.png Graphic file (type png)
 <use Imagenes/Pruebas/gps.png>
-Package pdftex.def Info: Imagenes/Pruebas/gps.png  used on input line 277.
+Package pdftex.def Info: Imagenes/Pruebas/gps.png  used on input line 283.
 (pdftex.def)             Requested size: 363.96904pt x 276.96591pt.
-)
+) (Sections/prueba_vuelo.tex
 
-[56 <./Imagenes/Pruebas/gps.png>] (Sections/prueba_vuelo.tex
-<Imagenes/Pruebas/UAV protegé.png, id=791, 1445.4pt x 813.0375pt>
+[57 <./Imagenes/Pruebas/altura.jpg>]
+<Imagenes/Pruebas/UAV protegé.png, id=845, 1445.4pt x 813.0375pt>
 File: Imagenes/Pruebas/UAV protegé.png Graphic file (type png)
 <use Imagenes/Pruebas/UAV protegé.png>
 Package pdftex.def Info: Imagenes/Pruebas/UAV protegé.png  used on input line 
 17.
 (pdftex.def)             Requested size: 454.95958pt x 255.90967pt.
 
+
+[58 <./Imagenes/Pruebas/gps.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -2832,10 +2531,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-
-[57
-
- <./Imagenes/Pruebas/UAV protegé.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -2851,11 +2546,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 
+
+[59 <./Imagenes/Pruebas/UAV protegé.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<Imagenes/Pruebas/Esquematico.png, id=798, 1445.4pt x 813.0375pt>
+<Imagenes/Pruebas/Esquematico.png, id=857, 1445.4pt x 813.0375pt>
 File: Imagenes/Pruebas/Esquematico.png Graphic file (type png)
 <use Imagenes/Pruebas/Esquematico.png>
 Package pdftex.def Info: Imagenes/Pruebas/Esquematico.png  used on input line 4
@@ -2868,8 +2565,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 
 
 
-[58 <./Imagenes/Pruebas/Esquematico.png>]
-<Imagenes/Pruebas/matriz_prueba_vuelo_local.png, id=805, 412.54124pt x 472.7662
+[60 <./Imagenes/Pruebas/Esquematico.png>]
+<Imagenes/Pruebas/matriz_prueba_vuelo_local.png, id=865, 412.54124pt x 472.7662
 5pt>
 File: Imagenes/Pruebas/matriz_prueba_vuelo_local.png Graphic file (type png)
 <use Imagenes/Pruebas/matriz_prueba_vuelo_local.png>
@@ -2878,10 +2575,10 @@ n input line 55.
 (pdftex.def)             Requested size: 454.95958pt x 521.38625pt.
 
 
-[59
+[61
 
  <./Imagenes/Pruebas/matriz_prueba_vuelo_local.png>]
-<Imagenes/Pruebas/resumen_prueba_vuelo_local.png, id=812, 289.83281pt x 222.079
+<Imagenes/Pruebas/resumen_prueba_vuelo_local.png, id=872, 289.83281pt x 222.079
 68pt>
 File: Imagenes/Pruebas/resumen_prueba_vuelo_local.png Graphic file (type png)
 <use Imagenes/Pruebas/resumen_prueba_vuelo_local.png>
@@ -2890,9 +2587,9 @@ on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 218.02629pt.
 )
 
-[60 <./Imagenes/Pruebas/resumen_prueba_vuelo_local.png>]
+[62 <./Imagenes/Pruebas/resumen_prueba_vuelo_local.png>]
 (Sections/resultados.tex
-<Imagenes/Vuelo/gps_Prueba.png, id=820, 565.36218pt x 415.5525pt>
+<Imagenes/Vuelo/gps_Prueba.png, id=879, 565.36218pt x 415.5525pt>
 File: Imagenes/Vuelo/gps_Prueba.png Graphic file (type png)
 <use Imagenes/Vuelo/gps_Prueba.png>
 Package pdftex.def Info: Imagenes/Vuelo/gps_Prueba.png  used on input line 7.
@@ -2902,7 +2599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<Imagenes/Vuelo/latitud y longitud acenso.png, id=822, 541.3023pt x 439.4016pt>
+<Imagenes/Vuelo/latitud y longitud acenso.png, id=881, 541.3023pt x 439.4016pt>
 
 File: Imagenes/Vuelo/latitud y longitud acenso.png Graphic file (type png)
 <use Imagenes/Vuelo/latitud y longitud acenso.png>
@@ -2911,7 +2608,7 @@ input line 20.
 (pdftex.def)             Requested size: 454.95958pt x 369.32277pt.
 
 
-[61
+[63
 
  <./Imagenes/Vuelo/gps_Prueba.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
@@ -2928,7 +2625,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<Imagenes/Vuelo/BMP280_sensor.png, id=829, 722.7pt x 1084.05pt>
+<Imagenes/Vuelo/BMP280_sensor.png, id=888, 722.7pt x 1084.05pt>
 File: Imagenes/Vuelo/BMP280_sensor.png Graphic file (type png)
 <use Imagenes/Vuelo/BMP280_sensor.png>
 Package pdftex.def Info: Imagenes/Vuelo/BMP280_sensor.png  used on input line 3
@@ -2936,12 +2633,12 @@ Package pdftex.def Info: Imagenes/Vuelo/BMP280_sensor.png  used on input line 3
 (pdftex.def)             Requested size: 454.95958pt x 682.44235pt.
 
 
-[62 <./Imagenes/Vuelo/latitud y longitud acenso.png>]
+[64 <./Imagenes/Vuelo/latitud y longitud acenso.png>]
 Overfull \vbox (68.40782pt too high) has occurred while \output is active []
 
 
 
-[63 <./Imagenes/Vuelo/BMP280_sensor.png>]
+[65 <./Imagenes/Vuelo/BMP280_sensor.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
@@ -2961,13 +2658,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png, id=842, 722.7pt x 505.89pt>
+<Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png, id=901, 722.7pt x 505.89pt>
 File: Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png Graphic file (type png)
 <use Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>
 Package pdftex.def Info: Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png  used on i
 nput line 66.
 (pdftex.def)             Requested size: 369.88582pt x 258.91907pt.
-<Imagenes/Vuelo/BNO055_orientacion.png, id=843, 722.7pt x 1084.05pt>
+<Imagenes/Vuelo/BNO055_orientacion.png, id=902, 722.7pt x 1084.05pt>
 File: Imagenes/Vuelo/BNO055_orientacion.png Graphic file (type png)
 <use Imagenes/Vuelo/BNO055_orientacion.png>
 Package pdftex.def Info: Imagenes/Vuelo/BNO055_orientacion.png  used on input l
@@ -2975,12 +2672,12 @@ ine 74.
 (pdftex.def)             Requested size: 426.79134pt x 640.196pt.
 
 
-[64 <./Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>]
+[66 <./Imagenes/Vuelo/yaw_pitch_roll_vs_tiempo.png>]
 Overfull \vbox (26.16147pt too high) has occurred while \output is active []
 
 
 
-[65 <./Imagenes/Vuelo/BNO055_orientacion.png>]
+[67 <./Imagenes/Vuelo/BNO055_orientacion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
@@ -3000,7 +2697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<Imagenes/Vuelo/comparison_subplots.png, id=855, 722.7pt x 1084.05pt>
+<Imagenes/Vuelo/comparison_subplots.png, id=915, 722.7pt x 1084.05pt>
 File: Imagenes/Vuelo/comparison_subplots.png Graphic file (type png)
 <use Imagenes/Vuelo/comparison_subplots.png>
 Package pdftex.def Info: Imagenes/Vuelo/comparison_subplots.png  used on input 
@@ -3008,17 +2705,17 @@ line 96.
 (pdftex.def)             Requested size: 454.95958pt x 682.44235pt.
 
 
-[66]
+[68]
 Overfull \vbox (68.40782pt too high) has occurred while \output is active []
 
 
 
-[67 <./Imagenes/Vuelo/comparison_subplots.png>]
+[69 <./Imagenes/Vuelo/comparison_subplots.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<Imagenes/Vuelo/subplots_interfaz.png, id=867, 578.16pt x 650.43pt>
+<Imagenes/Vuelo/subplots_interfaz.png, id=926, 578.16pt x 650.43pt>
 File: Imagenes/Vuelo/subplots_interfaz.png Graphic file (type png)
 <use Imagenes/Vuelo/subplots_interfaz.png>
 Package pdftex.def Info: Imagenes/Vuelo/subplots_interfaz.png  used on input li
@@ -3026,66 +2723,44 @@ ne 116.
 (pdftex.def)             Requested size: 454.95958pt x 511.82927pt.
 )
 
-[68]
+[70]
 
-[69 <./Imagenes/Vuelo/subplots_interfaz.png>] (Sections/conclusiones.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[71 <./Imagenes/Vuelo/subplots_interfaz.png>] (Sections/conclusiones.tex
 
- []
+[72
 
+])
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-) (Sections/anexos.tex
-
-[70
-
-]
-<Imagenes/Anexos/esquematico_controlador_v1.png, id=881, 696.6828pt x 492.8814p
+[73] (Sections/anexos.tex
+<Imagenes/Anexos/esquematico_controlador_v1.png, id=959, 696.6828pt x 492.8814p
 t>
 File: Imagenes/Anexos/esquematico_controlador_v1.png Graphic file (type png)
 <use Imagenes/Anexos/esquematico_controlador_v1.png>
 Package pdftex.def Info: Imagenes/Anexos/esquematico_controlador_v1.png  used o
 n input line 7.
 (pdftex.def)             Requested size: 454.95958pt x 321.88078pt.
-<Imagenes/Anexos/layout_pcb.png, id=882, 1044.15094pt x 395.97937pt>
+
+
+[74
+
+]
+<Imagenes/Anexos/layout_pcb.png, id=969, 1044.15094pt x 395.97937pt>
 File: Imagenes/Anexos/layout_pcb.png Graphic file (type png)
 <use Imagenes/Anexos/layout_pcb.png>
 Package pdftex.def Info: Imagenes/Anexos/layout_pcb.png  used on input line 14.
 
 (pdftex.def)             Requested size: 454.95958pt x 172.53966pt.
-
-
-[71 <./Imagenes/Anexos/esquematico_controlador_v1.png>]
-<Imagenes/Anexos/pcb_primera_iteracion.png, id=888, 991.45406pt x 414.04688pt>
+<Imagenes/Anexos/pcb_primera_iteracion.png, id=970, 991.45406pt x 414.04688pt>
 File: Imagenes/Anexos/pcb_primera_iteracion.png Graphic file (type png)
 <use Imagenes/Anexos/pcb_primera_iteracion.png>
 Package pdftex.def Info: Imagenes/Anexos/pcb_primera_iteracion.png  used on inp
 ut line 21.
 (pdftex.def)             Requested size: 454.95958pt x 189.99634pt.
-<Imagenes/Anexos/carcasa_version.png, id=889, 1436.36626pt x 1406.25375pt>
+
+
+[75 <./Imagenes/Anexos/esquematico_controlador_v1.png> <./Imagenes/Anexos/layou
+t_pcb.png>]
+<Imagenes/Anexos/carcasa_version.png, id=977, 1436.36626pt x 1406.25375pt>
 File: Imagenes/Anexos/carcasa_version.png Graphic file (type png)
 <use Imagenes/Anexos/carcasa_version.png>
 Package pdftex.def Info: Imagenes/Anexos/carcasa_version.png  used on input lin
@@ -3093,12 +2768,9 @@ e 28.
 (pdftex.def)             Requested size: 454.95958pt x 445.41846pt.
 
 
-[72 <./Imagenes/Anexos/layout_pcb.png> <./Imagenes/Anexos/pcb_primera_iteracion
-.png>])
+[76 <./Imagenes/Anexos/pcb_primera_iteracion.png>])
 
-[73 <./Imagenes/Anexos/carcasa_version.png>]
-
-[74] (main.aux
+[77 <./Imagenes/Anexos/carcasa_version.png>] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -3109,20 +2781,26 @@ L3 programming layer <2024-12-25>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44964 strings out of 473536
- 859393 string characters out of 5713952
- 1884311 words of memory out of 5000000
- 67068 multiletter control sequences out of 15000+600000
+ 45012 strings out of 473536
+ 860907 string characters out of 5713952
+ 1868304 words of memory out of 5000000
+ 67102 multiletter control sequences out of 15000+600000
  694384 words of font info for 186 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,17n,117p,1471b,2820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,117p,1358b,2820s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmex10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmmi10.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/t
@@ -3137,9 +2815,9 @@ C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
 pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
 a.pfb><C:/Users/U S E R/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on main.pdf (75 pages, 15724829 bytes).
+Output written on main.pdf (78 pages, 20698517 bytes).
 PDF statistics:
- 1375 PDF objects out of 1440 (max. 8388607)
- 305 named destinations out of 1000 (max. 500000)
- 1161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1458 PDF objects out of 1728 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
+ 1231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
