@@ -1,0 +1,12 @@
+PyQt5
+PyQtWebEngine
+pyqtgraph
+PyOpenGL
+numpy
+numpy-stl
+pyserial
+folium
+geocoder
+pandas
+matplotlib
+scipy
